@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="pt">
   <head>
     <meta charset="utf-8" />
     <title>Canal de Vendas Digital - Impulsione Sua Presença Online e Vendas</title>
@@ -15,6 +15,7 @@
     />
 
     <meta name="author" content="Canal de Vendas Digital" />
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
 
     <!--[if lt IE 9]>
       <script src="js/html5shiv.js"></script>
@@ -65,7 +66,7 @@
                 <div class="align-self-center header-col-left d-flex align-items-center">
                   <!-- Logo and Canal de Vendas Digital Begin -->
                   <div id="logo" style="display: flex; align-items: center">
-                    <a href="index.html" style="display: flex; align-items: center; text-decoration: none">
+                    <a href="pt.html" style="display: flex; align-items: center; text-decoration: none">
                       <!-- Logo Image -->
                       <img src="./images/logo.png" alt="Logotipo" style="height: 50px; margin-right: 10px" />
                       <!-- Brand Name Text -->
@@ -82,9 +83,6 @@
                     class="scrollnav"
                     style="list-style: none; padding-left: 0; display: flex; gap: 20px"
                   >
-                    <li>
-                      <a href="#section-hero" class="active" style="text-decoration: none; color: #333">Início</a>
-                    </li>
                     <li>
                       <a href="#section-about" style="text-decoration: none; color: #333">Sobre</a>
                     </li>
@@ -838,6 +836,22 @@
             });
           }
          }); /*ready*/
+        </script>
+        <script>
+          window.onload = function() {
+            // Detect the user's language
+            var userLang = navigator.language || navigator.userLanguage; 
+            
+            // Redirect based on the detected language
+            if (userLang.startsWith('es')) {
+              window.location.href = 'https://www.newsite.world/es.html';
+            } else if (userLang.startsWith('pt')) {
+              window.location.href = 'https://www.newsite.world/pt.html';
+            } else {
+              // Default is English, no redirection needed if it's in English
+              window.location.href = 'https://www.newsite.world/';
+            }
+          };
         </script>
        </body>
       </html>

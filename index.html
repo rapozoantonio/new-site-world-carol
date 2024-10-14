@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="en">
  <head>
   <meta charset="utf-8" />
   <title>Digital Sales Channel - Boost Your Online Presence and Sales</title>
@@ -15,6 +15,7 @@
   />
 
   <meta name="author" content="Digital Sales Channel" />
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
 
   <!--[if lt IE 9]>
    <script src="js/html5shiv.js"></script>
@@ -113,7 +114,6 @@
         <div class="align-self-center ml-auto header-col-mid">
          <!-- Main Menu Begin -->
          <ul id="mainmenu" class="scrollnav" style="list-style: none; padding-left: 0; display: flex; gap: 20px">
-          <li><a href="#section-hero" class="active" style="text-decoration: none; color: #333">Home</a></li>
           <li><a href="#section-about" style="text-decoration: none; color: #333">About</a></li>
           <li><a href="#section-services" style="text-decoration: none; color: #333">Services</a></li>
           <li><a href="#section-contact" style="text-decoration: none; color: #333">Contact</a></li>
@@ -813,6 +813,22 @@
       });
     }
    }); /*ready*/
+  </script>
+  <script>
+   window.onload = function () {
+    // Detect the user's language
+    var userLang = navigator.language || navigator.userLanguage;
+
+    // Redirect based on the detected language
+    if (userLang.startsWith("es")) {
+     window.location.href = "https://www.newsite.world/es.html";
+    } else if (userLang.startsWith("pt")) {
+     window.location.href = "https://www.newsite.world/pt.html";
+    } else {
+     // Default is English, no redirection needed if it's in English
+     window.location.href = "https://www.newsite.world/";
+    }
+   };
   </script>
  </body>
 </html>
