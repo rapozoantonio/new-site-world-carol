@@ -8470,18 +8470,12 @@ i.btn-action-hide {
     height: 50px;
     text-align: center;
     line-height: 50px; /* Centers the icon vertically */
-    background: #25D366; /* WhatsApp green color */
     cursor: pointer;
     border: 0;
     border-radius: 50%; /* Makes the button circular */
     text-decoration: none;
-    transition: bottom 0.2s ease-out, opacity 0.2s ease-out;
     outline: none;
     opacity: 0;
-}
-
-#back-to-top:hover {
-    background: #111; /* Darker WhatsApp green on hover */
 }
 
 #back-to-top.show {
@@ -8497,7 +8491,6 @@ i.btn-action-hide {
     font-family: "FontAwesome";
     font-size: 24px;
     content: "\f232"; /* Unicode for WhatsApp icon */
-    color: #fff;
     position: relative;
     margin: 0; /* Centers the icon horizontally */
 }

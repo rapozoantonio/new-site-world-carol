@@ -15,7 +15,7 @@ html {
 }
 
 .tp-caption{
-	font-family:"Rubik";
+	font-family:"Nunito";
 	font-size:15px;
 	font-weight:400;
 }
@@ -27,7 +27,7 @@ html {
 .tp-caption.tp-text{
 	font-size:17px;
 	line-height:1.7em;
-	font-family:"Rubik";
+	font-family:"Nunito";
 }
 
 .custom-font-1{
