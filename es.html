@@ -342,27 +342,99 @@
         </section>
         <!-- section close -->
 
-        <section id="section-about">
+        <section id="section-about" class="py-4 py-md-5">
           <div class="container">
-            <div class="row justify-content-center align-items-center">
-              <div class="col-lg-6 text-center wow fadeInLeft" data-wow-delay=".5s">
-                <h2>Sobre mí</h2>
-                <p>
-                  Soy Carolina Arango, <strong>Social Media Manager</strong> y especialista en marketing para alquileres
-                  vacacionales, con <strong>12 años de experiencia</strong> en el sector hotelero y de hospitalidad. .
-                </p>
-                <p>
-                  Mi conocimiento de mercados en <strong>España, Brasil, Colombia, Indonesia y Australia</strong> me permite
-                  aplicar <strong>estrategias innovadoras y diferenciadoras</strong> para destacar tu propiedad.
-                </p>
-                <p>
-                  Trabajo con <strong>Instagram, Airbnb, Booking</strong> creando contenido estratégico y potenciando la
-                  presencia digital de alojamientos para atraer más huéspedes y maximizar ingresos.
-                </p>
-                <p><strong>🔹 ¿Quieres más reservas y visibilidad en redes?</strong></p>
-                <p><strong>📩 Hablemos y hagamos crecer tu alquiler vacacional.</strong></p>
+              <div class="row g-4"> <!-- Using g-4 for consistent gap on all screen sizes -->
+                  <!-- Text Column - Full width on mobile, half on larger screens -->
+                  <div class="col-12 col-lg-6 order-2 order-lg-1">
+                      <div class="text-center text-lg-start wow fadeInLeft" data-wow-delay=".5s">
+                          <h2 class="mb-4">Sobre mí</h2>
+                          <p class="mb-3">
+                              Soy Carolina Arango, <strong>Social Media Manager</strong> y especialista en marketing para alquileres
+                              vacacionales, con <strong>12 años de experiencia</strong> en el sector hotelero y de hospitalidad.
+                          </p>
+                          <p class="mb-3">
+                              Mi conocimiento de mercados en <strong>España, Brasil, Colombia, Indonesia y Australia</strong> me permite
+                              aplicar <strong>estrategias innovadoras y diferenciadoras</strong> para destacar tu propiedad.
+                          </p>
+                          <p class="mb-3">
+                              Trabajo con <strong>Instagram, Airbnb, Booking</strong> creando contenido estratégico y potenciando la
+                              presencia digital de alojamientos para atraer más huéspedes y maximizar ingresos.
+                          </p>
+                          <p class="mb-2"><strong>🔹 ¿Quieres más reservas y visibilidad en redes?</strong></p>
+                          <p class="mb-0"><strong>📩 Hablemos y hagamos crecer tu alquiler vacacional.</strong></p>
+                      </div>
+                  </div>
+                  
+                  <!-- Video Column - Full width on mobile, half on larger screens -->
+                  <div class="col-12 col-lg-6 order-1 order-lg-2">
+                      <div class="video-wrapper wow fadeInRight" data-wow-delay=".5s">
+                          <div class="video-container">
+                              <iframe 
+                                  src="https://drive.google.com/file/d/1TqyvHKpVtrjpzGuD5MqGn4dxhSGyTFBz/preview"
+                                  title="Presentación Carolina Arango"
+                                  loading="lazy"
+                                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                  allowfullscreen>
+                              </iframe>
+                          </div>
+                      </div>
+                  </div>
               </div>
-            </div>
+          </div>
+      </section>
+      
+      <style>
+      /* Mobile-first styles */
+      .video-wrapper {
+          margin: 0 auto;
+          max-width: 100%;
+      }
+      
+      .video-container {
+          position: relative;
+          padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+          height: 0;
+          overflow: hidden;
+          border-radius: 8px;
+          background: #f8f9fa;
+          box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      }
+      
+      .video-container iframe {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          border: 0;
+      }
+      
+      /* Tablet and up */
+      @media (min-width: 768px) {
+          .video-container {
+              border-radius: 12px;
+              box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+          }
+      }
+      
+      /* Desktop and up */
+      @media (min-width: 992px) {
+          .video-wrapper {
+              margin: 0;
+          }
+          
+          .video-container {
+              border-radius: 15px;
+              transition: transform 0.3s ease, box-shadow 0.3s ease;
+          }
+          
+          .video-container:hover {
+              transform: translateY(-5px);
+              box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+          }
+      }
+      </style>
 
             <div id="skills" class="row">
               <div class="spacer-double"></div>
@@ -665,9 +737,6 @@
                     />
 
                     <h2 style="font-weight: bold; margin-top: 20px">¡Estoy encantada de tener una llamada de asesoría GRATIS!</h2>
-                    <p style="font-size: 18px; color: #5a5a5a">
-                        Añadir comentario de ESPAÑOL/INGLÉS /PORTUGUESS
-                    </p>
                     <div class="spacer-30"></div>
                     <p>
                         Team 
@@ -962,6 +1031,7 @@ Carol (Social Media Manager) | Antonio (Software Engineer)
     </script>
     <script>
       window.onload = function () {
+      return ;
         // Get the user's browser language
         var userLang = navigator.language || navigator.userLanguage;
 
