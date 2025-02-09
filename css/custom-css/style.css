@@ -1,0 +1,31 @@
+.tp-caption.custom-font-3 {
+    position: relative !important;
+    display: inline-block !important;
+    padding: 10px 20px !important;
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 8px !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) !important;
+}
+
+.tp-caption .typed-strings p {
+    background: rgba(255, 255, 255, 0.85) !important;
+    padding: 10px 20px !important;
+    border-radius: 8px !important;
+    display: inline-block !important;
+}
+
+/* Enhanced button styles */
+.tp-caption.tp-static-layer a {
+    position: relative !important;
+    z-index: 1 !important;
+    padding: 20px 40px !important;  /* Increased padding */
+    font-size: 20px !important;     /* Larger font size */
+    letter-spacing: 0.5px !important;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25) !important; /* Enhanced shadow */
+}
+
+/* Enhanced hover effect */
+.tp-caption.tp-static-layer a:hover {
+    transform: translateY(-5px) scale(1.05) !important;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3) !important;
+}
