@@ -827,35 +827,5 @@
         }
       }); /*ready*/
     </script>
-    <script>
-      window.onload = function () {
-        // Get the user's browser language
-        var userLang = navigator.language || navigator.userLanguage;
-
-        // Get the current page URL path and query parameters
-        var currentPath = window.location.pathname;
-        var searchParams = new URLSearchParams(window.location.search);
-
-        // Check if the "redirected" query parameter exists to avoid redirect loops
-        if (searchParams.has("redirected")) {
-          return; // Stop execution if already redirected
-        }
-
-        // Redirect based on the detected language, but avoid redirecting if already on the correct page
-        if (userLang.startsWith("es") && currentPath !== "/es.html") {
-          window.location.href = "https://www.newsite.world/es.html?redirected=true";
-        } else if (userLang.startsWith("pt") && currentPath !== "/pt.html") {
-          window.location.href = "https://www.newsite.world/pt.html?redirected=true";
-        } else if (
-          !userLang.startsWith("es") &&
-          !userLang.startsWith("pt") &&
-          currentPath !== "/" &&
-          currentPath !== "/index.html"
-        ) {
-          // Default to English if it's neither Spanish nor Portuguese and not already on the English page
-          window.location.href = "https://www.newsite.world/?redirected=true";
-        }
-      };
-    </script>
   </body>
 </html>
