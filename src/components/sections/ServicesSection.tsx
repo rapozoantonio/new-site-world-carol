@@ -10,12 +10,7 @@ export default function ServicesSection() {
   const locale = useLocale() as 'en' | 'es' | 'pt';
   const services = siteContent[locale].services.items;
 
-  const iconMap: { [key: string]: string } = {
-    'fa-laptop': '💻',
-    'fa-paper-plane-o': '🚀',
-    'fa-line-chart': '📈',
-    'fa-object-group': '🎨',
-  };
+  // Icons are now stored directly as emojis in site-content.json
 
   return (
     <Section id="services" variant="light" spacing="lg">
@@ -51,7 +46,7 @@ export default function ServicesSection() {
                     whileHover={{ scale: 1.1, rotate: [0, -10, 10, 0] }}
                     transition={{ duration: 0.3 }}
                   >
-                    {iconMap[service.icon]}
+                    {service.icon}
                   </motion.div>
 
                   {/* Content */}

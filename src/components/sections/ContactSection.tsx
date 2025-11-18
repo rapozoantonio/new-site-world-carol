@@ -30,7 +30,7 @@ export default function ContactSection() {
 
     // Create WhatsApp message
     const message = `Hola! Soy ${formData.name}.\nTeléfono: ${formData.phone}\n\nMensaje: ${formData.message}`;
-    const whatsappURL = createWhatsAppURL(contactInfo.phone, message);
+    const whatsappURL = createWhatsAppURL(contactInfo.whatsapp, message);
 
     // Open WhatsApp in new tab
     window.open(whatsappURL, '_blank');
@@ -187,7 +187,7 @@ export default function ContactSection() {
             {/* Quick WhatsApp Button */}
             <motion.div variants={itemVariants}>
               <a
-                href={createWhatsAppURL(contactInfo.phone, 'Hola! Me gustaría saber más sobre tus servicios.')}
+                href={createWhatsAppURL(contactInfo.whatsapp, 'Hola! Me gustaría saber más sobre tus servicios.')}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block"
