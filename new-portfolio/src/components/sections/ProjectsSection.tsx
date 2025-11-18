@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
 import { Section, Card, Badge } from '@/components/ui';
@@ -11,6 +11,7 @@ type Category = 'all' | 'vacation-rentals' | 'branding' | 'paid-ads' | 'social-m
 
 export default function ProjectsSection() {
   const t = useTranslations('projects');
+  const locale = useLocale();
   const [filter, setFilter] = useState<Category>('all');
   const projects = projectsData.projects;
 
@@ -129,7 +130,7 @@ export default function ProjectsSection() {
 
                   {/* CTA */}
                   <Link
-                    href={`#project-${project.slug}`}
+                    href={`/${locale}/projects/${project.slug}`}
                     className="text-primary-600 font-medium hover:text-primary-700 inline-flex items-center gap-2 group/link"
                   >
                     {t('viewCase')}
