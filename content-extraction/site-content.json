@@ -81,27 +81,27 @@
     },
     "services": {
       "heading": "My Services",
-      "description": "Develop all the sales potential of your business, with the use of sales strategies and Marketing tools to reach your potential clients. In other words, I am dedicated to increasing your customers and therefore your sales.",
+      "description": "Transform your vacation rental into a high-converting property with data-driven paid advertising, conversion optimization, strategic analytics, and automated sales funnels.",
       "items": [
         {
-          "icon": "fa-laptop",
-          "title": "Digital Marketing",
-          "description": "I create and manage content marketing strategies across platforms like Facebook, Instagram, TikTok, YouTube, and websites. Easy: I create and share interesting online content to help businesses attract more customers."
+          "icon": "🎯",
+          "title": "Paid Advertising",
+          "description": "High-ROI Meta Ads & Google Ads campaigns with precise audience targeting, A/B testing, and detailed performance tracking to maximize your bookings and reduce cost per acquisition."
         },
         {
-          "icon": "fa-paper-plane-o",
-          "title": "Paid Traffic",
-          "description": "Unlock your business's potential with my paid traffic services! I'll help you get targeted visitors to your website through effective ads on search engines and social media, so you can see your online presence grow instantly. Easy: more visitors, more potential sales."
+          "icon": "⚡",
+          "title": "Conversion Optimization",
+          "description": "Transform browsers into bookers with landing page optimization, persuasive copywriting, A/B testing, and user journey mapping that increases your conversion rates by up to 40%."
         },
         {
-          "icon": "fa-line-chart",
-          "title": "Digital Business Consulting",
-          "description": "I'm in charge of improving your business image and your digital strategies seeking to increase your sales. Easy: I help businesses grow by improving their online presence and strategies."
+          "icon": "📈",
+          "title": "Strategy & Analytics",
+          "description": "Data-driven market analysis, competitor research, and performance reporting that reveals opportunities and guides every marketing decision for measurable growth."
         },
         {
-          "icon": "fa-object-group",
-          "title": "Rental Manager",
-          "description": "My goal is to maximize property profitability while ensuring a positive experience for both owners and tenants. Easy: I manage rental properties to make sure owners earn more while keeping tenants happy."
+          "icon": "🔄",
+          "title": "Sales Funnels",
+          "description": "Complete automated sales funnels with lead nurturing sequences, WhatsApp automation, email marketing, and retargeting campaigns that convert prospects into loyal guests."
         }
       ]
     },
@@ -180,27 +180,27 @@
     },
     "services": {
       "heading": "Mis Servicios",
-      "description": "Convierte tu casa vacacional en una propiedad altamente demandada. A través de redes sociales, publicidad digital y optimización de todos tus perfiles te ayudo a atraer más huéspedes, aumentar tus reservas y maximizar tus ingresos.",
+      "description": "Transforma tu casa vacacional en una propiedad de alta conversión con publicidad pagada basada en datos, optimización de conversiones, análisis estratégico y embudos de ventas automatizados.",
       "items": [
         {
-          "icon": "fa-laptop",
-          "title": "Marketing para casas de férias",
-          "description": "Maximizo a visibilidade da sua casa de férias nas principais plataformas. Website, Instagram, Booking, Airbnb e garanto a imagem de marca perfeita."
+          "icon": "🎯",
+          "title": "Publicidad Pagada",
+          "description": "Campañas de Meta Ads y Google Ads de alto ROI con segmentación precisa, pruebas A/B y seguimiento detallado del rendimiento para maximizar tus reservas y reducir el costo por adquisición."
         },
         {
-          "icon": "fa-paper-plane-o",
-          "title": "Tráfico Pagado",
-          "description": "Impulso la ocupación de tu casa vacacional mediante campañas publicitarias. Me especializo en anuncios en Facebook Ads (Instagram) y Google Ads para captar huéspedes de calidad."
+          "icon": "⚡",
+          "title": "Optimización de Conversiones",
+          "description": "Transforma visitantes en reservas con optimización de landing pages, copywriting persuasivo, pruebas A/B y mapeo del journey del usuario que aumenta tus tasas de conversión hasta un 40%."
         },
         {
-          "icon": "fa-line-chart",
-          "title": "Consultoría de Negocios Digitales",
-          "description": "Ofrezco un diagnóstico integral de tu presencia digital para identificar oportunidades de mejora. Con estrategias personalizadas, optimizaremos tu visibilidad en todas las plataformas digitales."
+          "icon": "📈",
+          "title": "Estrategia y Análisis",
+          "description": "Análisis de mercado basado en datos, investigación de competencia e informes de rendimiento que revelan oportunidades y guían cada decisión de marketing para un crecimiento medible."
         },
         {
-          "icon": "fa-object-group",
-          "title": "Social Medía Manager",
-          "description": "Desarrollo estrategias para aumentar el alcance de tu propiedad en Instagram. Diseñó el plan de contenidos ideal para tus redes sociales. Controlo y analizo las métricas para medir resultados y optimizar tu presencia digital."
+          "icon": "🔄",
+          "title": "Embudos de Ventas",
+          "description": "Embudos de ventas automatizados completos con secuencias de nurturing, automatización de WhatsApp, email marketing y campañas de retargeting que convierten prospectos en huéspedes leales."
         }
       ]
     },
@@ -313,27 +313,27 @@
     },
     "services": {
       "heading": "Meus Serviços",
-      "description": "Converta sua casa de férias em uma propriedade altamente requisitada. Através de redes sociais, publicidade digital e otimização de todos os seus perfis, ajudo você a atrair mais hóspedes, aumentar suas reservas e maximizar seus rendimentos.",
+      "description": "Transforme sua casa de férias em uma propriedade de alta conversão com publicidade paga baseada em dados, otimização de conversões, análise estratégica e funis de vendas automatizados.",
       "items": [
         {
-          "icon": "fa-laptop",
-          "title": "Marketing para casas de férias",
-          "description": "Maximizo a visibilidade da sua casa de férias nas principais plataformas. Website, Instagram, Booking, Airbnb e garanto a imagem de marca perfeita."
+          "icon": "🎯",
+          "title": "Publicidade Paga",
+          "description": "Campanhas de Meta Ads e Google Ads de alto ROI com segmentação precisa, testes A/B e acompanhamento detalhado de desempenho para maximizar suas reservas e reduzir o custo por aquisição."
         },
         {
-          "icon": "fa-paper-plane-o",
-          "title": "Tráfego Pago",
-          "description": "Impulsiono a ocupação da sua casa de férias mediante campanhas publicitárias. Sou especialista em anúncios no Facebook Ads (Instagram) e Google Ads para captar hóspedes de qualidade."
+          "icon": "⚡",
+          "title": "Otimização de Conversões",
+          "description": "Transforme visitantes em reservas com otimização de landing pages, copywriting persuasivo, testes A/B e mapeamento da jornada do usuário que aumenta suas taxas de conversão em até 40%."
         },
         {
-          "icon": "fa-line-chart",
-          "title": "Consultoria de Negócios Digitais",
-          "description": "Ofereço um diagnóstico integral da sua presença digital para identificar oportunidades de melhoria. Com estratégias personalizadas, otimizaremos sua visibilidade em todas as plataformas digitais."
+          "icon": "📈",
+          "title": "Estratégia e Análise",
+          "description": "Análise de mercado baseada em dados, pesquisa de concorrência e relatórios de desempenho que revelam oportunidades e orientam cada decisão de marketing para crescimento mensurável."
         },
         {
-          "icon": "fa-object-group",
-          "title": "Social Media Manager",
-          "description": "Desenvolvo estratégias para aumentar o alcance da sua propriedade no Instagram. Desenho o plano de conteúdos ideal para suas redes sociais. Controlo e analiso as métricas para medir resultados e otimizar sua presença digital."
+          "icon": "🔄",
+          "title": "Funis de Vendas",
+          "description": "Funis de vendas automatizados completos com sequências de nutrição, automação de WhatsApp, email marketing e campanhas de retargeting que convertem prospects em hóspedes fiéis."
         }
       ]
     },
