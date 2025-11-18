@@ -1,0 +1,375 @@
+{
+  "site": {
+    "name": "NewSite by Carolina Arango",
+    "tagline": {
+      "en": "Digital Marketing Specialist for Vacation Rentals",
+      "es": "Especialista en Marketing Digital para Casas Vacacionales",
+      "pt": "Especialista em Marketing Digital para Casas de Férias"
+    },
+    "contact": {
+      "whatsapp": "+34611200787",
+      "email": "newsitebycaro@gmail.com",
+      "phone": "+34 678 82 33 26"
+    },
+    "social": {
+      "facebook": "https://www.facebook.com/profile.php?id=61559588763100",
+      "linkedin": "https://www.linkedin.com/in/carolina-arango-793018303",
+      "instagram": "https://www.instagram.com/newsitetrips/",
+      "medium": "https://medium.com/@newsitebycaro"
+    },
+    "analytics": {
+      "fbPixelId": "8505957832824165",
+      "gtmId": "GTM-KS5XDMRG",
+      "gaId": "G-FKHEQ7TH81"
+    }
+  },
+  "team": [
+    {
+      "id": "carol",
+      "name": "Carol",
+      "role": {
+        "en": "Social Media Manager",
+        "es": "Social Media Manager",
+        "pt": "Social Media Manager"
+      },
+      "image": "/images/profile-picture2.png"
+    },
+    {
+      "id": "antonio",
+      "name": "Antonio",
+      "role": {
+        "en": "Software Engineer",
+        "es": "Software Engineer",
+        "pt": "Software Engineer"
+      },
+      "image": "/images/profile-picture-acrr.png"
+    }
+  ],
+  "en": {
+    "meta": {
+      "title": "Digital Sales Channel - Boost Your Online Presence and Sales",
+      "description": "Digital Sales Channel offers expert digital marketing, business consulting, and paid traffic services to help you increase your online sales and build your brand. Get in touch today to boost your digital business!",
+      "keywords": "digital marketing, paid traffic, SEO, ecommerce, online sales, business consulting, rental management, digital business"
+    },
+    "nav": {
+      "about": "About",
+      "services": "Services",
+      "blog": "Blog",
+      "contact": "Contact"
+    },
+    "hero": {
+      "brand": "New Site",
+      "typedText": [
+        "Increase your sales",
+        "Be successful on the internet",
+        "Develop your brand image"
+      ],
+      "cta": "Let's Make It Happen!"
+    },
+    "about": {
+      "heading": "About Me",
+      "bio": "Not sure where to start with your online venture? Are you stuck with your sales? That's what I'm here for! I help you improve your sales and build strategies to achieve your goals.",
+      "video": null,
+      "skills": [
+        { "name": "Digital Marketing", "percentage": 95 },
+        { "name": "Sales", "percentage": 90 },
+        { "name": "Paid Traffic", "percentage": 95 },
+        { "name": "Ecommerce", "percentage": 85 },
+        { "name": "Management", "percentage": 95 },
+        { "name": "SEO", "percentage": 90 }
+      ]
+    },
+    "services": {
+      "heading": "My Services",
+      "description": "Develop all the sales potential of your business, with the use of sales strategies and Marketing tools to reach your potential clients. In other words, I am dedicated to increasing your customers and therefore your sales.",
+      "items": [
+        {
+          "icon": "fa-laptop",
+          "title": "Digital Marketing",
+          "description": "I create and manage content marketing strategies across platforms like Facebook, Instagram, TikTok, YouTube, and websites. Easy: I create and share interesting online content to help businesses attract more customers."
+        },
+        {
+          "icon": "fa-paper-plane-o",
+          "title": "Paid Traffic",
+          "description": "Unlock your business's potential with my paid traffic services! I'll help you get targeted visitors to your website through effective ads on search engines and social media, so you can see your online presence grow instantly. Easy: more visitors, more potential sales."
+        },
+        {
+          "icon": "fa-line-chart",
+          "title": "Digital Business Consulting",
+          "description": "I'm in charge of improving your business image and your digital strategies seeking to increase your sales. Easy: I help businesses grow by improving their online presence and strategies."
+        },
+        {
+          "icon": "fa-object-group",
+          "title": "Rental Manager",
+          "description": "My goal is to maximize property profitability while ensuring a positive experience for both owners and tenants. Easy: I manage rental properties to make sure owners earn more while keeping tenants happy."
+        }
+      ]
+    },
+    "cta": {
+      "heading": "Let's Boost Your Business Together!",
+      "button": "Book a Free Strategy Call"
+    },
+    "contact": {
+      "heading": "Contact Me",
+      "subheading": "Make the decision to improve your digital business now and see how your sales increase!",
+      "form": {
+        "namePlaceholder": "Your Name",
+        "phonePlaceholder": "Your Phone",
+        "messagePlaceholder": "Your Message",
+        "submitButton": "Request Your Custom Solution"
+      },
+      "methods": [
+        {
+          "icon": "fa-whatsapp",
+          "title": "WhatsApp Me",
+          "detail": "+34 678 82 33 26"
+        },
+        {
+          "icon": "fa-comments",
+          "title": "Send a Message",
+          "detail": "Quick responses through online form"
+        },
+        {
+          "icon": "icon_mail_alt",
+          "title": "Email Me",
+          "detail": "newsitebycaro@gmail.com"
+        }
+      ]
+    },
+    "footer": {
+      "copyright": "© 2023 - Digital Sales Channel"
+    }
+  },
+  "es": {
+    "meta": {
+      "title": "Canal de Ventas Digitales - Impulsa tu Presencia y Ventas en Línea",
+      "description": "¡Aumenta las reservas de tu casa vacacional! ofrece servicios expertos de marketing digital, consultoría empresarial y tráfico pagado para ayudarte a aumentar tus ventas en línea y construir tu marca. ¡Contáctanos hoy para impulsar tu negocio digital!",
+      "keywords": "marketing digital, tráfico pagado, SEO, comercio electrónico, ventas en línea, consultoría empresarial, gestión de alquileres, negocio digital"
+    },
+    "nav": {
+      "about": "Sobre mí",
+      "services": "Servicios",
+      "blog": "Blog",
+      "contact": "Contacto"
+    },
+    "hero": {
+      "brand": "New Site",
+      "typedText": [
+        "¡Experta en Casas vacacionales!"
+      ],
+      "cta": "¡Quiero más reservas!"
+    },
+    "about": {
+      "heading": "Sobre mí",
+      "bio": [
+        "Soy Carolina Arango, Social Media Manager y especialista en marketing para alquileres vacacionales, tengo 12 años de experiencia en el sector hotelero, de turismo y gastronómico.",
+        "Mi conocimiento de mercados internacionales me permite aplicar estrategias innovadoras y diferenciadoras para destacar tu propiedad.",
+        "Trabajo con Instagram, Airbnb, Booking creando contenido estratégico y potenciando la presencia digital de alojamientos para atraer más huéspedes.",
+        "🔹 ¿Quieres más reservas y visibilidad en redes?",
+        "📩 Hablemos y hagamos crecer tu alquiler vacacional."
+      ],
+      "video": "https://drive.google.com/file/d/1TqyvHKpVtrjpzGuD5MqGn4dxhSGyTFBz/preview",
+      "skills": [
+        { "name": "Marketing Digital", "percentage": 95 },
+        { "name": "Ventas", "percentage": 90 },
+        { "name": "Tráfico Pagado", "percentage": 95 },
+        { "name": "Comercio Electrónico", "percentage": 85 },
+        { "name": "Gestión", "percentage": 95 },
+        { "name": "SEO", "percentage": 90 }
+      ]
+    },
+    "services": {
+      "heading": "Mis Servicios",
+      "description": "Convierte tu casa vacacional en una propiedad altamente demandada. A través de redes sociales, publicidad digital y optimización de todos tus perfiles te ayudo a atraer más huéspedes, aumentar tus reservas y maximizar tus ingresos.",
+      "items": [
+        {
+          "icon": "fa-laptop",
+          "title": "Marketing para casas de férias",
+          "description": "Maximizo a visibilidade da sua casa de férias nas principais plataformas. Website, Instagram, Booking, Airbnb e garanto a imagem de marca perfeita."
+        },
+        {
+          "icon": "fa-paper-plane-o",
+          "title": "Tráfico Pagado",
+          "description": "Impulso la ocupación de tu casa vacacional mediante campañas publicitarias. Me especializo en anuncios en Facebook Ads (Instagram) y Google Ads para captar huéspedes de calidad."
+        },
+        {
+          "icon": "fa-line-chart",
+          "title": "Consultoría de Negocios Digitales",
+          "description": "Ofrezco un diagnóstico integral de tu presencia digital para identificar oportunidades de mejora. Con estrategias personalizadas, optimizaremos tu visibilidad en todas las plataformas digitales."
+        },
+        {
+          "icon": "fa-object-group",
+          "title": "Social Medía Manager",
+          "description": "Desarrollo estrategias para aumentar el alcance de tu propiedad en Instagram. Diseñó el plan de contenidos ideal para tus redes sociales. Controlo y analizo las métricas para medir resultados y optimizar tu presencia digital."
+        }
+      ]
+    },
+    "blog": {
+      "heading": "Blog",
+      "description": "Un poco sobre mí y cómo aprovechar el tráfico pago para el éxito en línea.",
+      "posts": [
+        {
+          "title": "El Desafío, enfrentarte a lo desconocido💡✨Blog Año 2025✨",
+          "excerpt": "Lanzar NewSite no fue un camino lineal ni sencillo. Como todo emprendimiento, estuvo lleno de dudas e incertidumbres…",
+          "url": "https://medium.com/@newsitebycaro/el-desaf%C3%ADo-enfrentarte-a-lo-desconocido-blog-a%C3%B1o-2025-ec89e98f893d",
+          "image": "https://miro.medium.com/v2/resize:fit:525/1*cmpEJ54OuLC7_dQaUBQjUA.png",
+          "readTime": "5 min.",
+          "author": "Carolina Arango"
+        },
+        {
+          "title": "¡Haz que Tu Casa Vacacional Brille en el Mundo Digital! 🏡✨",
+          "excerpt": "¿Tienes una casa vacacional? ¿Estás seguro de que tu perfil digital está optimizado?… Sigue leyendo, que seguro podemos...",
+          "url": "https://medium.com/@newsitebycaro/haz-que-tu-casa-vacacional-brille-en-el-mundo-digital-a790886afc2f",
+          "image": "https://miro.medium.com/v2/resize:fit:525/1*P0WY4SdAl9ZhaIrT8hNHuQ.png",
+          "readTime": "3 min.",
+          "author": "Carolina Arango"
+        },
+        {
+          "title": "Mi Plan Perfecto para Destacar en el Mercado de Casas Vacacionales ✨🏠",
+          "excerpt": "Hoy en día, el mundo de las casas vacacionales está que arde. Con miles de opciones disponibles en plataformas como Airbnb y Booking, destacar y lograr que los viajeros te elijan no es tarea fácil...",
+          "url": "https://medium.com/@newsitebycaro/mi-plan-perfecto-para-destacar-en-el-mercado-de-casas-vacacionales-671f4d98e393",
+          "image": "https://miro.medium.com/v2/resize:fit:525/1*TsckoVUz55jbxZkf8_U57Q.png",
+          "readTime": "4 min.",
+          "author": "Carolina Arango"
+        }
+      ]
+    },
+    "cta": {
+      "heading": "¡Impulsemos tu negocio juntos!",
+      "button": "¡Convierte tu casa vacacional en la mejor de todo el mercado!"
+    },
+    "contact": {
+      "heading": "¡Estoy encantada de tener una llamada de asesoría GRATIS!",
+      "subheading": "",
+      "form": {
+        "namePlaceholder": "Tu Nombre",
+        "phonePlaceholder": "Tu Teléfono",
+        "messagePlaceholder": "Tu Mensaje",
+        "submitButton": "Solicita Tu Solución Personalizada"
+      },
+      "methods": [
+        {
+          "icon": "fa-whatsapp",
+          "title": "Envíame un WhatsApp",
+          "detail": "+34 678 82 33 26"
+        },
+        {
+          "icon": "fa-comments",
+          "title": "Envíame un Mensaje",
+          "detail": "Respuestas rápidas a través del formulario en línea"
+        },
+        {
+          "icon": "icon_mail_alt",
+          "title": "Envíame un Correo Electrónico",
+          "detail": "newsitebycaro@gmail.com"
+        }
+      ]
+    },
+    "footer": {
+      "copyright": "© 2024 - ¡Aumenta las reservas de tu casa vacacional!",
+      "privacyPolicy": {
+        "text": "Política de Privacidad",
+        "url": "/privacidad.html"
+      }
+    }
+  },
+  "pt": {
+    "meta": {
+      "title": "Canal de Vendas Digital - Impulsione Sua Presença Online e Vendas",
+      "description": "Canal de Vendas Digital oferece serviços especializados de marketing digital, consultoria empresarial e tráfego pago para ajudar você a aumentar suas vendas online e construir sua marca. Entre em contato hoje para impulsionar seu negócio digital!",
+      "keywords": "marketing digital, tráfego pago, SEO, e-commerce, vendas online, consultoria empresarial, gestão de aluguel, negócio digital"
+    },
+    "nav": {
+      "about": "Sobre",
+      "services": "Serviços",
+      "blog": "Blog",
+      "contact": "Contato"
+    },
+    "hero": {
+      "brand": "New Site",
+      "typedText": [
+        "Especialista em Casas para Temporada!"
+      ],
+      "cta": "Quero mais reservas!"
+    },
+    "about": {
+      "heading": "Sobre mim",
+      "bio": [
+        "Sou Carolina Arango, Social Media Manager e especialista em marketing para alugueres de férias, tenho 12 anos de experiência no setor hoteleiro, de turismo e gastronômico.",
+        "Meu conhecimento de mercados internacionais me permite aplicar estratégias inovadoras e diferenciadoras para destacar sua propriedade.",
+        "Trabalho com Instagram, Airbnb, Booking criando conteúdo estratégico e potenciando a presença digital de alojamentos para atrair mais hóspedes.",
+        "Quer mais reservas e visibilidade nas redes?",
+        "Falemos e façamos crescer seu aluguel de férias."
+      ],
+      "video": "https://drive.google.com/file/d/1L8o5lCCEGunc4MkIecwmFs3E9t5ci5Pn/preview",
+      "skills": [
+        { "name": "Marketing Digital", "percentage": 95 },
+        { "name": "Vendas", "percentage": 90 },
+        { "name": "Tráfico Pago", "percentage": 95 },
+        { "name": "Comércio Eletrônico", "percentage": 85 },
+        { "name": "Gestão", "percentage": 95 },
+        { "name": "SEO", "percentage": 90 }
+      ]
+    },
+    "services": {
+      "heading": "Meus Serviços",
+      "description": "Converta sua casa de férias em uma propriedade altamente requisitada. Através de redes sociais, publicidade digital e otimização de todos os seus perfis, ajudo você a atrair mais hóspedes, aumentar suas reservas e maximizar seus rendimentos.",
+      "items": [
+        {
+          "icon": "fa-laptop",
+          "title": "Marketing para casas de férias",
+          "description": "Maximizo a visibilidade da sua casa de férias nas principais plataformas. Website, Instagram, Booking, Airbnb e garanto a imagem de marca perfeita."
+        },
+        {
+          "icon": "fa-paper-plane-o",
+          "title": "Tráfego Pago",
+          "description": "Impulsiono a ocupação da sua casa de férias mediante campanhas publicitárias. Sou especialista em anúncios no Facebook Ads (Instagram) e Google Ads para captar hóspedes de qualidade."
+        },
+        {
+          "icon": "fa-line-chart",
+          "title": "Consultoria de Negócios Digitais",
+          "description": "Ofereço um diagnóstico integral da sua presença digital para identificar oportunidades de melhoria. Com estratégias personalizadas, otimizaremos sua visibilidade em todas as plataformas digitais."
+        },
+        {
+          "icon": "fa-object-group",
+          "title": "Social Media Manager",
+          "description": "Desenvolvo estratégias para aumentar o alcance da sua propriedade no Instagram. Desenho o plano de conteúdos ideal para suas redes sociais. Controlo e analiso as métricas para medir resultados e otimizar sua presença digital."
+        }
+      ]
+    },
+    "cta": {
+      "heading": "Vamos Impulsionar Seu Negócio Juntos!",
+      "button": "Agende uma Chamada de Estratégia Gratuita"
+    },
+    "contact": {
+      "heading": "Faça uma chamada de consultoria GRATIS!",
+      "subheading": "",
+      "form": {
+        "namePlaceholder": "Seu Nome",
+        "phonePlaceholder": "Seu Celular",
+        "messagePlaceholder": "Sua Mensagem",
+        "submitButton": "Solicite uma consultoria aqui"
+      },
+      "methods": [
+        {
+          "icon": "fa-whatsapp",
+          "title": "Me Chame no WhatsApp",
+          "detail": "+34 678 82 33 26"
+        },
+        {
+          "icon": "fa-comments",
+          "title": "Envie uma Mensagem",
+          "detail": "Respostas rápidas através do formulário online"
+        },
+        {
+          "icon": "icon_mail_alt",
+          "title": "Envie um Email",
+          "detail": "newsitebycaro@gmail.com"
+        }
+      ]
+    },
+    "footer": {
+      "copyright": "© 2024 - Canal de Vendas Digital"
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "nav": {
+    "about": "Sobre mí",
+    "services": "Servicios",
+    "projects": "Proyectos",
+    "blog": "Blog",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "brand": "New Site",
+    "tagline": "Especialista en Marketing Digital para Casas Vacacionales",
+    "subtitle": "Transformando Propiedades en Experiencias",
+    "description": "Marketing digital estratégico para alquileres vacacionales que convierten navegadores en reservas",
+    "cta": "Ver Mi Trabajo",
+    "ctaSecondary": "Contáctame"
+  },
+  "about": {
+    "heading": "Sobre mí",
+    "bio": "Soy Carolina Arango, Social Media Manager y especialista en marketing para alquileres vacacionales, tengo 12 años de experiencia en el sector hotelero, de turismo y gastronómico.",
+    "yearsExperience": "12+ Años de Experiencia",
+    "projectsCompleted": "50+ Proyectos",
+    "avgGrowth": "36% Crecimiento Promedio"
+  },
+  "services": {
+    "heading": "Mis Servicios",
+    "description": "Convierte tu casa vacacional en una propiedad altamente demandada. A través de redes sociales, publicidad digital y optimización de todos tus perfiles."
+  },
+  "projects": {
+    "heading": "Proyectos Destacados",
+    "viewAll": "Ver Todos los Proyectos",
+    "viewCase": "Ver Caso de Estudio",
+    "categories": {
+      "all": "Todos",
+      "vacation-rentals": "Casas Vacacionales",
+      "branding": "Branding",
+      "paid-ads": "Publicidad Pagada",
+      "social-media": "Redes Sociales"
+    }
+  },
+  "contact": {
+    "heading": "Trabajemos Juntos",
+    "description": "¿Listo para transformar tu alquiler vacacional en un destino imprescindible?",
+    "form": {
+      "name": "Tu Nombre",
+      "phone": "Tu Teléfono",
+      "message": "Tu Mensaje",
+      "submit": "Enviar Mensaje"
+    },
+    "whatsapp": "Envíame un WhatsApp",
+    "email": "Envíame un Email"
+  },
+  "footer": {
+    "copyright": "© {year} Carolina Arango. Todos los derechos reservados.",
+    "builtWith": "Creado con Next.js & Tailwind CSS"
+  }
+}
