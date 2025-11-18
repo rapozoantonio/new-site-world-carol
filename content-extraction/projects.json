@@ -1,0 +1,805 @@
+{
+  "projects": [
+    {
+      "id": "casa-kala",
+      "slug": "casa-kala",
+      "featured": true,
+      "category": ["vacation-rentals", "paid-ads", "social-media"],
+      "title": {
+        "en": "Casa Kala",
+        "es": "Casa Kala",
+        "pt": "Casa Kala"
+      },
+      "tagline": {
+        "en": "From Hidden Gem to Must-Book Destination",
+        "es": "De Joya Escondida a Destino Imprescindible",
+        "pt": "De Joia Escondida a Destino Obrigatório"
+      },
+      "overview": {
+        "client": "Casa Kala",
+        "industry": "Vacation Rental",
+        "location": "Brazil (Beachfront)",
+        "duration": "3-4 months",
+        "services": ["Full Digital Strategy", "Paid Ads", "Social Media Management", "Content Creation"],
+        "targetAudience": "São Paulo travelers (8-10 hour drive)"
+      },
+      "heroImage": "/images/portfolio/casa-kala-hero.jpg",
+      "challenge": {
+        "en": [
+          "New property with zero online presence",
+          "Competitive beachfront rental market",
+          "Needed to reach São Paulo travelers (8-10 hour drive)",
+          "Build trust without existing reviews"
+        ],
+        "es": [
+          "Propiedad nueva sin presencia en línea",
+          "Mercado competitivo de alquileres frente al mar",
+          "Necesidad de llegar a viajeros de São Paulo (8-10 horas de viaje)",
+          "Construir confianza sin reseñas existentes"
+        ],
+        "pt": [
+          "Propriedade nova sem presença online",
+          "Mercado competitivo de aluguéis à beira-mar",
+          "Necessidade de alcançar viajantes de São Paulo (8-10 horas de viagem)",
+          "Construir confiança sem avaliações existentes"
+        ]
+      },
+      "strategy": {
+        "phases": [
+          {
+            "name": "Foundation",
+            "duration": "Weeks 1-2",
+            "tasks": [
+              "Market research on São Paulo travel behavior",
+              "Competitor analysis of similar properties",
+              "Audience persona development",
+              "Visual identity alignment"
+            ]
+          },
+          {
+            "name": "Content & Positioning",
+            "duration": "Weeks 3-6",
+            "tasks": [
+              "Photo/video shoot of property",
+              "Instagram profile optimization",
+              "Content pillar development: Property features, Beach lifestyle, Local experiences, Guest benefits"
+            ]
+          },
+          {
+            "name": "Paid Acquisition",
+            "duration": "Weeks 7-12",
+            "tasks": [
+              "Meta Ads funnel creation",
+              "Awareness: 'Dream beach escape' creative",
+              "Consideration: Property walkthrough video",
+              "Conversion: Limited-time offers + WhatsApp CTA"
+            ]
+          }
+        ],
+        "contentStrategy": {
+          "reels": "4-5 per week (beach lifestyle, property tours)",
+          "carousels": "2-3 per week (amenities, nearby attractions)",
+          "stories": "Daily (behind-the-scenes, guest experiences)"
+        },
+        "adCampaigns": [
+          {
+            "name": "Awareness",
+            "objective": "Reach",
+            "creative": "Cinematic beach sunset footage",
+            "audience": "São Paulo, 25-45, interest in beach travel",
+            "budget": "40%"
+          },
+          {
+            "name": "Engagement",
+            "objective": "Engagement",
+            "creative": "'5 reasons to book Casa Kala' carousel",
+            "audience": "Engaged with beach content",
+            "budget": "30%"
+          },
+          {
+            "name": "Conversion",
+            "objective": "Messages",
+            "creative": "Property tour + exclusive offer",
+            "audience": "Website visitors + engaged users",
+            "budget": "30%"
+          }
+        ]
+      },
+      "results": {
+        "metrics": [
+          {
+            "label": "Direct Message Increase",
+            "value": "+36.43%",
+            "icon": "📈"
+          },
+          {
+            "label": "Impressions Reached",
+            "value": "250K+",
+            "icon": "👁️"
+          },
+          {
+            "label": "Engagement Rate",
+            "value": "28%",
+            "icon": "🎯"
+          },
+          {
+            "label": "Direct Bookings",
+            "value": "15+",
+            "icon": "💰"
+          }
+        ],
+        "testimonial": null
+      },
+      "gallery": [
+        "/images/portfolio/casa-kala-1.jpg",
+        "/images/portfolio/casa-kala-2.jpg",
+        "/images/portfolio/casa-kala-3.jpg",
+        "/images/portfolio/casa-kala-4.jpg"
+      ]
+    },
+    {
+      "id": "pedra-da-lua",
+      "slug": "pedra-da-lua",
+      "featured": true,
+      "category": ["vacation-rentals", "branding", "social-media"],
+      "title": {
+        "en": "Casa Pedra da Lua",
+        "es": "Casa Pedra da Lua",
+        "pt": "Casa Pedra da Lua"
+      },
+      "tagline": {
+        "en": "Crafting a Brand that Breathes Nature",
+        "es": "Creando una Marca que Respira Naturaleza",
+        "pt": "Criando uma Marca que Respira Natureza"
+      },
+      "overview": {
+        "client": "Pedra da Lua",
+        "industry": "Vacation Rental",
+        "location": "Rural Brazil (Countryside)",
+        "duration": "2-3 months",
+        "services": ["Rebranding", "Content Strategy", "Instagram Setup", "Brand Guidelines"],
+        "targetAudience": "Urban professionals seeking escape"
+      },
+      "heroImage": "/images/portfolio/pedra-da-lua-hero.jpg",
+      "challenge": {
+        "en": [
+          "Property had no defined brand identity",
+          "Needed to compete with established rural retreats",
+          "Target audience: Urban professionals seeking escape",
+          "Build anticipation before official launch"
+        ],
+        "es": [
+          "La propiedad no tenía identidad de marca definida",
+          "Necesitaba competir con retiros rurales establecidos",
+          "Público objetivo: Profesionales urbanos que buscan escapar",
+          "Generar anticipación antes del lanzamiento oficial"
+        ],
+        "pt": [
+          "Propriedade não tinha identidade de marca definida",
+          "Precisava competir com retiros rurais estabelecidos",
+          "Público-alvo: Profissionais urbanos em busca de escape",
+          "Construir antecipação antes do lançamento oficial"
+        ]
+      },
+      "strategy": {
+        "brandDevelopment": {
+          "colorPalette": {
+            "primary": "#8B9D83",
+            "primaryName": "Sage Green",
+            "secondary": "#D4825B",
+            "secondaryName": "Terracotta",
+            "accent": "#F5F0E8",
+            "accentName": "Cream"
+          },
+          "brandVoice": "warm, authentic, restorative",
+          "contentPillars": [
+            { "name": "The Space", "percentage": 40, "description": "Property features, Interior design details, Outdoor areas" },
+            { "name": "The Experience", "percentage": 30, "description": "Nature immersion, Local activities, Relaxation moments" },
+            { "name": "The Story", "percentage": 20, "description": "Property history, Sustainable practices, Owner's vision" },
+            { "name": "Social Proof", "percentage": 10, "description": "Guest experiences, Reviews and testimonials, Booking information" }
+          ]
+        },
+        "deliverables": [
+          "Brand Guidelines Document (20 pages)",
+          "50+ Instagram Templates (15 Reel covers, 20 Carousel templates, 10 Story templates, 5 Highlight cover icons)",
+          "Bio & Profile Optimization",
+          "Content Calendar (3 months)"
+        ]
+      },
+      "results": {
+        "metrics": [
+          {
+            "label": "Brand Consistency Score",
+            "value": "85%",
+            "icon": "✨"
+          },
+          {
+            "label": "Instagram Templates",
+            "value": "50+",
+            "icon": "🎨"
+          },
+          {
+            "label": "Content Calendar",
+            "value": "3 months",
+            "icon": "📅"
+          }
+        ],
+        "achievements": [
+          "Strong, cohesive brand identity",
+          "Ready-to-use content templates",
+          "Clear differentiation from competitors",
+          "Professional digital presence",
+          "Foundation for future campaigns"
+        ]
+      },
+      "gallery": [
+        "/images/portfolio/pedra-da-lua-1.jpg",
+        "/images/portfolio/pedra-da-lua-2.jpg",
+        "/images/portfolio/pedra-da-lua-3.jpg"
+      ]
+    },
+    {
+      "id": "animalist-club",
+      "slug": "animalist-club",
+      "featured": true,
+      "category": ["branding", "social-innovation"],
+      "title": {
+        "en": "The Animalist Club",
+        "es": "The Animalist Club",
+        "pt": "The Animalist Club"
+      },
+      "tagline": {
+        "en": "Commerce with Conscience",
+        "es": "Comercio con Conciencia",
+        "pt": "Comércio com Consciência"
+      },
+      "overview": {
+        "client": "The Animalist Club",
+        "industry": "Social Innovation / Pet Lifestyle",
+        "location": "Digital Platform",
+        "duration": "4 months (concept phase)",
+        "services": ["Brand Strategy", "Platform Concept", "Community Design", "Marketing Plan"],
+        "targetAudience": "Conscious consumers, Animal lovers"
+      },
+      "heroImage": "/images/portfolio/animalist-club-hero.jpg",
+      "challenge": {
+        "en": [
+          "Create brand for digital platform combining subscription-based animal shelter donations + cruelty-free product verification tool + community building",
+          "Differentiate from typical charity appeals",
+          "Balance activism with approachability"
+        ],
+        "es": [
+          "Crear marca para plataforma digital que combine donaciones de refugio de animales basadas en suscripción + herramienta de verificación de productos libres de crueldad + construcción de comunidad",
+          "Diferenciarse de las apelaciones caritativas típicas",
+          "Equilibrar el activismo con la accesibilidad"
+        ],
+        "pt": [
+          "Criar marca para plataforma digital combinando doações de abrigo de animais baseadas em assinatura + ferramenta de verificação de produtos livres de crueldade + construção de comunidade",
+          "Diferenciar-se de apelos de caridade típicos",
+          "Equilibrar ativismo com acessibilidade"
+        ]
+      },
+      "strategy": {
+        "brandPositioning": {
+          "coreValues": ["Respect (for all living beings)", "Joy (celebrating animal love)", "Community (collective impact)", "Transparency (clear impact tracking)"],
+          "brandPromise": "Make activism effortless. Shop consciously, donate automatically, save lives consistently."
+        },
+        "visualIdentity": {
+          "logo": "Green cat paw with badge system",
+          "mainColor": "#40C463",
+          "colorMeaning": "Life, growth",
+          "badges": ["Cruelty-Free", "Vegan", "Eco-Friendly"]
+        },
+        "platformFeatures": [
+          {
+            "name": "Micro-donation System",
+            "description": "€1 minimum monthly subscription, Choose shelter to support, Impact dashboard"
+          },
+          {
+            "name": "Browser Extension",
+            "description": "Real-time product scanning, Cruelty-free verification, Alternative product suggestions"
+          },
+          {
+            "name": "Community Features",
+            "description": "Member profiles, Impact leaderboards, Discussion forums, Event organizing"
+          }
+        ]
+      },
+      "results": {
+        "status": "Currently paused (funding stage)",
+        "achievements": [
+          "Complete brand ecosystem",
+          "MVP-ready concept",
+          "Strong emotional positioning",
+          "Clear differentiation",
+          "Viral-worthy content framework"
+        ]
+      },
+      "gallery": [
+        "/images/portfolio/animalist-club-1.jpg",
+        "/images/portfolio/animalist-club-2.jpg"
+      ]
+    },
+    {
+      "id": "feliz-boipeba",
+      "slug": "feliz-boipeba",
+      "featured": true,
+      "category": ["vacation-rentals", "paid-ads", "multi-platform"],
+      "title": {
+        "en": "Feliz Boipeba",
+        "es": "Feliz Boipeba",
+        "pt": "Feliz Boipeba"
+      },
+      "tagline": {
+        "en": "Orchestrating an Island Paradise",
+        "es": "Orquestando un Paraíso Insular",
+        "pt": "Orquestrando um Paraíso Insular"
+      },
+      "overview": {
+        "client": "Feliz Boipeba",
+        "industry": "Vacation Rental (Multi-property)",
+        "location": "Boipeba Island, Brazil",
+        "duration": "6 months",
+        "services": ["Multi-property Digital Ecosystem", "Paid Traffic", "Platform Optimization", "Review Generation"],
+        "complexity": "High (multiple listings, logistics, audiences)"
+      },
+      "heroImage": "/images/portfolio/feliz-boipeba-hero.jpg",
+      "challenge": {
+        "en": [
+          "Manage multiple properties under one brand",
+          "Educate travelers on island access (no cars, boat required)",
+          "Build trust for a destination unfamiliar to most",
+          "Differentiate various accommodation types",
+          "Optimize across 4+ platforms simultaneously (Google, Airbnb, Booking, Instagram)"
+        ],
+        "es": [
+          "Gestionar múltiples propiedades bajo una marca",
+          "Educar a los viajeros sobre el acceso a la isla (sin coches, barco requerido)",
+          "Construir confianza para un destino desconocido para la mayoría",
+          "Diferenciar varios tipos de alojamiento",
+          "Optimizar en 4+ plataformas simultáneamente (Google, Airbnb, Booking, Instagram)"
+        ],
+        "pt": [
+          "Gerenciar múltiplas propriedades sob uma marca",
+          "Educar viajantes sobre acesso à ilha (sem carros, barco necessário)",
+          "Construir confiança para um destino desconhecido para a maioria",
+          "Diferenciar vários tipos de acomodação",
+          "Otimizar em 4+ plataformas simultaneamente (Google, Airbnb, Booking, Instagram)"
+        ]
+      },
+      "strategy": {
+        "digitalArchitecture": {
+          "masterBrand": "Feliz Boipeba",
+          "subProperties": ["Prime (luxury units)", "Standard (mid-range)", "Budget (economical options)"]
+        },
+        "platformOptimization": [
+          "Google My Business - Complete business profile, Photo galleries for each property, Review management strategy",
+          "Airbnb - Individual listings per unit, Consistent branding, Optimized descriptions, Professional photography",
+          "Booking.com - Property group setup, Rate parity management, Promotional campaigns",
+          "Instagram - Unified brand presence, Property-specific highlights, Destination marketing"
+        ],
+        "linkTreeStructure": [
+          {
+            "name": "Main Hub",
+            "content": "About Boipeba Island, How to get there, Island map and attractions, Contact information, Links to all properties"
+          },
+          {
+            "name": "Prime Properties",
+            "content": "Luxury unit descriptions, Amenity lists, Direct booking links, Photo galleries, Pricing info"
+          },
+          {
+            "name": "Complete Catalog",
+            "content": "All available units, Filter by price/capacity, Availability calendar, Comparison chart, Booking links"
+          }
+        ],
+        "paidTrafficFunnel": [
+          {
+            "stage": "Awareness",
+            "budget": "40%",
+            "objective": "Introduce Boipeba to dreamers",
+            "creative": "Discover Brazil's Hidden Paradise - Drone footage of beaches - No cars, no stress, just nature",
+            "targeting": "Brazilians interested in beach travel, Eco-tourism enthusiasts, Adventure travelers"
+          },
+          {
+            "stage": "Interaction",
+            "budget": "30%",
+            "objective": "Educate and build intent",
+            "creative": "How to reach Boipeba explainer video, Property comparison carousel, Guest testimonial compilation",
+            "targeting": "Engaged with awareness ads, Visited website, Video viewers (50%+)"
+          },
+          {
+            "stage": "Conversion",
+            "budget": "30%",
+            "objective": "Drive bookings",
+            "creative": "Specific property showcases, Limited-time offers, 'Book your dates' CTA",
+            "targeting": "Remarketing to warm audiences, Link clickers, Property page visitors"
+          }
+        ]
+      },
+      "results": {
+        "metrics": [
+          {
+            "label": "Google Rating",
+            "value": "4.8★",
+            "icon": "⭐"
+          },
+          {
+            "label": "Airbnb Status",
+            "value": "Superhost",
+            "icon": "🏆"
+          },
+          {
+            "label": "Booking.com Score",
+            "value": "9.2",
+            "icon": "📊"
+          },
+          {
+            "label": "Instagram Followers",
+            "value": "5K+",
+            "icon": "📱"
+          },
+          {
+            "label": "Booking Increase",
+            "value": "+40%",
+            "icon": "📈"
+          },
+          {
+            "label": "Review Improvement",
+            "value": "3x",
+            "icon": "💬"
+          },
+          {
+            "label": "Warm Leads Database",
+            "value": "10K+",
+            "icon": "🎯"
+          }
+        ]
+      },
+      "gallery": [
+        "/images/portfolio/feliz-boipeba-1.jpg",
+        "/images/portfolio/feliz-boipeba-2.jpg",
+        "/images/portfolio/feliz-boipeba-3.jpg",
+        "/images/portfolio/feliz-boipeba-4.jpg"
+      ]
+    },
+    {
+      "id": "tap-tap",
+      "slug": "tap-tap",
+      "featured": false,
+      "category": ["product-design", "loyalty"],
+      "title": {
+        "en": "Tap Tap - Coffee Loyalty App",
+        "es": "Tap Tap - App de Fidelidad para Café",
+        "pt": "Tap Tap - App de Fidelidade para Café"
+      },
+      "tagline": {
+        "en": "Brewing Loyalty, One Tap at a Time",
+        "es": "Preparando Lealtad, Un Toque a la Vez",
+        "pt": "Preparando Lealdade, Um Toque de Cada Vez"
+      },
+      "overview": {
+        "client": "Tap Tap (Concept)",
+        "industry": "Coffee Shop Loyalty System",
+        "location": "Digital Product",
+        "duration": "4 months (concept phase)",
+        "services": ["Product Design", "Marketing Strategy", "Business Model", "UX Design"],
+        "innovation": "Replacing paper punch cards with digital experience"
+      },
+      "heroImage": "/images/portfolio/tap-tap-hero.jpg",
+      "challenge": {
+        "en": [
+          "Traditional punch cards are: Easily lost, Not environmentally friendly, Provide no customer data, Create no ongoing relationship",
+          "Coffee shops have no customer database",
+          "No way to incentivize return visits",
+          "Missing opportunity for personalization"
+        ],
+        "es": [
+          "Las tarjetas de fidelización tradicionales: Se pierden fácilmente, No son ecológicas, No proporcionan datos de clientes, No crean relación continua",
+          "Las cafeterías no tienen base de datos de clientes",
+          "No hay forma de incentivar visitas de retorno",
+          "Se pierde oportunidad de personalización"
+        ],
+        "pt": [
+          "Cartões de fidelidade tradicionais: Perdem-se facilmente, Não são ecológicos, Não fornecem dados de clientes, Não criam relacionamento contínuo",
+          "Cafeterias não têm banco de dados de clientes",
+          "Sem forma de incentivar visitas de retorno",
+          "Perda de oportunidade de personalização"
+        ]
+      },
+      "strategy": {
+        "vision": "Create a digital ecosystem where: Customers earn points digitally, Coffee shops collect valuable data, Everyone wins (customer convenience + shop insights), Sustainable alternative to paper, Scalable to multiple locations",
+        "coreFeatures": [
+          {
+            "for": "Customers",
+            "features": [
+              "Digital loyalty card (no physical needed)",
+              "Points tracking across multiple shops",
+              "Birthday reward automatically applied",
+              "Push notifications for special offers",
+              "Coffee preference history",
+              "Favorite drink quick-order"
+            ]
+          },
+          {
+            "for": "Coffee Shops",
+            "features": [
+              "Customer database with emails/phones",
+              "Purchase behavior analytics",
+              "Automated marketing campaigns",
+              "Retention metrics dashboard",
+              "Custom reward configuration",
+              "Competitor insights"
+            ]
+          }
+        ],
+        "loyaltyMechanics": {
+          "pointSystem": "1 point per $1 spent, 10 points = free coffee",
+          "bonusPoints": [
+            "Birthday month (2x points)",
+            "First purchase (5 bonus points)",
+            "Referral (10 points for both)",
+            "Visit during slow hours (1.5x points)"
+          ],
+          "gamification": ["Streaks (consecutive day visits)", "Badges (Coffee Connoisseur, Early Bird, etc.)", "Leaderboards (optional, per shop)", "Seasonal challenges"]
+        },
+        "businessModel": {
+          "revenueStreams": [
+            "Shop Subscription ($29/month per shop)",
+            "Transaction Fee (2% of redemptions)",
+            "Premium Features (advanced analytics)",
+            "Data Insights Reports (aggregate market data)"
+          ]
+        }
+      },
+      "results": {
+        "status": "MVP fully designed - Seeking technical co-founder/dev partner and initial funding",
+        "projectedResults": {
+          "forCustomers": [
+            "60% reduction in lost rewards",
+            "Average savings: $50/year",
+            "Discover 3+ new coffee shops"
+          ],
+          "forCoffeeShops": [
+            "40% increase in repeat visits",
+            "Build 500+ customer database in 6 months",
+            "25% boost in slow-hour traffic",
+            "$1,200+ additional revenue/month"
+          ]
+        }
+      },
+      "gallery": [
+        "/images/portfolio/tap-tap-1.jpg",
+        "/images/portfolio/tap-tap-2.jpg"
+      ]
+    },
+    {
+      "id": "casa-laguna",
+      "slug": "casa-laguna",
+      "featured": true,
+      "category": ["vacation-rentals", "launch-strategy"],
+      "title": {
+        "en": "Casa Laguna",
+        "es": "Casa Laguna",
+        "pt": "Casa Laguna"
+      },
+      "tagline": {
+        "en": "From Zero to Booked in 90 Days",
+        "es": "De Cero a Reservado en 90 Días",
+        "pt": "De Zero a Reservado em 90 Dias"
+      },
+      "overview": {
+        "client": "Casa Laguna",
+        "industry": "Vacation Rental",
+        "location": "Lagoon-view property, Brazil",
+        "duration": "First 90 days",
+        "services": ["New Property Launch Strategy", "Review Generation", "Paid Advertising", "Social Media Setup"],
+        "challenge": "Zero market presence, need fast traction"
+      },
+      "heroImage": "/images/portfolio/casa-laguna-hero.jpg",
+      "challenge": {
+        "en": [
+          "Brand new property (no history)",
+          "No reviews (critical for booking platforms)",
+          "Tight budget (new owner, limited marketing spend)",
+          "Competitive market (many established alternatives)",
+          "Need quick wins to build momentum",
+          "Must balance pricing strategy with review generation"
+        ],
+        "es": [
+          "Propiedad nueva (sin historial)",
+          "Sin reseñas (críticas para plataformas de reserva)",
+          "Presupuesto ajustado (nuevo propietario, gasto limitado en marketing)",
+          "Mercado competitivo (muchas alternativas establecidas)",
+          "Necesidad de victorias rápidas para generar impulso",
+          "Debe equilibrar estrategia de precios con generación de reseñas"
+        ],
+        "pt": [
+          "Propriedade nova (sem histórico)",
+          "Sem avaliações (crítico para plataformas de reserva)",
+          "Orçamento apertado (novo proprietário, gasto limitado em marketing)",
+          "Mercado competitivo (muitas alternativas estabelecidas)",
+          "Necessidade de vitórias rápidas para gerar impulso",
+          "Deve equilibrar estratégia de preços com geração de avaliações"
+        ]
+      },
+      "strategy": {
+        "phases": [
+          {
+            "name": "Foundation",
+            "days": "1-30",
+            "goal": "Get visible, get credible",
+            "objectives": [
+              "Achieve first 5 reviews across platforms",
+              "Build basic social proof",
+              "Optimize all listings",
+              "Create content library"
+            ],
+            "tactics": {
+              "pricing": "Launch at 30% below market rate, 'Grand Opening Special', Free night for first 3 guests who review, Money-back guarantee",
+              "platformSetup": [
+                "Airbnb: New listing boost optimization",
+                "Booking.com: Genius Program enrollment",
+                "Google: Business profile with photos",
+                "VRBO: Premium placement"
+              ],
+              "contentCreation": [
+                "Professional photo shoot",
+                "Virtual tour video",
+                "360° room views",
+                "Neighborhood guide",
+                "House manual PDF"
+              ]
+            }
+          },
+          {
+            "name": "Momentum",
+            "days": "31-60",
+            "goal": "Build trust, increase visibility",
+            "objectives": [
+              "Reach 15+ reviews (4.8+ average)",
+              "Begin raising prices gradually",
+              "Start paid advertising",
+              "Build social media presence"
+            ],
+            "tactics": {
+              "pricingEvolution": "Increase rates by 15% (still competitive), Maintain special offers for off-peak, Length-of-stay discounts, Last-minute deals",
+              "socialMedia": {
+                "platform": "Instagram",
+                "contentPillars": [
+                  "Property features (40%)",
+                  "Lagoon lifestyle (30%)",
+                  "Guest experiences (20%)",
+                  "Local attractions (10%)"
+                ],
+                "schedule": "3 Reels/week, 2 Carousels/week, Daily Stories"
+              },
+              "paidAds": {
+                "budget": "$500/month",
+                "campaigns": [
+                  {
+                    "name": "Awareness",
+                    "platform": "Meta",
+                    "creative": "Cinematic lagoon footage",
+                    "objective": "Video views"
+                  },
+                  {
+                    "name": "Consideration",
+                    "platform": "Google Ads (Search)",
+                    "keywords": "[city name] lagoon rentals",
+                    "objective": "Conversions"
+                  },
+                  {
+                    "name": "Remarketing",
+                    "platform": "Meta",
+                    "creative": "Property highlights + reviews",
+                    "audience": "Website visitors"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "name": "Optimization",
+            "days": "61-90",
+            "goal": "Maximize conversions, build sustainability",
+            "objectives": [
+              "Achieve consistent booking rate",
+              "Optimize for profitability",
+              "Build repeat customer database",
+              "Establish pricing at market rate"
+            ],
+            "tactics": {
+              "pricingFinalization": "Match or exceed market rate, Implement dynamic pricing tool, Premium for high-demand dates, Loyalty discounts for repeats",
+              "conversionOptimization": [
+                "A/B test listing photos",
+                "Refine description copy",
+                "Test different headline hooks",
+                "Optimize response time",
+                "Improve amenity highlighting"
+              ],
+              "sustainabilitySystems": [
+                "Email list building (newsletter)",
+                "Past guest retargeting database",
+                "Seasonal campaign calendar",
+                "Referral program launch",
+                "Strategic partnership with local businesses"
+              ]
+            }
+          }
+        ]
+      },
+      "results": {
+        "metrics": [
+          {
+            "label": "Airbnb Reviews",
+            "value": "18 (4.9★)",
+            "icon": "⭐"
+          },
+          {
+            "label": "Booking Rate",
+            "value": "67%",
+            "icon": "📈"
+          },
+          {
+            "label": "Booking.com Reviews",
+            "value": "8 (9.4)",
+            "icon": "💯"
+          },
+          {
+            "label": "Total Bookings",
+            "value": "23",
+            "icon": "🏠"
+          },
+          {
+            "label": "Revenue (90 days)",
+            "value": "$12,400",
+            "icon": "💰"
+          },
+          {
+            "label": "Avg Nightly Rate",
+            "value": "$135",
+            "icon": "💵"
+          },
+          {
+            "label": "Occupancy Rate",
+            "value": "61%",
+            "icon": "📊"
+          },
+          {
+            "label": "Instagram Growth",
+            "value": "0 → 850",
+            "icon": "📱"
+          },
+          {
+            "label": "Engagement Rate",
+            "value": "8.2%",
+            "icon": "❤️"
+          },
+          {
+            "label": "Email List",
+            "value": "47",
+            "icon": "📧"
+          },
+          {
+            "label": "Ad ROI",
+            "value": "252%",
+            "icon": "🎯"
+          }
+        ],
+        "keyLearnings": [
+          "Early review focus = algorithm boost",
+          "Competitive pricing beats marketing in month 1",
+          "Response speed directly correlates to bookings",
+          "Guest experience > advertising spend",
+          "Platform diversification reduces dependency",
+          "Social proof compounds (reviews → more bookings → more reviews)"
+        ]
+      },
+      "gallery": [
+        "/images/portfolio/casa-laguna-1.jpg",
+        "/images/portfolio/casa-laguna-2.jpg",
+        "/images/portfolio/casa-laguna-3.jpg"
+      ]
+    }
+  ]
+}
