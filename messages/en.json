@@ -1,0 +1,56 @@
+{
+  "nav": {
+    "about": "About",
+    "services": "Services",
+    "projects": "Projects",
+    "blog": "Blog",
+    "contact": "Contact"
+  },
+  "hero": {
+    "brand": "New Site",
+    "tagline": "Digital Marketing Specialist for Vacation Rentals",
+    "subtitle": "Transforming Properties into Experiences",
+    "description": "Strategic digital marketing for vacation rentals that convert browsers into bookers",
+    "cta": "View My Work",
+    "ctaSecondary": "Contact Me"
+  },
+  "about": {
+    "heading": "About Me",
+    "bio": "Not sure where to start with your online venture? Are you stuck with your sales? That's what I'm here for! I help you improve your sales and build strategies to achieve your goals.",
+    "yearsExperience": "12+ Years Experience",
+    "projectsCompleted": "50+ Projects",
+    "avgGrowth": "36% Avg Growth"
+  },
+  "services": {
+    "heading": "My Services",
+    "description": "Develop all the sales potential of your business, with the use of sales strategies and Marketing tools to reach your potential clients."
+  },
+  "projects": {
+    "heading": "Featured Projects",
+    "viewAll": "View All Projects",
+    "viewCase": "View Case Study",
+    "categories": {
+      "all": "All",
+      "vacation-rentals": "Vacation Rentals",
+      "branding": "Branding",
+      "paid-ads": "Paid Ads",
+      "social-media": "Social Media"
+    }
+  },
+  "contact": {
+    "heading": "Let's Work Together",
+    "description": "Ready to transform your vacation rental into a must-book destination?",
+    "form": {
+      "name": "Your Name",
+      "phone": "Your Phone",
+      "message": "Your Message",
+      "submit": "Send Message"
+    },
+    "whatsapp": "WhatsApp Me",
+    "email": "Email Me"
+  },
+  "footer": {
+    "copyright": "© {year} Carolina Arango. All rights reserved.",
+    "builtWith": "Built with Next.js & Tailwind CSS"
+  }
+}
