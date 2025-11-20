@@ -205,6 +205,24 @@ export default function ProjectPage() {
                   </div>
                 </div>
 
+                {/* Website Link */}
+                {(project.overview as any).website && (
+                  <div>
+                    <h3 className="text-sm font-semibold text-gray-500 uppercase mb-2">
+                      Website
+                    </h3>
+                    <a 
+                      href={(project.overview as any).website}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-primary-600 hover:text-primary-700 font-medium inline-flex items-center gap-2 transition-colors"
+                    >
+                      <span>Visit Website</span>
+                      <span className="text-lg">↗</span>
+                    </a>
+                  </div>
+                )}
+
                 {/* Quick Metrics */}
                 {project.results.metrics && (
                   <div className="pt-6 border-t border-gray-200">
@@ -342,7 +360,7 @@ export default function ProjectPage() {
 
                   {/* Conversion Funnel Strategy */}
                   {(project.strategy as any).conversionFunnel && (
-                    <Card variant="gradient" padding="lg">
+                    <div className="rounded-2xl bg-gradient-to-br from-primary-600 via-primary-500 to-accent-600 p-8 shadow-xl">
                       <h2 className="text-3xl font-heading font-bold mb-2 text-white">
                         {(project.strategy as any).conversionFunnel.title[locale as Locale] || (project.strategy as any).conversionFunnel.title.en}
                       </h2>
@@ -368,12 +386,18 @@ export default function ProjectPage() {
                                   </span>
                                   <h3 className="text-xl font-bold text-white">{phase.name}</h3>
                                 </div>
-                                <p className="text-white/90 mb-3">
-                                  {phase.objective[locale as Locale] || phase.objective.en}
-                                </p>
+                                {phase.objective && (
+                                  <p className="text-white/90 mb-3">
+                                    {typeof phase.objective === 'string' 
+                                      ? phase.objective 
+                                      : (phase.objective[locale as Locale] || phase.objective.en)}
+                                  </p>
+                                )}
                                 {phase.description && (
                                   <p className="text-white/80 text-sm mb-3 italic">
-                                    {phase.description[locale as Locale] || phase.description.en}
+                                    {typeof phase.description === 'string'
+                                      ? phase.description
+                                      : (phase.description[locale as Locale] || phase.description.en)}
                                   </p>
                                 )}
                                 {phase.tactics && (
@@ -381,7 +405,11 @@ export default function ProjectPage() {
                                     {phase.tactics.map((tactic: any, tIndex: number) => (
                                       <li key={tIndex} className="text-sm text-white/90 flex items-start gap-2">
                                         <span className="text-white/60 flex-shrink-0">•</span>
-                                        <span>{tactic[locale as Locale] || tactic.en}</span>
+                                        <span>
+                                          {typeof tactic === 'string' 
+                                            ? tactic 
+                                            : (tactic[locale as Locale] || tactic.en)}
+                                        </span>
                                       </li>
                                     ))}
                                   </ul>
@@ -390,7 +418,9 @@ export default function ProjectPage() {
                                   <div className="mt-3 p-3 bg-white/10 rounded-lg">
                                     <p className="text-sm text-white font-medium">
                                       <span className="text-white/70">Result: </span>
-                                      {phase.result[locale as Locale] || phase.result.en}
+                                      {typeof phase.result === 'string'
+                                        ? phase.result
+                                        : (phase.result[locale as Locale] || phase.result.en)}
                                     </p>
                                   </div>
                                 )}
@@ -423,14 +453,155 @@ export default function ProjectPage() {
                           </div>
                         </div>
                       </div>
+                    </div>
+                  )}
+
+                  {/* Product Purpose (Tap Tap) */}
+                  {(project.strategy as any).productPurpose && (
+                    <div className="space-y-6">
+                      <div className="rounded-2xl bg-gradient-to-br from-primary-600 via-primary-500 to-accent-600 p-8 shadow-xl">
+                        <h2 className="text-3xl font-heading font-bold mb-4 text-white">For Businesses</h2>
+                        <ul className="space-y-3">
+                          {((project.strategy as any).productPurpose.forBusinesses[locale as Locale] || (project.strategy as any).productPurpose.forBusinesses.en).map((item: string, index: number) => (
+                            <motion.li
+                              key={index}
+                              initial={{ opacity: 0, x: -20 }}
+                              animate={{ opacity: 1, x: 0 }}
+                              transition={{ delay: index * 0.1 }}
+                              className="flex items-start gap-3 text-white"
+                            >
+                              <span className="text-yellow-300 text-xl flex-shrink-0">✓</span>
+                              <span>{item}</span>
+                            </motion.li>
+                          ))}
+                        </ul>
+                      </div>
+
+                      <Card variant="default" padding="lg" className="bg-gradient-to-br from-accent-50 to-primary-50">
+                        <h2 className="text-3xl font-heading font-bold mb-4">For Consumers</h2>
+                        <ul className="space-y-3">
+                          {((project.strategy as any).productPurpose.forConsumers[locale as Locale] || (project.strategy as any).productPurpose.forConsumers.en).map((item: string, index: number) => (
+                            <motion.li
+                              key={index}
+                              initial={{ opacity: 0, x: -20 }}
+                              animate={{ opacity: 1, x: 0 }}
+                              transition={{ delay: index * 0.1 }}
+                              className="flex items-start gap-3 text-gray-700"
+                            >
+                              <span className="text-primary-500 text-xl flex-shrink-0">✓</span>
+                              <span>{item}</span>
+                            </motion.li>
+                          ))}
+                        </ul>
+                      </Card>
+                    </div>
+                  )}
+
+                  {/* Key Features (Tap Tap) */}
+                  {(project.strategy as any).keyFeatures && (
+                    <Card variant="default" padding="lg">
+                      <h2 className="text-3xl font-heading font-bold mb-6">Key Features</h2>
+                      <div className="grid md:grid-cols-2 gap-6">
+                        {(project.strategy as any).keyFeatures.map((feature: any, index: number) => (
+                          <motion.div
+                            key={index}
+                            initial={{ opacity: 0, y: 20 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            transition={{ delay: index * 0.1 }}
+                            className="p-5 rounded-xl bg-gradient-to-br from-primary-50 to-accent-50 hover:shadow-lg transition-shadow"
+                          >
+                            <div className="text-4xl mb-3">{feature.icon}</div>
+                            <h3 className="text-xl font-bold mb-2">
+                              {feature.title[locale as Locale] || feature.title.en}
+                            </h3>
+                            <p className="text-gray-700 text-sm">
+                              {feature.description[locale as Locale] || feature.description.en}
+                            </p>
+                          </motion.div>
+                        ))}
+                      </div>
+                    </Card>
+                  )}
+
+                  {/* Development Status (Animalist Club) */}
+                  {(project.strategy as any).developmentStatus && (
+                    <Card variant="default" padding="lg" className="bg-gradient-to-br from-primary-50 to-accent-50">
+                      <h2 className="text-3xl font-heading font-bold mb-4">Development Status</h2>
+                      <p className="text-lg text-gray-700">
+                        {(project.strategy as any).developmentStatus[locale as Locale] || (project.strategy as any).developmentStatus.en}
+                      </p>
+                    </Card>
+                  )}
+
+                  {/* Key Objectives (Animalist Club) */}
+                  {(project.strategy as any).keyObjectives && (
+                    <Card variant="default" padding="lg">
+                      <h2 className="text-3xl font-heading font-bold mb-6">Key Objectives</h2>
+                      <div className="space-y-6">
+                        {(project.strategy as any).keyObjectives.map((objective: any, index: number) => (
+                          <motion.div
+                            key={index}
+                            initial={{ opacity: 0, y: 20 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            transition={{ delay: index * 0.1 }}
+                            className="flex items-start gap-4 p-5 rounded-xl bg-gradient-to-br from-primary-50 to-accent-50"
+                          >
+                            <div className="text-4xl flex-shrink-0">{objective.icon}</div>
+                            <div className="flex-1">
+                              <h3 className="text-xl font-bold mb-2">
+                                {objective.title[locale as Locale] || objective.title.en}
+                              </h3>
+                              <p className="text-gray-700">
+                                {objective.description[locale as Locale] || objective.description.en}
+                              </p>
+                            </div>
+                          </motion.div>
+                        ))}
+                      </div>
+                    </Card>
+                  )}
+
+                  {/* My Role (Animalist Club) */}
+                  {(project.strategy as any).myRole && (
+                    <div className="rounded-2xl bg-gradient-to-br from-primary-600 via-primary-500 to-accent-600 p-8 shadow-xl">
+                      <h2 className="text-3xl font-heading font-bold mb-4 text-white">My Role</h2>
+                      <p className="text-lg text-white">
+                        {(project.strategy as any).myRole[locale as Locale] || (project.strategy as any).myRole.en}
+                      </p>
+                    </div>
+                  )}
+
+                  {/* Core Features (Animalist Club) */}
+                  {(project.strategy as any).coreFeatures && (
+                    <Card variant="default" padding="lg">
+                      <h2 className="text-3xl font-heading font-bold mb-6">Core Features</h2>
+                      <div className="grid md:grid-cols-3 gap-6">
+                        {(project.strategy as any).coreFeatures.map((feature: any, index: number) => (
+                          <motion.div
+                            key={index}
+                            initial={{ opacity: 0, y: 20 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            transition={{ delay: index * 0.1 }}
+                            className="p-5 rounded-xl bg-gradient-to-br from-accent-50 to-primary-50 hover:shadow-lg transition-shadow"
+                          >
+                            <div className="text-4xl mb-3">{feature.icon}</div>
+                            <h3 className="text-lg font-bold mb-2">
+                              {feature.feature[locale as Locale] || feature.feature.en}
+                            </h3>
+                            <p className="text-gray-700 text-sm">
+                              {feature.description[locale as Locale] || feature.description.en}
+                            </p>
+                          </motion.div>
+                        ))}
+                      </div>
                     </Card>
                   )}
 
                   {/* Paid Advertising Strategy */}
                   {(project.strategy as any).paidAdvertising && (
-                    <Card variant="gradient" padding="lg">
+                    <div className="rounded-2xl bg-gradient-to-br from-primary-600 via-primary-500 to-accent-600 p-8 shadow-xl">
                       <h2 className="text-3xl font-heading font-bold mb-4 text-white">Paid Advertising Strategy</h2>
-                      <p className="text-lg text-white/90 mb-6">
+                      <p className="text-lg text-white mb-6">
                         {(project.strategy as any).paidAdvertising.overview[locale as Locale] || (project.strategy as any).paidAdvertising.overview.en}
                       </p>
                       <div className="grid md:grid-cols-3 gap-4">
@@ -468,7 +639,7 @@ export default function ProjectPage() {
                           ))}
                         </div>
                       </div>
-                    </Card>
+                    </div>
                   )}
 
                   {/* Phases */}
@@ -476,7 +647,7 @@ export default function ProjectPage() {
                     <Card variant="default" padding="lg">
                       <h2 className="text-3xl font-heading font-bold mb-6">Strategic Approach</h2>
                       <div className="grid md:grid-cols-3 gap-6">
-                        {project.strategy.phases.map((phase, index) => (
+                        {project.strategy.phases.map((phase: any, index: number) => (
                           <motion.div
                             key={index}
                             initial={{ opacity: 0, y: 20 }}
@@ -491,10 +662,10 @@ export default function ProjectPage() {
                               {phase.name}
                             </h3>
                             <p className="text-sm text-gray-600 mb-4">
-                              {'duration' in phase ? phase.duration : 'days' in phase ? phase.days : ''}
+                              {phase.duration || phase.days || ''}
                             </p>
                             <ul className="space-y-2">
-                              {('tasks' in phase ? phase.tasks : 'objectives' in phase ? phase.objectives : []).map((task, taskIndex) => (
+                              {(phase.tasks || phase.objectives || []).map((task: any, taskIndex: number) => (
                                 <li
                                   key={taskIndex}
                                   className="text-sm text-gray-700 flex items-start gap-2"
@@ -580,7 +751,7 @@ export default function ProjectPage() {
 
                   {/* Content Strategy */}
                   {project.strategy.contentStrategy && (
-                    <Card variant="gradient" padding="lg">
+                    <div className="rounded-2xl bg-gradient-to-br from-primary-600 via-primary-500 to-accent-600 p-8 shadow-xl">
                       <h3 className="text-2xl font-heading font-bold mb-6 text-white">
                         Content Strategy
                       </h3>
@@ -603,7 +774,7 @@ export default function ProjectPage() {
                           </motion.div>
                         ))}
                       </div>
-                    </Card>
+                    </div>
                   )}
                 </div>
               )}
@@ -611,29 +782,110 @@ export default function ProjectPage() {
               {/* Results Tab */}
               {activeTab === 'results' && (
                 <div className="space-y-8">
+                  {/* Personal Insight (Tap Tap) */}
+                  {(project.results as any).personalInsight && (
+                    <Card variant="default" padding="lg" className="bg-gradient-to-br from-primary-50 to-accent-50 border-l-4 border-primary-500">
+                      <div className="flex items-start gap-4">
+                        <span className="text-4xl">💡</span>
+                        <div>
+                          <h2 className="text-2xl font-heading font-bold mb-3">Personal Insight</h2>
+                          <p className="text-lg text-gray-700 leading-relaxed">
+                            {(project.results as any).personalInsight[locale as Locale] || (project.results as any).personalInsight.en}
+                          </p>
+                        </div>
+                      </div>
+                    </Card>
+                  )}
+
+                  {/* Product Status (Tap Tap) */}
+                  {(project.results as any).productStatus && (
+                    <div className="rounded-2xl bg-gradient-to-br from-primary-600 via-primary-500 to-accent-600 p-8 shadow-xl">
+                      <div className="flex items-center gap-3">
+                        <span className="text-4xl">🚀</span>
+                        <div>
+                          <h3 className="text-xl font-bold text-white mb-2">Product Status</h3>
+                          <p className="text-lg text-white">
+                            {(project.results as any).productStatus[locale as Locale] || (project.results as any).productStatus.en}
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  )}
+
+                  {/* Project Status (Animalist Club) */}
+                  {(project.results as any).projectStatus && (
+                    <div className="rounded-2xl bg-gradient-to-br from-primary-600 via-primary-500 to-accent-600 p-8 shadow-xl">
+                      <div className="flex items-center gap-3">
+                        <span className="text-4xl">🔨</span>
+                        <div>
+                          <h3 className="text-xl font-bold text-white mb-2">Project Status</h3>
+                          <p className="text-lg text-white">
+                            {(project.results as any).projectStatus[locale as Locale] || (project.results as any).projectStatus.en}
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  )}
+
+                  {/* Personal Commitment (Animalist Club) */}
+                  {(project.results as any).personalCommitment && (
+                    <Card variant="default" padding="lg" className="bg-gradient-to-br from-accent-50 to-primary-50">
+                      <div className="flex items-start gap-4">
+                        <span className="text-4xl">💚</span>
+                        <div>
+                          <h3 className="text-2xl font-heading font-bold mb-3">Personal Commitment</h3>
+                          <p className="text-lg text-gray-700 leading-relaxed">
+                            {(project.results as any).personalCommitment[locale as Locale] || (project.results as any).personalCommitment.en}
+                          </p>
+                        </div>
+                      </div>
+                    </Card>
+                  )}
+
+                  {/* Strategic Focus (Animalist Club) */}
+                  {(project.results as any).strategicFocus && (
+                    <Card variant="default" padding="lg">
+                      <h3 className="text-2xl font-heading font-bold mb-4">Strategic Focus</h3>
+                      <ul className="space-y-3">
+                        {(project.results as any).strategicFocus.map((focus: string, index: number) => (
+                          <motion.li
+                            key={index}
+                            initial={{ opacity: 0, x: -20 }}
+                            animate={{ opacity: 1, x: 0 }}
+                            transition={{ delay: index * 0.1 }}
+                            className="flex items-start gap-3 p-4 rounded-lg bg-gradient-to-br from-primary-50 to-accent-50"
+                          >
+                            <span className="text-primary-500 text-xl flex-shrink-0">🎯</span>
+                            <span className="text-gray-700">{focus}</span>
+                          </motion.li>
+                        ))}
+                      </ul>
+                    </Card>
+                  )}
+
                   {/* Campaign Example */}
                   {(project.results as any).campaignExample && (
                     <>
-                      <Card variant="gradient" padding="lg">
+                      <div className="rounded-2xl bg-gradient-to-br from-primary-600 via-primary-500 to-accent-600 p-8 shadow-xl">
                         <div className="flex items-start justify-between mb-6">
-                          <div>
+                          <div className="flex-1">
                             <h2 className="text-3xl font-heading font-bold text-white mb-2">{(project.results as any).campaignExample.name}</h2>
-                            <p className="text-white/90 text-lg mb-4">
+                            <p className="text-white text-lg mb-4">
                               {(project.results as any).campaignExample.period} • Budget: {(project.results as any).campaignExample.budget}
                             </p>
                             <div className="space-y-2">
-                              <h3 className="text-lg font-semibold text-white">Campaign Objectives:</h3>
-                              <ul className="space-y-1">
+                              <h3 className="text-lg font-semibold text-white mb-3">Campaign Objectives:</h3>
+                              <ul className="space-y-2">
                                 {(project.results as any).campaignExample.objectives.map((obj: any, index: number) => (
-                                  <li key={index} className="text-white/90 flex items-start gap-2">
-                                    <span className="text-white/60">✨</span>
+                                  <li key={index} className="text-white flex items-start gap-2">
+                                    <span className="text-yellow-300 flex-shrink-0">✨</span>
                                     <span className="text-sm">{obj[locale as Locale] || obj.en}</span>
                                   </li>
                                 ))}
                               </ul>
                             </div>
                           </div>
-                          <span className="text-5xl">🎯</span>
+                          <span className="text-5xl flex-shrink-0 ml-4">🎯</span>
                         </div>
                         <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
                           {(project.results as any).campaignExample.metrics.map((metric: any, index: number) => (
@@ -642,16 +894,16 @@ export default function ProjectPage() {
                               initial={{ opacity: 0, y: 20 }}
                               animate={{ opacity: 1, y: 0 }}
                               transition={{ delay: index * 0.1 }}
-                              className="p-4 rounded-xl bg-white/10 backdrop-blur-sm text-center"
+                              className="p-4 rounded-xl bg-white/20 backdrop-blur-sm text-center border border-white/30"
                             >
                               <div className="text-3xl mb-2">{metric.icon}</div>
                               <div className="text-2xl font-bold text-white mb-1">{metric.value}</div>
-                              <p className="text-xs text-white/80 font-medium mb-1">{metric.label}</p>
-                              <p className="text-xs text-white/60">{metric.description}</p>
+                              <p className="text-xs text-white font-medium mb-1">{metric.label}</p>
+                              <p className="text-xs text-white/90">{metric.description}</p>
                             </motion.div>
                           ))}
                         </div>
-                      </Card>
+                      </div>
 
                       {/* Campaign Positive Aspects */}
                       {(project.results as any).campaignExample.positiveAspects && (
@@ -693,11 +945,11 @@ export default function ProjectPage() {
 
                   {/* Latest Campaign Highlight */}
                   {(project.results as any).latestCampaign && (
-                    <Card variant="gradient" padding="lg">
+                    <div className="rounded-2xl bg-gradient-to-br from-primary-600 via-primary-500 to-accent-600 p-8 shadow-xl">
                       <div className="flex items-start justify-between mb-6">
                         <div>
                           <h2 className="text-3xl font-heading font-bold text-white mb-2">Latest Campaign</h2>
-                          <p className="text-white/90 text-lg">
+                          <p className="text-white text-lg">
                             {(project.results as any).latestCampaign.period} • Investment: {(project.results as any).latestCampaign.investment}
                           </p>
                         </div>
@@ -719,7 +971,7 @@ export default function ProjectPage() {
                           </motion.div>
                         ))}
                       </div>
-                    </Card>
+                    </div>
                   )}
 
                   {/* Revenue Projections */}
@@ -975,8 +1227,8 @@ export default function ProjectPage() {
       )}
 
       {/* CTA Section */}
-      <Section variant="gradient" spacing="lg">
-        <div className="max-w-4xl mx-auto text-center">
+      <div className="bg-gradient-to-r from-primary-600 via-primary-500 to-accent-600 py-16 md:py-24">
+        <div className="max-w-4xl mx-auto text-center px-4">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -986,7 +1238,7 @@ export default function ProjectPage() {
             <h2 className="text-4xl font-heading font-bold mb-6 text-white">
               Ready to Transform Your Business?
             </h2>
-            <p className="text-xl text-white/90 mb-8">
+            <p className="text-xl text-white mb-8">
               Let's create a strategy that delivers results like these.
             </p>
             <Link href={`/${locale}#contact`}>
@@ -996,7 +1248,7 @@ export default function ProjectPage() {
             </Link>
           </motion.div>
         </div>
-      </Section>
+      </div>
     </div>
   );
 }
