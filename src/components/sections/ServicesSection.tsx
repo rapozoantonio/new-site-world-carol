@@ -64,12 +64,26 @@ export default function ServicesSection() {
           ))}
         </div>
 
+        {/* Note */}
+        {locale === 'es' && (
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="text-center mt-12 mb-8"
+          >
+            <p className="text-lg text-gray-600 italic max-w-3xl mx-auto">
+              Nota: Todos los servicios pueden contratarse por separado o en formato pack, según las necesidades de tu propiedad y tus objetivos.
+            </p>
+          </motion.div>
+        )}
+
         {/* CTA */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="text-center mt-16"
+          className="text-center mt-8"
         >
           <a
             href="https://wa.me/34611200787"
@@ -81,7 +95,7 @@ export default function ServicesSection() {
               whileTap={{ scale: 0.95 }}
               className="btn btn-gradient text-lg px-8 py-4"
             >
-              🚀 Let's Transform Your Property
+              {locale === 'es' ? '🚀 Transformemos Tu Propiedad' : '🚀 Let\'s Transform Your Property'}
             </motion.button>
           </a>
         </motion.div>

@@ -218,6 +218,9 @@ export default function ProjectPage() {
                           <div>
                             <p className="text-xl font-bold text-primary-600">{metric.value}</p>
                             <p className="text-xs text-gray-600">{metric.label}</p>
+                            {(metric as any).description && (
+                              <p className="text-xs text-gray-500 mt-1">{(metric as any).description}</p>
+                            )}
                           </div>
                         </div>
                       ))}
@@ -316,6 +319,158 @@ export default function ProjectPage() {
               {/* Strategy Tab */}
               {activeTab === 'strategy' && (
                 <div className="space-y-8">
+                  {/* Solution Overview */}
+                  {(project.strategy as any).solution && (
+                    <Card variant="default" padding="lg" className="bg-gradient-to-br from-primary-50 to-accent-50">
+                      <h2 className="text-3xl font-heading font-bold mb-6">Strategic Solution</h2>
+                      <ul className="space-y-3">
+                        {((project.strategy as any).solution[locale as Locale] || (project.strategy as any).solution.en).map((item: string, index: number) => (
+                          <motion.li
+                            key={index}
+                            initial={{ opacity: 0, x: -20 }}
+                            animate={{ opacity: 1, x: 0 }}
+                            transition={{ delay: index * 0.1 }}
+                            className="flex items-start gap-3"
+                          >
+                            <span className="text-primary-500 text-xl flex-shrink-0">✓</span>
+                            <span className="text-gray-700">{item}</span>
+                          </motion.li>
+                        ))}
+                      </ul>
+                    </Card>
+                  )}
+
+                  {/* Conversion Funnel Strategy */}
+                  {(project.strategy as any).conversionFunnel && (
+                    <Card variant="gradient" padding="lg">
+                      <h2 className="text-3xl font-heading font-bold mb-2 text-white">
+                        {(project.strategy as any).conversionFunnel.title[locale as Locale] || (project.strategy as any).conversionFunnel.title.en}
+                      </h2>
+                      <p className="text-lg text-white/90 mb-6">
+                        {(project.strategy as any).conversionFunnel.objective[locale as Locale] || (project.strategy as any).conversionFunnel.objective.en}
+                      </p>
+
+                      <div className="space-y-4">
+                        {(project.strategy as any).conversionFunnel.phases.map((phase: any, index: number) => (
+                          <motion.div
+                            key={index}
+                            initial={{ opacity: 0, y: 20 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            transition={{ delay: index * 0.2 }}
+                            className="p-5 rounded-xl bg-white/10 backdrop-blur-sm"
+                          >
+                            <div className="flex items-start gap-4">
+                              <div className="text-4xl">{phase.icon}</div>
+                              <div className="flex-1">
+                                <div className="flex items-center gap-3 mb-2">
+                                  <span className="px-3 py-1 bg-white/20 rounded-full text-sm font-bold text-white">
+                                    Phase {phase.number}
+                                  </span>
+                                  <h3 className="text-xl font-bold text-white">{phase.name}</h3>
+                                </div>
+                                <p className="text-white/90 mb-3">
+                                  {phase.objective[locale as Locale] || phase.objective.en}
+                                </p>
+                                {phase.description && (
+                                  <p className="text-white/80 text-sm mb-3 italic">
+                                    {phase.description[locale as Locale] || phase.description.en}
+                                  </p>
+                                )}
+                                {phase.tactics && (
+                                  <ul className="space-y-2">
+                                    {phase.tactics.map((tactic: any, tIndex: number) => (
+                                      <li key={tIndex} className="text-sm text-white/90 flex items-start gap-2">
+                                        <span className="text-white/60 flex-shrink-0">•</span>
+                                        <span>{tactic[locale as Locale] || tactic.en}</span>
+                                      </li>
+                                    ))}
+                                  </ul>
+                                )}
+                                {phase.result && (
+                                  <div className="mt-3 p-3 bg-white/10 rounded-lg">
+                                    <p className="text-sm text-white font-medium">
+                                      <span className="text-white/70">Result: </span>
+                                      {phase.result[locale as Locale] || phase.result.en}
+                                    </p>
+                                  </div>
+                                )}
+                              </div>
+                            </div>
+                          </motion.div>
+                        ))}
+                      </div>
+
+                      <div className="mt-6 pt-6 border-t border-white/20">
+                        <h4 className="text-lg font-semibold text-white mb-3">Technology & Automation</h4>
+                        <ul className="grid md:grid-cols-2 gap-3">
+                          {((project.strategy as any).conversionFunnel.technology[locale as Locale] || (project.strategy as any).conversionFunnel.technology.en).map((tech: string, index: number) => (
+                            <li key={index} className="flex items-start gap-2 text-white/90">
+                              <span className="text-white/60">⚙️</span>
+                              <span className="text-sm">{tech}</span>
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+
+                      <div className="mt-6 p-4 bg-white/10 backdrop-blur-sm rounded-xl">
+                        <div className="flex items-start gap-3">
+                          <span className="text-2xl">✨</span>
+                          <div>
+                            <h4 className="font-semibold text-white mb-2">Key Insight</h4>
+                            <p className="text-white/90 text-sm">
+                              {(project.strategy as any).conversionFunnel.keyInsight[locale as Locale] || (project.strategy as any).conversionFunnel.keyInsight.en}
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </Card>
+                  )}
+
+                  {/* Paid Advertising Strategy */}
+                  {(project.strategy as any).paidAdvertising && (
+                    <Card variant="gradient" padding="lg">
+                      <h2 className="text-3xl font-heading font-bold mb-4 text-white">Paid Advertising Strategy</h2>
+                      <p className="text-lg text-white/90 mb-6">
+                        {(project.strategy as any).paidAdvertising.overview[locale as Locale] || (project.strategy as any).paidAdvertising.overview.en}
+                      </p>
+                      <div className="grid md:grid-cols-3 gap-4">
+                        {(project.strategy as any).paidAdvertising.phases.map((phase: any, index: number) => (
+                          <motion.div
+                            key={index}
+                            initial={{ opacity: 0, y: 20 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            transition={{ delay: index * 0.2 }}
+                            className="p-5 rounded-xl bg-white/10 backdrop-blur-sm"
+                          >
+                            <div className="text-3xl mb-3">
+                              {index === 0 ? '📍' : index === 1 ? '💬' : '🎯'}
+                            </div>
+                            <h3 className="text-xl font-bold text-white mb-2">{phase.name}</h3>
+                            <p className="text-sm text-white/80 mb-3">{phase.objective}</p>
+                            <ul className="space-y-2">
+                              {phase.tactics.map((tactic: string, tIndex: number) => (
+                                <li key={tIndex} className="text-sm text-white/90 flex items-start gap-2">
+                                  <span className="text-white/60 flex-shrink-0">•</span>
+                                  <span>{tactic}</span>
+                                </li>
+                              ))}
+                            </ul>
+                          </motion.div>
+                        ))}
+                      </div>
+                      <div className="mt-6 pt-6 border-t border-white/20">
+                        <h4 className="text-lg font-semibold text-white mb-3">Tools & Technologies</h4>
+                        <div className="flex flex-wrap gap-2">
+                          {(project.strategy as any).paidAdvertising.tools.map((tool: string, index: number) => (
+                            <span key={index} className="px-3 py-1 bg-white/20 backdrop-blur-sm rounded-full text-sm text-white">
+                              {tool}
+                            </span>
+                          ))}
+                        </div>
+                      </div>
+                    </Card>
+                  )}
+
                   {/* Phases */}
                   {project.strategy.phases && (
                     <Card variant="default" padding="lg">
@@ -456,9 +611,168 @@ export default function ProjectPage() {
               {/* Results Tab */}
               {activeTab === 'results' && (
                 <div className="space-y-8">
+                  {/* Campaign Example */}
+                  {(project.results as any).campaignExample && (
+                    <>
+                      <Card variant="gradient" padding="lg">
+                        <div className="flex items-start justify-between mb-6">
+                          <div>
+                            <h2 className="text-3xl font-heading font-bold text-white mb-2">{(project.results as any).campaignExample.name}</h2>
+                            <p className="text-white/90 text-lg mb-4">
+                              {(project.results as any).campaignExample.period} • Budget: {(project.results as any).campaignExample.budget}
+                            </p>
+                            <div className="space-y-2">
+                              <h3 className="text-lg font-semibold text-white">Campaign Objectives:</h3>
+                              <ul className="space-y-1">
+                                {(project.results as any).campaignExample.objectives.map((obj: any, index: number) => (
+                                  <li key={index} className="text-white/90 flex items-start gap-2">
+                                    <span className="text-white/60">✨</span>
+                                    <span className="text-sm">{obj[locale as Locale] || obj.en}</span>
+                                  </li>
+                                ))}
+                              </ul>
+                            </div>
+                          </div>
+                          <span className="text-5xl">🎯</span>
+                        </div>
+                        <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
+                          {(project.results as any).campaignExample.metrics.map((metric: any, index: number) => (
+                            <motion.div
+                              key={index}
+                              initial={{ opacity: 0, y: 20 }}
+                              animate={{ opacity: 1, y: 0 }}
+                              transition={{ delay: index * 0.1 }}
+                              className="p-4 rounded-xl bg-white/10 backdrop-blur-sm text-center"
+                            >
+                              <div className="text-3xl mb-2">{metric.icon}</div>
+                              <div className="text-2xl font-bold text-white mb-1">{metric.value}</div>
+                              <p className="text-xs text-white/80 font-medium mb-1">{metric.label}</p>
+                              <p className="text-xs text-white/60">{metric.description}</p>
+                            </motion.div>
+                          ))}
+                        </div>
+                      </Card>
+
+                      {/* Campaign Positive Aspects */}
+                      {(project.results as any).campaignExample.positiveAspects && (
+                        <Card variant="default" padding="lg" className="bg-gradient-to-br from-green-50 to-emerald-50">
+                          <h3 className="text-2xl font-heading font-bold mb-4 text-green-900">Positive Aspects</h3>
+                          <ul className="grid md:grid-cols-2 gap-3">
+                            {((project.results as any).campaignExample.positiveAspects[locale as Locale] || (project.results as any).campaignExample.positiveAspects.en).map((aspect: string, index: number) => (
+                              <motion.li
+                                key={index}
+                                initial={{ opacity: 0, x: -20 }}
+                                animate={{ opacity: 1, x: 0 }}
+                                transition={{ delay: index * 0.1 }}
+                                className="flex items-start gap-3 p-3 rounded-lg bg-white/50"
+                              >
+                                <span className="text-green-500 text-xl flex-shrink-0">🚀</span>
+                                <span className="text-gray-700">{aspect}</span>
+                              </motion.li>
+                            ))}
+                          </ul>
+                        </Card>
+                      )}
+
+                      {/* Campaign Conclusion */}
+                      {(project.results as any).campaignExample.conclusion && (
+                        <Card variant="default" padding="lg" className="bg-gradient-to-br from-primary-50 to-accent-50 border-l-4 border-primary-500">
+                          <div className="flex items-start gap-3">
+                            <span className="text-3xl">✨</span>
+                            <div>
+                              <h4 className="font-semibold text-gray-900 mb-2 text-lg">Campaign Conclusion</h4>
+                              <p className="text-gray-700 leading-relaxed">
+                                {(project.results as any).campaignExample.conclusion[locale as Locale] || (project.results as any).campaignExample.conclusion.en}
+                              </p>
+                            </div>
+                          </div>
+                        </Card>
+                      )}
+                    </>
+                  )}
+
+                  {/* Latest Campaign Highlight */}
+                  {(project.results as any).latestCampaign && (
+                    <Card variant="gradient" padding="lg">
+                      <div className="flex items-start justify-between mb-6">
+                        <div>
+                          <h2 className="text-3xl font-heading font-bold text-white mb-2">Latest Campaign</h2>
+                          <p className="text-white/90 text-lg">
+                            {(project.results as any).latestCampaign.period} • Investment: {(project.results as any).latestCampaign.investment}
+                          </p>
+                        </div>
+                        <span className="text-5xl">🚀</span>
+                      </div>
+                      <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                        {(project.results as any).latestCampaign.metrics.map((metric: any, index: number) => (
+                          <motion.div
+                            key={index}
+                            initial={{ opacity: 0, y: 20 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            transition={{ delay: index * 0.1 }}
+                            className="p-4 rounded-xl bg-white/10 backdrop-blur-sm text-center"
+                          >
+                            <div className="text-3xl mb-2">{metric.icon}</div>
+                            <div className="text-2xl font-bold text-white mb-1">{metric.value}</div>
+                            <p className="text-xs text-white/80 font-medium mb-1">{metric.label}</p>
+                            <p className="text-xs text-white/60">{metric.description}</p>
+                          </motion.div>
+                        ))}
+                      </div>
+                    </Card>
+                  )}
+
+                  {/* Revenue Projections */}
+                  {(project.results as any).latestCampaign?.revenueProjections && (
+                    <Card variant="default" padding="lg">
+                      <h3 className="text-2xl font-heading font-bold mb-4">Revenue Projections</h3>
+                      <p className="text-gray-600 mb-4">
+                        Based on: {(project.results as any).latestCampaign.revenueProjections.assumptions}
+                      </p>
+                      <div className="grid md:grid-cols-2 gap-6">
+                        <div className="p-6 rounded-xl bg-gradient-to-br from-primary-50 to-accent-50">
+                          <h4 className="font-semibold text-gray-900 mb-3">Total Potential Revenue</h4>
+                          <p className="text-3xl font-bold text-primary-600">
+                            {(project.results as any).latestCampaign.revenueProjections.potentialRevenue.min} - {(project.results as any).latestCampaign.revenueProjections.potentialRevenue.max}
+                          </p>
+                        </div>
+                        <div className="space-y-3">
+                          <h4 className="font-semibold text-gray-900 mb-3">Conversion Scenarios</h4>
+                          {(project.results as any).latestCampaign.revenueProjections.conversionScenarios.map((scenario: any, index: number) => (
+                            <div key={index} className="flex items-center justify-between p-3 rounded-lg bg-gray-50">
+                              <span className="font-medium text-gray-700">{scenario.rate} conversion</span>
+                              <span className="font-bold text-primary-600">{scenario.revenue}</span>
+                            </div>
+                          ))}
+                        </div>
+                      </div>
+                    </Card>
+                  )}
+
+                  {/* Key Actions */}
+                  {(project.results as any).latestCampaign?.keyActions && (
+                    <Card variant="default" padding="lg">
+                      <h3 className="text-2xl font-heading font-bold mb-4">Key Actions Taken</h3>
+                      <ul className="grid md:grid-cols-2 gap-3">
+                        {(project.results as any).latestCampaign.keyActions.map((action: string, index: number) => (
+                          <motion.li
+                            key={index}
+                            initial={{ opacity: 0, x: -20 }}
+                            animate={{ opacity: 1, x: 0 }}
+                            transition={{ delay: index * 0.1 }}
+                            className="flex items-start gap-3 p-3 rounded-lg bg-gray-50"
+                          >
+                            <span className="text-primary-500 text-xl flex-shrink-0">✓</span>
+                            <span className="text-gray-700">{action}</span>
+                          </motion.li>
+                        ))}
+                      </ul>
+                    </Card>
+                  )}
+
                   <Card variant="default" padding="lg">
-                    <h2 className="text-3xl font-heading font-bold mb-6">Impact & Results</h2>
-                    <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <h2 className="text-3xl font-heading font-bold mb-6">Overall Impact & Results</h2>
+                    <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
                       {project.results.metrics?.map((metric, index) => (
                         <motion.div
                           key={index}
@@ -484,11 +798,14 @@ export default function ProjectPage() {
                             initial={{ opacity: 0, y: 20 }}
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ delay: index * 0.1 + 0.5 }}
-                            className="text-5xl font-bold gradient-text mb-3"
+                            className="text-4xl font-bold gradient-text mb-3"
                           >
                             {metric.value}
                           </motion.div>
-                          <p className="text-gray-700 font-semibold">{metric.label}</p>
+                          <p className="text-gray-700 font-semibold mb-2">{metric.label}</p>
+                          {(metric as any).description && (
+                            <p className="text-xs text-gray-600 leading-relaxed">{(metric as any).description}</p>
+                          )}
                         </motion.div>
                       ))}
                     </div>
@@ -512,6 +829,36 @@ export default function ProjectPage() {
                           </motion.li>
                         ))}
                       </ul>
+                    </Card>
+                  )}
+
+                  {/* Conclusion */}
+                  {(project.results as any).conclusion && (
+                    <Card variant="default" padding="lg" className="bg-gradient-to-br from-primary-50 to-accent-50 border-l-4 border-primary-500">
+                      <div className="flex items-start gap-3">
+                        <span className="text-3xl">✨</span>
+                        <div>
+                          <h4 className="font-semibold text-gray-900 mb-2 text-lg">Campaign Conclusion</h4>
+                          <p className="text-gray-700 leading-relaxed">
+                            {(project.results as any).conclusion[locale as Locale] || (project.results as any).conclusion.en}
+                          </p>
+                        </div>
+                      </div>
+                    </Card>
+                  )}
+
+                  {/* Privacy Note */}
+                  {(project.results as any).note && (
+                    <Card variant="default" padding="lg" className="bg-gray-50 border-l-4 border-primary-500">
+                      <div className="flex items-start gap-3">
+                        <span className="text-2xl">🔒</span>
+                        <div>
+                          <h4 className="font-semibold text-gray-900 mb-2">Privacy Note</h4>
+                          <p className="text-sm text-gray-700 leading-relaxed">
+                            {(project.results as any).note[locale as Locale] || (project.results as any).note.en}
+                          </p>
+                        </div>
+                      </div>
                     </Card>
                   )}
                 </div>

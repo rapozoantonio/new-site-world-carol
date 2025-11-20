@@ -14,6 +14,7 @@ export default function ContactSection() {
   const [formData, setFormData] = useState({
     name: '',
     phone: '',
+    email: '',
     message: '',
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -29,7 +30,7 @@ export default function ContactSection() {
     setSubmitStatus('idle');
 
     // Create WhatsApp message
-    const message = `Hola! Soy ${formData.name}.\nTeléfono: ${formData.phone}\n\nMensaje: ${formData.message}`;
+    const message = `Hola! Soy ${formData.name}.\nTeléfono: ${formData.phone}\nEmail: ${formData.email}\n\nMensaje: ${formData.message}`;
     const whatsappURL = createWhatsAppURL(contactInfo.whatsapp, message);
 
     // Open WhatsApp in new tab
@@ -39,7 +40,7 @@ export default function ContactSection() {
     setTimeout(() => {
       setIsSubmitting(false);
       setSubmitStatus('success');
-      setFormData({ name: '', phone: '', message: '' });
+      setFormData({ name: '', phone: '', email: '', message: '' });
 
       // Reset success message after 3 seconds
       setTimeout(() => setSubmitStatus('idle'), 3000);
@@ -126,6 +127,16 @@ export default function ContactSection() {
                   />
                 </div>
                 <div>
+                  <input
+                    type="email"
+                    required
+                    placeholder={locale === 'es' ? 'Tu Email' : locale === 'pt' ? 'Seu Email' : 'Your Email'}
+                    value={formData.email}
+                    onChange={(e) => setFormData({ ...formData, email: e.target.value })}
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent transition-all"
+                  />
+                </div>
+                <div>
                   <textarea
                     required
                     rows={5}
@@ -208,7 +219,7 @@ export default function ContactSection() {
           transition={{ duration: 0.6 }}
         >
           <h3 className="text-2xl font-heading font-bold text-center mb-8">
-            Meet the Team
+            {locale === 'es' ? 'Conoce al Equipo' : locale === 'pt' ? 'Conheça a Equipe' : 'Meet the Team'}
           </h3>
           <div className="grid md:grid-cols-2 gap-8 max-w-3xl mx-auto">
             {teamMembers.map((member, index) => (
@@ -231,7 +242,18 @@ export default function ContactSection() {
                   <h4 className="text-xl font-heading font-bold mb-2">
                     {member.name}
                   </h4>
-                  <p className="text-gray-600">{member.role[locale]}</p>
+                  <p className="text-gray-600 mb-3">{member.role[locale]}</p>
+                  {'upworkUrl' in member && member.upworkUrl && (
+                    <a
+                      href={member.upworkUrl as string}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2 text-sm text-primary-600 hover:text-primary-700 transition-colors"
+                    >
+                      <span>View Upwork Profile</span>
+                      <span>→</span>
+                    </a>
+                  )}
                 </Card>
               </motion.div>
             ))}

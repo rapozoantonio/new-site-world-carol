@@ -19,8 +19,6 @@ export default function ProjectsSection() {
     { key: 'all' as Category, label: t('categories.all') },
     { key: 'vacation-rentals' as Category, label: t('categories.vacation-rentals') },
     { key: 'branding' as Category, label: t('categories.branding') },
-    { key: 'paid-ads' as Category, label: t('categories.paid-ads') },
-    { key: 'social-media' as Category, label: t('categories.social-media') },
   ];
 
   const filtered = filter === 'all'
@@ -129,13 +127,25 @@ export default function ProjectsSection() {
                   )}
 
                   {/* CTA */}
-                  <Link
-                    href={`/${locale}/projects/${project.slug}`}
-                    className="text-primary-600 font-medium hover:text-primary-700 inline-flex items-center gap-2 group/link"
-                  >
-                    {t('viewCase')}
-                    <span className="group-hover/link:translate-x-1 transition-transform">→</span>
-                  </Link>
+                  {(project.id === 'tap-tap' || project.id === 'animalist-club') ? (
+                    <a
+                      href={project.id === 'tap-tap' ? 'https://www.taptapcafe.es/' : 'https://www.theanimalistclub.com/'}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-primary-600 font-medium hover:text-primary-700 inline-flex items-center gap-2 group/link"
+                    >
+                      {locale === 'es' ? 'Visitar Sitio Web' : 'Visit Website'}
+                      <span className="group-hover/link:translate-x-1 transition-transform">→</span>
+                    </a>
+                  ) : (
+                    <Link
+                      href={`/${locale}/projects/${project.slug}`}
+                      className="text-primary-600 font-medium hover:text-primary-700 inline-flex items-center gap-2 group/link"
+                    >
+                      {t('viewCase')}
+                      <span className="group-hover/link:translate-x-1 transition-transform">→</span>
+                    </Link>
+                  )}
                 </div>
               </Card>
             </motion.div>

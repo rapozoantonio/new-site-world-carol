@@ -11,124 +11,172 @@
         "pt": "Casa Kala"
       },
       "tagline": {
-        "en": "From Hidden Gem to Must-Book Destination",
-        "es": "De Joya Escondida a Destino Imprescindible",
-        "pt": "De Joia Escondida a Destino Obrigatório"
+        "en": "Digital Optimization to Increase Bookings - 18% Booking Rate Increase in 1 Year",
+        "es": "Optimización Digital para Aumentar Reservas - 18% de Aumento en Reservas en 1 Año",
+        "pt": "Otimização Digital para Aumentar Reservas - 18% de Aumento em Reservas em 1 Ano"
       },
       "overview": {
         "client": "Casa Kala",
-        "industry": "Vacation Rental",
+        "industry": "Premium Vacation Rental",
         "location": "Brazil (Beachfront)",
         "duration": "1+ year ongoing",
-        "services": ["Full Digital Strategy", "Paid Ads", "Social Media Management", "Content Creation"],
-        "targetAudience": "São Paulo travelers (8-10 hour drive)"
+        "services": ["Full Digital Strategy", "Meta Ads", "Social Media Management", "Platform Optimization", "Content Creation", "Brand Positioning"],
+        "targetAudience": "São Paulo travelers seeking premium beach experiences"
       },
       "heroImage": "/images/portfolio/casa-kala-hero.jpg",
       "challenge": {
         "en": [
-          "New property with zero online presence",
-          "Competitive beachfront rental market",
-          "Needed to reach São Paulo travelers (8-10 hour drive)",
-          "Build trust without existing reviews"
+          "Strengthen online presence and build a cohesive brand identity",
+          "Significantly increase bookings for a premium accommodation property",
+          "Competitive beachfront rental market requiring strategic differentiation",
+          "Position Casa Kala as an aspirational experience, not just a property",
+          "Generate qualified leads and redirect them strategically across booking platforms"
         ],
         "es": [
-          "Propiedad nueva sin presencia en línea",
-          "Mercado competitivo de alquileres frente al mar",
-          "Necesidad de llegar a viajeros de São Paulo (8-10 horas de viaje)",
-          "Construir confianza sin reseñas existentes"
+          "Fortalecer la presencia online y construir una identidad de marca coherente",
+          "Aumentar significativamente las reservas de una propiedad de alojamiento premium",
+          "Mercado competitivo de alquileres frente al mar que requiere diferenciación estratégica",
+          "Posicionar Casa Kala como una experiencia aspiracional, no solo una propiedad",
+          "Generar leads cualificados y redirigirlos estratégicamente a través de las plataformas de reserva"
         ],
         "pt": [
-          "Propriedade nova sem presença online",
-          "Mercado competitivo de aluguéis à beira-mar",
-          "Necessidade de alcançar viajantes de São Paulo (8-10 horas de viagem)",
-          "Construir confiança sem avaliações existentes"
+          "Fortalecer presença online e construir identidade de marca coesa",
+          "Aumentar significativamente as reservas de uma propriedade de acomodação premium",
+          "Mercado competitivo de aluguéis à beira-mar que exige diferenciação estratégica",
+          "Posicionar Casa Kala como experiência aspiracional, não apenas uma propriedade",
+          "Gerar leads qualificados e redirecioná-los estrategicamente através das plataformas de reserva"
         ]
       },
       "strategy": {
         "phases": [
           {
-            "name": "Foundation",
+            "name": "Audit & Initial Optimization",
             "duration": "Weeks 1-2",
             "tasks": [
-              "Market research on São Paulo travel behavior",
-              "Competitor analysis of similar properties",
-              "Audience persona development",
-              "Visual identity alignment"
+              "Strategic consulting to identify digital opportunities",
+              "Linktree profile optimization for seamless navigation",
+              "Guest Guide creation and support documents to enhance experience",
+              "Digital ecosystem organization to maximize conversion",
+              "Consistency across all digital touchpoints"
             ]
           },
           {
-            "name": "Content & Positioning",
+            "name": "Social Media & Organic Growth",
             "duration": "Weeks 3-6",
             "tasks": [
-              "Photo/video shoot of property",
-              "Instagram profile optimization",
-              "Content pillar development: Property features, Beach lifestyle, Local experiences, Guest benefits"
+              "Comprehensive Instagram strategy focused on brand visibility",
+              "Content plan development aligned with premium hospitality positioning",
+              "Cohesive visual identity communicating Casa Kala's unique experience",
+              "Active community building driving brand loyalty",
+              "Organic growth strategies combined with paid tactics"
             ]
           },
           {
-            "name": "Paid Acquisition",
-            "duration": "Weeks 7-12",
+            "name": "Meta Ads & Multi-Strategic Campaigns",
+            "duration": "Ongoing (2025)",
             "tasks": [
-              "Meta Ads funnel creation",
-              "Awareness: 'Dream beach escape' creative",
-              "Consideration: Property walkthrough video",
-              "Conversion: Limited-time offers + WhatsApp CTA"
+              "Sales funnel campaigns with segmented audiences",
+              "Demarketing campaigns during high-demand dates to optimize pricing",
+              "Aspirational creative strategy inspiring desire and transformation",
+              "Advanced segmentation to attract qualified traffic",
+              "Continuous optimization based on performance data",
+              "Strategic budget distribution across campaign objectives"
             ]
           }
         ],
         "contentStrategy": {
-          "reels": "4-5 per week (beach lifestyle, property tours)",
-          "carousels": "2-3 per week (amenities, nearby attractions)",
-          "stories": "Daily (behind-the-scenes, guest experiences)"
+          "reels": "4-5 per week (beach lifestyle, property tours, aspirational experiences)",
+          "carousels": "2-3 per week (amenities, nearby attractions, guest testimonials)",
+          "stories": "Daily (behind-the-scenes, guest experiences, real-time updates)"
         },
         "adCampaigns": [
           {
-            "name": "Awareness",
-            "objective": "Reach",
-            "creative": "Cinematic beach sunset footage",
-            "audience": "São Paulo, 25-45, interest in beach travel",
-            "budget": "40%"
+            "name": "Sales Funnel Campaigns",
+            "objective": "Conversion",
+            "creative": "Strategic funnel guiding users from discovery to booking",
+            "audience": "Segmented audiences through customer journey stages",
+            "budget": "40%",
+            "platforms": "Directing to Airbnb, Booking.com, and direct bookings"
           },
           {
-            "name": "Engagement",
-            "objective": "Engagement",
-            "creative": "'5 reasons to book Casa Kala' carousel",
-            "audience": "Engaged with beach content",
-            "budget": "30%"
+            "name": "Demarketing Campaigns",
+            "objective": "Premium Positioning",
+            "creative": "Exclusive availability messaging during high demand",
+            "audience": "High-intent travelers during peak season",
+            "budget": "25%",
+            "strategy": "Optimize pricing and booking quality on high-demand dates"
           },
           {
-            "name": "Conversion",
-            "objective": "Messages",
-            "creative": "Property tour + exclusive offer",
-            "audience": "Website visitors + engaged users",
-            "budget": "30%"
+            "name": "Aspirational Branding",
+            "objective": "Brand Awareness",
+            "creative": "Cinematic content showcasing transformative experiences",
+            "audience": "São Paulo, 25-45, premium lifestyle seekers",
+            "budget": "35%",
+            "message": "Selling an experience, not just a property"
           }
-        ]
+        ],
+        "platformOptimization": {
+          "instagram": "Visual identity, content strategy, community engagement",
+          "linktree": "Seamless navigation funnel to booking platforms",
+          "googleMyBusiness": "Complete profile with guest guides and local info",
+          "airbnb": "Optimized listing with professional photography",
+          "bookingCom": "Strategic pricing and promotional campaigns"
+        }
       },
       "results": {
         "metrics": [
           {
-            "label": "Direct Message Increase",
-            "value": "+36.43%",
-            "icon": "📈"
+            "label": "Revenue Growth",
+            "value": "+47%",
+            "icon": "📈",
+            "description": "Year-over-year including confirmed bookings for next year"
           },
           {
-            "label": "Impressions Reached",
-            "value": "250K+",
-            "icon": "👁️"
+            "label": "Booking Rate Increase",
+            "value": "+18%",
+            "icon": "🎯",
+            "description": "After 1 year of comprehensive digital strategy"
           },
           {
-            "label": "Engagement Rate",
-            "value": "28%",
-            "icon": "🎯"
+            "label": "Instagram Growth",
+            "value": "+800",
+            "icon": "👥",
+            "description": "New followers in just 2 months with organic and paid strategies"
           },
           {
-            "label": "Direct Bookings",
-            "value": "15+",
-            "icon": "💰"
+            "label": "Brand Identity",
+            "value": "Strengthened",
+            "icon": "✨",
+            "description": "Cohesive visual communication positioning Casa Kala as aspirational"
+          },
+          {
+            "label": "Qualified Leads",
+            "value": "Generated",
+            "icon": "🎪",
+            "description": "Strategically redirected to booking platforms based on campaign goals"
+          },
+          {
+            "label": "Digital Presence",
+            "value": "Solid",
+            "icon": "💎",
+            "description": "Stronger online presence driving direct inquiries"
           }
         ],
-        "testimonial": null
+        "achievements": [
+          "47% revenue growth year-over-year through comprehensive digital transformation",
+          "Positioned Casa Kala as an aspirational experience in premium hospitality market",
+          "Built strong brand identity with cohesive visual communication across all platforms",
+          "Generated qualified leads strategically distributed across multiple booking channels",
+          "Created active community driving brand loyalty and repeat bookings",
+          "Established foundation for sustainable growth through organic and paid strategies",
+          "Proved that selling an experience creates deeper emotional connections than selling property features"
+        ],
+        "testimonial": null,
+        "note": {
+          "en": "Due to client privacy policies, exact revenue figures and detailed conversion data cannot be shared. The 47% represents total revenue growth from bookings achieved through this digital optimization strategy.",
+          "es": "Por políticas de privacidad del cliente, no se pueden compartir cifras exactas de ingresos ni datos detallados de conversión. El 47% refleja el crecimiento total en ingresos por reservas logrado mediante esta estrategia de optimización digital.",
+          "pt": "Devido a políticas de privacidade do cliente, valores exatos de receita e dados detalhados de conversão não podem ser compartilhados. Os 47% representam o crescimento total de receita com reservas alcançado através desta estratégia de otimização digital."
+        }
       },
       "gallery": [
         "/images/portfolio/casa-kala-1.jpg",
@@ -141,44 +189,50 @@
       "id": "pedra-da-lua",
       "slug": "pedra-da-lua",
       "featured": true,
-      "category": ["vacation-rentals", "branding", "social-media"],
+      "category": ["vacation-rentals", "branding", "paid-ads", "social-media"],
       "title": {
         "en": "Casa Pedra da Lua",
         "es": "Casa Pedra da Lua",
         "pt": "Casa Pedra da Lua"
       },
       "tagline": {
-        "en": "Crafting a Brand that Breathes Nature",
-        "es": "Creando una Marca que Respira Naturaleza",
-        "pt": "Criando uma Marca que Respira Natureza"
+        "en": "Crafting a Brand that Breathes Nature + Full Paid Advertising Management",
+        "es": "Creando una Marca que Respira Naturaleza + Gestión Completa de Publicidad Pagada",
+        "pt": "Criando uma Marca que Respira Natureza + Gestão Completa de Publicidade Paga"
       },
       "overview": {
         "client": "Pedra da Lua",
-        "industry": "Vacation Rental",
+        "industry": "Premium Vacation Rental",
         "location": "Rural Brazil (Countryside)",
         "duration": "1+ year ongoing",
-        "services": ["Rebranding", "Content Strategy", "Instagram Setup", "Brand Guidelines"],
-        "targetAudience": "Urban professionals seeking escape"
+        "services": ["Rebranding", "Meta Ads Management", "Content Strategy", "Instagram Setup", "Brand Guidelines", "Remarketing", "Lead Nurturing"],
+        "targetAudience": "Urban professionals seeking nature escape and restoration"
       },
       "heroImage": "/images/portfolio/pedra-da-lua-hero.jpg",
       "challenge": {
         "en": [
-          "Property had no defined brand identity",
-          "Needed to compete with established rural retreats",
-          "Target audience: Urban professionals seeking escape",
-          "Build anticipation before official launch"
+          "Property had no defined brand identity to compete in market",
+          "Needed to establish presence against established rural retreats",
+          "Maintain consistent booking flow throughout the year",
+          "Build anticipation and awareness before official launch",
+          "Convert urban professionals into high-value guests",
+          "Optimize paid advertising for maximum ROI in competitive market"
         ],
         "es": [
-          "La propiedad no tenía identidad de marca definida",
-          "Necesitaba competir con retiros rurales establecidos",
-          "Público objetivo: Profesionales urbanos que buscan escapar",
-          "Generar anticipación antes del lanzamiento oficial"
+          "La propiedad no tenía identidad de marca definida para competir en el mercado",
+          "Necesitaba establecer presencia contra retiros rurales establecidos",
+          "Mantener flujo constante de reservas durante todo el año",
+          "Generar anticipación y awareness antes del lanzamiento oficial",
+          "Convertir profesionales urbanos en huéspedes de alto valor",
+          "Optimizar publicidad pagada para máximo ROI en mercado competitivo"
         ],
         "pt": [
-          "Propriedade não tinha identidade de marca definida",
-          "Precisava competir com retiros rurais estabelecidos",
-          "Público-alvo: Profissionais urbanos em busca de escape",
-          "Construir antecipação antes do lançamento oficial"
+          "Propriedade não tinha identidade de marca definida para competir no mercado",
+          "Precisava estabelecer presença contra retiros rurais estabelecidos",
+          "Manter fluxo constante de reservas durante todo o ano",
+          "Construir antecipação e awareness antes do lançamento oficial",
+          "Converter profissionais urbanos em hóspedes de alto valor",
+          "Otimizar publicidade paga para máximo ROI em mercado competitivo"
         ]
       },
       "strategy": {
@@ -199,38 +253,170 @@
             { "name": "Social Proof", "percentage": 10, "description": "Guest experiences, Reviews and testimonials, Booking information" }
           ]
         },
+        "paidAdvertising": {
+          "overview": {
+            "en": "Full paid advertising management from brand awareness to conversion and remarketing",
+            "es": "Gestión completa de publicidad pagada desde conciencia de marca hasta conversión y remarketing",
+            "pt": "Gestão completa de publicidade paga desde awareness de marca até conversão e remarketing"
+          },
+          "phases": [
+            {
+              "name": "Awareness",
+              "objective": "Expanding reach and attracting new audiences",
+              "tactics": ["Brand awareness campaigns", "Audience expansion", "Interest targeting", "Lookalike audiences"]
+            },
+            {
+              "name": "Lead Nurturing",
+              "objective": "Engagement ads and direct communication with potential clients",
+              "tactics": ["Engagement campaigns", "Direct message optimization", "Content interaction", "Community building"]
+            },
+            {
+              "name": "Conversion Optimization",
+              "objective": "ROAS/ROI tracking in collaboration with booking team",
+              "tactics": ["Conversion campaigns", "Remarketing strategies", "Meta Ads optimization", "Mailchimp integration", "ManyChat automation"]
+            }
+          ],
+          "tools": ["Meta Ads", "Mailchimp", "ManyChat", "Customer data segmentation", "Remarketing pixels"]
+        },
         "deliverables": [
           "Brand Guidelines Document (20 pages)",
           "50+ Instagram Templates (15 Reel covers, 20 Carousel templates, 10 Story templates, 5 Highlight cover icons)",
           "Bio & Profile Optimization",
-          "Content Calendar (3 months)"
+          "Content Calendar (3 months)",
+          "Paid Advertising Strategy & Management",
+          "Remarketing Automation Setup",
+          "Lead Nurturing Workflows"
         ]
       },
       "results": {
+        "latestCampaign": {
+          "period": "November 2025",
+          "investment": "R$661.42",
+          "metrics": [
+            {
+              "label": "Conversations Generated",
+              "value": "370",
+              "icon": "💬",
+              "description": "Direct conversations with potential guests"
+            },
+            {
+              "label": "Quote Requests Captured",
+              "value": "97",
+              "icon": "📋",
+              "description": "Qualified leads requesting pricing information"
+            },
+            {
+              "label": "Cost Per Quote",
+              "value": "R$6.82",
+              "icon": "💰",
+              "description": "More efficient than industry average"
+            },
+            {
+              "label": "Click-to-Conversation Rate",
+              "value": "52.2%",
+              "icon": "🎯",
+              "description": "Benchmark: 20-30% (174% above benchmark)"
+            },
+            {
+              "label": "CTR Achieved",
+              "value": "1.63%",
+              "icon": "👆",
+              "description": "Benchmark: 0.9-1.1% (48% above benchmark)"
+            },
+            {
+              "label": "CPC Achieved",
+              "value": "R$0.93",
+              "icon": "💵",
+              "description": "Benchmark: R$2-4 (53-77% below benchmark)"
+            },
+            {
+              "label": "CPM Secured",
+              "value": "R$15.17",
+              "icon": "📊",
+              "description": "Benchmark: R$20-30 (24-49% below benchmark)"
+            }
+          ],
+          "revenueProjections": {
+            "assumptions": "2-3 nights at R$1,500/night per booking",
+            "potentialRevenue": {
+              "min": "R$291,000",
+              "max": "R$436,500"
+            },
+            "conversionScenarios": [
+              {
+                "rate": "10%",
+                "revenue": "R$27,000 - R$45,000"
+              },
+              {
+                "rate": "15%",
+                "revenue": "R$42,000 - R$67,500"
+              },
+              {
+                "rate": "20%",
+                "revenue": "R$57,000 - R$90,000"
+              }
+            ]
+          },
+          "keyActions": [
+            "Increased budget by 50% based on performance",
+            "Extended campaign one additional week",
+            "Strengthened response protocols and lead follow-up",
+            "Built segmented database for retargeting and future campaigns"
+          ]
+        },
         "metrics": [
           {
             "label": "Brand Consistency Score",
             "value": "85%",
-            "icon": "✨"
+            "icon": "✨",
+            "description": "Strong cohesive brand identity across all touchpoints"
           },
           {
             "label": "Instagram Templates",
             "value": "50+",
-            "icon": "🎨"
+            "icon": "🎨",
+            "description": "Ready-to-use professional content templates"
           },
           {
-            "label": "Content Calendar",
-            "value": "3 months",
-            "icon": "📅"
+            "label": "Conversations Generated",
+            "value": "370",
+            "icon": "💬",
+            "description": "Latest campaign (Nov 2025) with R$661 investment"
+          },
+          {
+            "label": "Quote Requests",
+            "value": "97",
+            "icon": "📋",
+            "description": "Qualified leads at R$6.82 per quote"
+          },
+          {
+            "label": "Click-to-Conversation",
+            "value": "52.2%",
+            "icon": "🎯",
+            "description": "174% above industry benchmark (20-30%)"
+          },
+          {
+            "label": "CTR Performance",
+            "value": "1.63%",
+            "icon": "👆",
+            "description": "48% above industry benchmark (0.9-1.1%)"
           }
         ],
         "achievements": [
-          "Strong, cohesive brand identity",
-          "Ready-to-use content templates",
-          "Clear differentiation from competitors",
-          "Professional digital presence",
-          "Foundation for future campaigns"
-        ]
+          "Complete brand transformation from undefined identity to cohesive premium positioning",
+          "Delivered 50+ professional Instagram templates for consistent content creation",
+          "Maintained constant flow of leads and bookings throughout the year",
+          "Achieved metrics consistently above industry benchmarks across all KPIs",
+          "Built segmented customer database for effective remarketing campaigns",
+          "Established integrated marketing automation with Meta Ads, Mailchimp, and ManyChat",
+          "Created foundation for scalable growth and booking optimization",
+          "Projected revenue potential of R$27K-R$90K from single R$661 campaign investment"
+        ],
+        "conclusion": {
+          "en": "The campaign maintained a constant flow of leads and bookings, with metrics above industry average. Additionally, it laid the foundation for optimizing future campaigns and improving booking management.",
+          "es": "La campaña permitió mantener un flujo constante de leads y reservas, con métricas por encima del promedio de la industria. Además, sentó las bases para optimizar futuras campañas y mejorar la gestión de reservas.",
+          "pt": "A campanha manteve um fluxo constante de leads e reservas, com métricas acima da média da indústria. Além disso, estabeleceu as bases para otimizar campanhas futuras e melhorar a gestão de reservas."
+        }
       },
       "gallery": [
         "/images/portfolio/pedra-da-lua-1.jpg",
@@ -324,53 +510,219 @@
       "id": "feliz-boipeba",
       "slug": "feliz-boipeba",
       "featured": true,
-      "category": ["vacation-rentals", "paid-ads", "multi-platform"],
+      "category": ["vacation-rentals", "paid-ads", "multi-platform", "funnel-strategy"],
       "title": {
         "en": "Feliz Boipeba",
         "es": "Feliz Boipeba",
         "pt": "Feliz Boipeba"
       },
       "tagline": {
-        "en": "Orchestrating an Island Paradise",
-        "es": "Orquestando un Paraíso Insular",
-        "pt": "Orquestrando um Paraíso Insular"
+        "en": "Orchestrating an Island Paradise with Strategic Conversion Funnels",
+        "es": "Orquestando un Paraíso Insular con Embudos de Conversión Estratégicos",
+        "pt": "Orquestrando um Paraíso Insular com Funis de Conversão Estratégicos"
       },
       "overview": {
         "client": "Feliz Boipeba",
-        "industry": "Vacation Rental (Multi-property)",
+        "industry": "Vacation Rental (Multi-property Complex)",
         "location": "Boipeba Island, Brazil",
         "duration": "1+ year ongoing",
-        "services": ["Multi-property Digital Ecosystem", "Paid Traffic", "Platform Optimization", "Review Generation"],
-        "complexity": "High (multiple listings, logistics, audiences)"
+        "services": ["Multi-property Digital Ecosystem", "Strategic Funnel Management", "Paid Traffic", "Platform Optimization", "Review Generation", "Dynamic Pricing", "Educational Content Strategy"],
+        "complexity": "High (5 apartments + 3 luxury villas, multiple platforms, geographic access barriers)"
       },
       "heroImage": "/images/portfolio/feliz-boipeba-hero.jpg",
       "challenge": {
         "en": [
-          "Manage multiple properties under one brand",
-          "Educate travelers on island access (no cars, boat required)",
-          "Build trust for a destination unfamiliar to most",
-          "Differentiate various accommodation types",
-          "Optimize across 4+ platforms simultaneously (Google, Airbnb, Booking, Instagram)"
+          "Client managed two distinct properties (5 apartments + 3 luxury villas) with unclear brand differentiation limiting conversions",
+          "Educate travelers on complex island access logistics (no cars, boat required)",
+          "Transform geographic access barrier from obstacle into trust-building opportunity",
+          "Build trust for a destination unfamiliar to most travelers",
+          "Differentiate various accommodation types across price points",
+          "Optimize across 4+ platforms simultaneously (Google, Airbnb, Booking, Instagram)",
+          "Generate qualified leads consistently throughout the year"
         ],
         "es": [
-          "Gestionar múltiples propiedades bajo una marca",
-          "Educar a los viajeros sobre el acceso a la isla (sin coches, barco requerido)",
+          "Cliente gestionaba dos propiedades distintas (5 apartamentos + 3 villas de lujo) con diferenciación de marca poco clara limitando conversiones",
+          "Educar a los viajeros sobre logística compleja de acceso a la isla (sin coches, barco requerido)",
+          "Transformar barrera de acceso geográfico de obstáculo en oportunidad para generar confianza",
           "Construir confianza para un destino desconocido para la mayoría",
-          "Diferenciar varios tipos de alojamiento",
-          "Optimizar en 4+ plataformas simultáneamente (Google, Airbnb, Booking, Instagram)"
+          "Diferenciar varios tipos de alojamiento en diferentes rangos de precio",
+          "Optimizar en 4+ plataformas simultáneamente (Google, Airbnb, Booking, Instagram)",
+          "Generar leads cualificados consistentemente durante todo el año"
         ],
         "pt": [
-          "Gerenciar múltiplas propriedades sob uma marca",
-          "Educar viajantes sobre acesso à ilha (sem carros, barco necessário)",
+          "Cliente gerenciava duas propriedades distintas (5 apartamentos + 3 vilas de luxo) com diferenciação de marca pouco clara limitando conversões",
+          "Educar viajantes sobre logística complexa de acesso à ilha (sem carros, barco necessário)",
+          "Transformar barreira de acesso geográfico de obstáculo em oportunidade para gerar confiança",
           "Construir confiança para um destino desconhecido para a maioria",
-          "Diferenciar vários tipos de acomodação",
-          "Otimizar em 4+ plataformas simultaneamente (Google, Airbnb, Booking, Instagram)"
+          "Diferenciar vários tipos de acomodação em diferentes faixas de preço",
+          "Otimizar em 4+ plataformas simultaneamente (Google, Airbnb, Booking, Instagram)",
+          "Gerar leads qualificados consistentemente durante todo o ano"
         ]
       },
       "strategy": {
+        "solution": {
+          "en": [
+            "Restructured social media presence with clear product segmentation via strategic Linktree",
+            "Created and optimized Google Business profile to improve local search visibility",
+            "Currently managing segmented paid traffic campaigns in Meta Ads",
+            "Implementing dynamic pricing optimization strategies"
+          ],
+          "es": [
+            "Reestructuré la presencia en redes sociales con segmentación clara de productos mediante un Linktree estratégico",
+            "Creé y optimicé el perfil de Google Business para mejorar la visibilidad en búsquedas locales",
+            "Actualmente gestiono campañas de tráfico pagado segmentadas en Meta Ads",
+            "Estoy implementando estrategias de optimización de precios dinámicos"
+          ],
+          "pt": [
+            "Reestruturei presença em redes sociais com segmentação clara de produtos via Linktree estratégico",
+            "Criei e otimizei perfil do Google Business para melhorar visibilidade em buscas locais",
+            "Atualmente gerencio campanhas de tráfego pago segmentadas no Meta Ads",
+            "Implementando estratégias de otimização de preços dinâmicos"
+          ]
+        },
+        "conversionFunnel": {
+          "title": {
+            "en": "4-Phase Strategic Engagement Funnel",
+            "es": "Embudo de Engagement Estratégico en 4 Fases",
+            "pt": "Funil de Engajamento Estratégico em 4 Fases"
+          },
+          "objective": {
+            "en": "Generate meaningful conversations with qualified leads by proactively addressing geographic access barriers before driving direct bookings",
+            "es": "Generar conversaciones significativas con leads cualificados abordando de manera proactiva las barreras de acceso geográfico antes de impulsar reservas directas",
+            "pt": "Gerar conversas significativas com leads qualificados abordando proativamente as barreiras de acesso geográfico antes de impulsionar reservas diretas"
+          },
+          "phases": [
+            {
+              "number": 1,
+              "name": "Brand Awareness",
+              "icon": "🟢",
+              "objective": {
+                "en": "Massive reach campaigns to position Boipeba vacation properties among audiences interested in paradise destinations and nature tourism",
+                "es": "Campañas de alcance masivo para posicionar las propiedades vacacionales de Boipeba entre audiencias interesadas en destinos paradisíacos y turismo de naturaleza",
+                "pt": "Campanhas de alcance massivo para posicionar as propriedades de férias de Boipeba entre audiências interessadas em destinos paradisíacos e turismo de natureza"
+              }
+            },
+            {
+              "number": 2,
+              "name": "Qualified Lead Identification",
+              "icon": "📊",
+              "objective": {
+                "en": "Implementation of video campaigns with advanced engagement metrics tracking",
+                "es": "Implementación de campañas de video con seguimiento avanzado de métricas de engagement",
+                "pt": "Implementação de campanhas de vídeo com rastreamento avançado de métricas de engajamento"
+              },
+              "tactics": [
+                {
+                  "en": "Primary KPI: video viewing time",
+                  "es": "KPI principal: tiempo de visualización del video",
+                  "pt": "KPI principal: tempo de visualização do vídeo"
+                },
+                {
+                  "en": "Automatic segmentation: custom audiences by viewing percentage (25%, 50%, 75%, 100%)",
+                  "es": "Segmentación automática: audiencias personalizadas según porcentaje de visualización (25%, 50%, 75%, 100%)",
+                  "pt": "Segmentação automática: públicos personalizados por porcentagem de visualização (25%, 50%, 75%, 100%)"
+                },
+                {
+                  "en": "Objective: filter users with genuine interest based on content interaction level",
+                  "es": "Objetivo: filtrar usuarios con interés genuino según su nivel de interacción con el contenido",
+                  "pt": "Objetivo: filtrar usuários com interesse genuíno baseado no nível de interação com conteúdo"
+                }
+              ]
+            },
+            {
+              "number": 3,
+              "name": "Education & Friction Reduction (Critical)",
+              "icon": "🔑",
+              "description": {
+                "en": "This phase is crucial, as access to Boipeba presents logistical complexities that can become conversion barriers.",
+                "es": "Esta fase es crucial, ya que el acceso a Boipeba presenta complejidades logísticas que pueden convertirse en barreras de conversión.",
+                "pt": "Esta fase é crucial, pois o acesso a Boipeba apresenta complexidades logísticas que podem se tornar barreiras de conversão."
+              },
+              "tactics": [
+                {
+                  "en": "Creation of specific educational content with production team",
+                  "es": "Creación de contenido educativo específico junto con el equipo de producción",
+                  "pt": "Criação de conteúdo educacional específico com equipe de produção"
+                },
+                {
+                  "en": "Development of video tutorial: 'How to get to Boipeba step by step'",
+                  "es": "Desarrollo de un tutorial en video: 'Cómo llegar a Boipeba paso a paso'",
+                  "pt": "Desenvolvimento de tutorial em vídeo: 'Como chegar a Boipeba passo a passo'"
+                },
+                {
+                  "en": "Segmented content distribution based on lead maturity level in funnel",
+                  "es": "Distribución segmentada del contenido según el nivel de madurez del lead en el embudo",
+                  "pt": "Distribuição segmentada de conteúdo baseada no nível de maturidade do lead no funil"
+                },
+                {
+                  "en": "Automation for progressive nurturing of each segment",
+                  "es": "Automatización para un nurturing progresivo de cada segmento",
+                  "pt": "Automação para nutrição progressiva de cada segmento"
+                }
+              ],
+              "result": {
+                "en": "Transform a potential objection into a differentiating element that generates trust and demonstrates expertise",
+                "es": "Transformar una posible objeción en un elemento diferenciador que genera confianza y demuestra expertise",
+                "pt": "Transformar uma possível objeção em elemento diferenciador que gera confiança e demonstra expertise"
+              }
+            },
+            {
+              "number": 4,
+              "name": "Conversion & Direct Contact",
+              "icon": "💬",
+              "tactics": [
+                {
+                  "en": "Property showcase: visual ads with different accommodation options",
+                  "es": "Showcase de la propiedad: anuncios visuales con diferentes opciones de alojamiento",
+                  "pt": "Showcase da propriedade: anúncios visuais com diferentes opções de acomodação"
+                },
+                {
+                  "en": "Contact capture: forms optimized for WhatsApp/phone",
+                  "es": "Captura de contacto: formularios optimizados para WhatsApp/teléfono",
+                  "pt": "Captura de contato: formulários otimizados para WhatsApp/telefone"
+                },
+                {
+                  "en": "Personalized assistance: direct accompaniment throughout booking process",
+                  "es": "Asistencia personalizada: acompañamiento directo durante todo el proceso de reserva",
+                  "pt": "Assistência personalizada: acompanhamento direto durante todo processo de reserva"
+                },
+                {
+                  "en": "Post-interaction remarketing: retargeting campaigns for leads who didn't complete booking",
+                  "es": "Remarketing post-interacción: campañas de retargeting para leads que no completaron la reserva",
+                  "pt": "Remarketing pós-interação: campanhas de retargeting para leads que não completaram reserva"
+                }
+              ]
+            }
+          ],
+          "technology": {
+            "en": [
+              "Dynamic segmentation based on behavior",
+              "Automatic progression between funnel phases",
+              "Message personalization according to customer stage",
+              "Continuous optimization based on conversion data"
+            ],
+            "es": [
+              "Segmentación dinámica basada en comportamiento",
+              "Progresión automática entre fases del embudo",
+              "Personalización de mensajes según la etapa del cliente",
+              "Optimización continua basada en datos de conversión"
+            ],
+            "pt": [
+              "Segmentação dinâmica baseada em comportamento",
+              "Progressão automática entre fases do funil",
+              "Personalização de mensagens de acordo com estágio do cliente",
+              "Otimização contínua baseada em dados de conversão"
+            ]
+          },
+          "keyInsight": {
+            "en": "By proactively addressing logistical barriers with valuable educational content, we convert a potential obstacle into an opportunity to generate trust and differentiate from competition.",
+            "es": "Al abordar proactivamente las barreras logísticas con contenido educativo de valor, convertimos un posible obstáculo en una oportunidad para generar confianza y diferenciarnos de la competencia.",
+            "pt": "Ao abordar proativamente as barreiras logísticas com conteúdo educacional de valor, convertemos um possível obstáculo em oportunidade para gerar confiança e diferenciar-nos da concorrência."
+          }
+        },
         "digitalArchitecture": {
           "masterBrand": "Feliz Boipeba",
-          "subProperties": ["Prime (luxury units)", "Standard (mid-range)", "Budget (economical options)"]
+          "subProperties": ["Prime (3 luxury villas)", "Standard (5 apartments - mid-range)"]
         },
         "platformOptimization": [
           "Google My Business - Complete business profile, Photo galleries for each property, Review management strategy",
@@ -385,74 +737,181 @@
           },
           {
             "name": "Prime Properties",
-            "content": "Luxury unit descriptions, Amenity lists, Direct booking links, Photo galleries, Pricing info"
+            "content": "Luxury villa descriptions, Amenity lists, Direct booking links, Photo galleries, Pricing info"
           },
           {
             "name": "Complete Catalog",
-            "content": "All available units, Filter by price/capacity, Availability calendar, Comparison chart, Booking links"
-          }
-        ],
-        "paidTrafficFunnel": [
-          {
-            "stage": "Awareness",
-            "budget": "40%",
-            "objective": "Introduce Boipeba to dreamers",
-            "creative": "Discover Brazil's Hidden Paradise - Drone footage of beaches - No cars, no stress, just nature",
-            "targeting": "Brazilians interested in beach travel, Eco-tourism enthusiasts, Adventure travelers"
-          },
-          {
-            "stage": "Interaction",
-            "budget": "30%",
-            "objective": "Educate and build intent",
-            "creative": "How to reach Boipeba explainer video, Property comparison carousel, Guest testimonial compilation",
-            "targeting": "Engaged with awareness ads, Visited website, Video viewers (50%+)"
-          },
-          {
-            "stage": "Conversion",
-            "budget": "30%",
-            "objective": "Drive bookings",
-            "creative": "Specific property showcases, Limited-time offers, 'Book your dates' CTA",
-            "targeting": "Remarketing to warm audiences, Link clickers, Property page visitors"
+            "content": "All available units (5 apartments + 3 villas), Filter by price/capacity, Availability calendar, Comparison chart, Booking links"
           }
         ]
       },
       "results": {
+        "campaignExample": {
+          "name": "Phase 1 - Traffic/Awareness Campaign",
+          "period": "September 20-27, 2025",
+          "budget": "300 BRL",
+          "objectives": [
+            {
+              "en": "Generate traffic and interactions to increase audience",
+              "es": "Generar tráfico e interacciones para aumentar la audiencia",
+              "pt": "Gerar tráfego e interações para aumentar audiência"
+            },
+            {
+              "en": "Build audience pools for remarketing and future conversions",
+              "es": "Construir pools de audiencia para remarketing y futuras conversiones",
+              "pt": "Construir pools de audiência para remarketing e conversões futuras"
+            }
+          ],
+          "metrics": [
+            {
+              "label": "Reach",
+              "value": "39,590",
+              "icon": "👥",
+              "description": "People impacted by the campaign"
+            },
+            {
+              "label": "Link Clicks",
+              "value": "1,007",
+              "icon": "🔗",
+              "description": "Total results (link clicks)"
+            },
+            {
+              "label": "Unique Clicks",
+              "value": "959",
+              "icon": "🔗",
+              "description": "Individual users who clicked"
+            },
+            {
+              "label": "CTR",
+              "value": "1.45%",
+              "icon": "📊",
+              "description": "Within average for awareness/traffic campaigns"
+            },
+            {
+              "label": "CPC",
+              "value": "0.28 BRL",
+              "icon": "💵",
+              "description": "Excellent spend efficiency"
+            },
+            {
+              "label": "CPM",
+              "value": "149.95 BRL",
+              "icon": "💰",
+              "description": "Cost per thousand impressions"
+            },
+            {
+              "label": "Instagram Messages",
+              "value": "47",
+              "icon": "💬",
+              "description": "Messages initiated on Instagram"
+            },
+            {
+              "label": "New Contacts",
+              "value": "46",
+              "icon": "📱",
+              "description": "Valuable new contact acquisitions"
+            },
+            {
+              "label": "Video Views (10s)",
+              "value": "6,094",
+              "icon": "▶️",
+              "description": "Video views of at least 10 seconds"
+            },
+            {
+              "label": "Frequency",
+              "value": "1.87",
+              "icon": "🔄",
+              "description": "Campaign did not saturate audience"
+            }
+          ],
+          "positiveAspects": {
+            "en": [
+              "High traffic and reach: almost 40K people impacted",
+              "CTR of 1.45% → within average for awareness/traffic campaigns",
+              "Low CPC (0.28 BRL) → excellent spend efficiency",
+              "47 Instagram messages + 46 new contacts → valuable interactions",
+              "Controlled frequency (1.87) → campaign did not saturate audience"
+            ],
+            "es": [
+              "Alto tráfico y alcance: casi 40K personas impactadas",
+              "CTR de 1.45% → dentro del promedio para campañas de awareness/tráfico",
+              "CPC bajo (0.28 BRL) → excelente eficiencia de gasto",
+              "47 mensajes en Instagram + 46 nuevos contactos → interacciones valiosas",
+              "Frecuencia controlada (1.87) → la campaña no saturó a la audiencia"
+            ],
+            "pt": [
+              "Alto tráfego e alcance: quase 40K pessoas impactadas",
+              "CTR de 1.45% → dentro da média para campanhas de awareness/tráfego",
+              "CPC baixo (0.28 BRL) → excelente eficiência de gasto",
+              "47 mensagens no Instagram + 46 novos contatos → interações valiosas",
+              "Frequência controlada (1.87) → campanha não saturou audiência"
+            ]
+          },
+          "conclusion": {
+            "en": "The campaign achieved high reach and engagement, generating nearly 40,000 impressions, with a CTR within expected average and a very efficient cost per click. Additionally, it translated into valuable interactions, with 47 Instagram messages and 46 new contacts, laying a solid foundation for future conversions and direct bookings.",
+            "es": "La campaña logró un alto alcance y engagement, generando cerca de 40.000 impresiones, con un CTR dentro del promedio esperado y un costo por clic muy eficiente. Además, se tradujo en interacciones valiosas, con 47 mensajes en Instagram y 46 nuevos contactos, sentando bases sólidas para futuras conversiones y reservas directas.",
+            "pt": "A campanha alcançou alto alcance e engajamento, gerando cerca de 40.000 impressões, com CTR dentro da média esperada e custo por clique muito eficiente. Além disso, traduziu-se em interações valiosas, com 47 mensagens no Instagram e 46 novos contatos, estabelecendo bases sólidas para conversões futuras e reservas diretas."
+          }
+        },
+        "overallResults": {
+          "en": "Greater brand clarity, improved online visibility, and consistent generation of qualified leads through optimized paid campaigns",
+          "es": "Mayor claridad de marca, mejor visibilidad online y generación constante de leads cualificados a través de campañas pagadas optimizadas",
+          "pt": "Maior clareza de marca, melhor visibilidade online e geração constante de leads qualificados através de campanhas pagas otimizadas"
+        },
         "metrics": [
           {
             "label": "Google Rating",
             "value": "4.8★",
-            "icon": "⭐"
+            "icon": "⭐",
+            "description": "Outstanding rating on Google Business Profile"
           },
           {
             "label": "Airbnb Status",
             "value": "Superhost",
-            "icon": "🏆"
+            "icon": "🏆",
+            "description": "Achieved and maintained Superhost status"
           },
           {
             "label": "Booking.com Score",
             "value": "9.2",
-            "icon": "📊"
+            "icon": "📊",
+            "description": "Exceptional guest satisfaction score"
           },
           {
             "label": "Instagram Followers",
             "value": "5K+",
-            "icon": "📱"
+            "icon": "📱",
+            "description": "Engaged community built around brand"
           },
           {
             "label": "Booking Increase",
             "value": "+40%",
-            "icon": "📈"
+            "icon": "📈",
+            "description": "Year-over-year booking growth"
           },
           {
             "label": "Review Improvement",
             "value": "3x",
-            "icon": "💬"
+            "icon": "💬",
+            "description": "Tripled review volume across platforms"
           },
           {
             "label": "Warm Leads Database",
             "value": "10K+",
-            "icon": "🎯"
+            "icon": "🎯",
+            "description": "Qualified leads database for remarketing"
           }
+        ],
+        "achievements": [
+          "Successfully restructured multi-property brand with clear differentiation between 5 apartments and 3 luxury villas",
+          "Transformed geographic access barrier into trust-building opportunity through educational content",
+          "Created comprehensive 4-phase conversion funnel addressing barriers proactively",
+          "Generated nearly 40K impressions with single R$300 campaign achieving 1.45% CTR",
+          "Maintained exceptionally low CPC of R$0.28 demonstrating excellent spend efficiency",
+          "Built qualified leads database of 10K+ for continuous remarketing",
+          "Achieved 40% booking increase through strategic funnel implementation",
+          "Established solid foundation for future conversions through audience segmentation",
+          "Optimized presence across 4+ platforms with consistent brand messaging"
         ]
       },
       "gallery": [

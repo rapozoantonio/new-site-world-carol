@@ -19,43 +19,43 @@ export default function AboutSection() {
   const capabilities = [
     {
       icon: '🎯',
-      title: 'Paid Advertising',
-      description: 'Meta Ads & Google Ads campaigns with precise targeting, funnel optimization & ROAS tracking for maximum ROI',
+      title: 'Publicidad Pagada',
+      description: 'Campañas en Meta Ads (Instagram/Facebook) y Google Ads con segmentación precisa, optimización de embudos de venta y seguimiento de ROAS para maximizar el retorno de inversión',
     },
     {
       icon: '⚡',
-      title: 'Conversion Optimization',
-      description: 'A/B testing, landing page optimization & user journey mapping to maximize booking rates',
+      title: 'Optimización de Conversión',
+      description: 'Pruebas A/B de anuncios, optimización de páginas y mapeo del recorrido del usuario para maximizar las tasas de reserva',
     },
     {
       icon: '📈',
-      title: 'Strategy & Analytics',
-      description: 'Data-driven decision making, performance reporting & competitive market analysis',
+      title: 'Estrategia y Analítica',
+      description: 'Toma de decisiones basada en datos, reportes de rendimiento y análisis competitivo del mercado',
     },
     {
       icon: '🔄',
-      title: 'Sales Funnels',
-      description: 'Complete lead nurturing workflows, WhatsApp automation & retargeting sequences',
+      title: 'Embudos de Ventas',
+      description: 'Flujos completos para captar y nutrir clientes potenciales, automatización de respuestas para mejorar tu índice de contestación y secuencias de retargeting para que tus huéspedes regresen',
     },
     {
       icon: '📱',
-      title: 'Social Media Management',
-      description: 'Instagram & Facebook strategy, content calendars & community engagement',
+      title: 'Gestión de Redes Sociales',
+      description: 'Estrategia para Instagram y Facebook, calendarios de contenido y gestión de comunidad para mantener activa tu presencia',
     },
     {
       icon: '📊',
-      title: 'Listing Optimization',
-      description: 'Airbnb & Booking.com profile optimization, SEO & description copywriting',
+      title: 'Optimización de Anuncios',
+      description: 'Mejora de perfiles en Airbnb y Booking.com, SEO y descripciones persuasivas que convierten visitas en reservas',
     },
     {
       icon: '🎬',
-      title: 'Content Production',
-      description: 'Reels, Carousels, Stories & video editing for visual storytelling',
+      title: 'Creación de Contenido',
+      description: 'Creación de anuncios diseñados para atraer clientes, optimizados según necesidades y alineados con las últimas tendencias',
     },
     {
       icon: '🎨',
-      title: 'Branding & Identity',
-      description: 'Visual systems for properties, mood boards & brand style guides',
+      title: 'Branding e Identidad',
+      description: 'Sistemas visuales para tu propiedad, paletas de colores y guías de estilo para que tu marca se vea profesional y coherente',
     },
   ];
 
@@ -121,8 +121,8 @@ export default function AboutSection() {
               {/* Stats Grid */}
               <div className="grid grid-cols-3 gap-4 mb-8">
                 {[
-                  { value: '12+', label: t('yearsExperience') },
-                  { value: '50+', label: t('projectsCompleted') },
+                  { value: '13+', label: t('yearsExperience') },
+                  { value: '25+', label: t('projectsCompleted') },
                   { value: '36%', label: t('avgGrowth') },
                 ].map((stat, index) => (
                   <motion.div
@@ -170,7 +170,7 @@ export default function AboutSection() {
             whileInView="visible"
             viewport={{ once: true, margin: '-50px' }}
           >
-            <h3 className="text-2xl font-heading font-bold mb-6">Core Capabilities</h3>
+            <h3 className="text-2xl font-heading font-bold mb-6">Capacidades Principales</h3>
             <div className="grid sm:grid-cols-2 gap-4">
               {capabilities.map((capability, index) => (
                 <motion.div key={index} variants={cardVariants}>
@@ -213,9 +213,9 @@ export default function AboutSection() {
           className="text-center max-w-4xl mx-auto"
         >
           <Card variant="gradient" padding="lg">
-            <h3 className="text-2xl font-heading font-bold mb-4">The Approach</h3>
+            <h3 className="text-2xl font-heading font-bold mb-4">Mi Enfoque</h3>
             <p className="text-lg text-gray-700 leading-relaxed">
-              I don't just post pretty pictures. Every campaign is built on audience research, emotional triggers, and conversion psychology.
+              Más allá de la estética, me enfoco en la estrategia que convierte acciones en resultados reales: una presencia digital más sólida, un aumento constante de reservas y un crecimiento sostenible de tus ingresos.
             </p>
           </Card>
         </motion.div>

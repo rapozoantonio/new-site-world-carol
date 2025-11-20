@@ -9,7 +9,7 @@
     "contact": {
       "whatsapp": "+34611200787",
       "email": "newsitebycaro@gmail.com",
-      "phone": "+34 678 82 33 26"
+      "phone": "+34 611 200 787"
     },
     "social": {
       "facebook": "https://www.facebook.com/profile.php?id=61559588763100",
@@ -28,9 +28,9 @@
       "id": "carol",
       "name": "Carol",
       "role": {
-        "en": "Social Media Manager",
-        "es": "Social Media Manager",
-        "pt": "Social Media Manager"
+        "en": "Digital Strategy & Paid Traffic Specialist",
+        "es": "Especialista en Estrategia Digital y Tráfico Pago",
+        "pt": "Especialista em Estratégia Digital e Tráfego Pago"
       },
       "image": "/images/profile-picture2.png"
     },
@@ -39,10 +39,11 @@
       "name": "Antonio",
       "role": {
         "en": "Software Engineer",
-        "es": "Software Engineer",
-        "pt": "Software Engineer"
+        "es": "Ingeniero de Software",
+        "pt": "Engenheiro de Software"
       },
-      "image": "/images/profile-picture-acrr.png"
+      "image": "/images/profile-picture-acrr.png",
+      "upworkUrl": "https://www.upwork.com/freelancers/~01827da6f5db263171"
     }
   ],
   "en": {
@@ -175,32 +176,43 @@
         { "name": "Tráfico Pagado", "percentage": 95 },
         { "name": "Comercio Electrónico", "percentage": 85 },
         { "name": "Gestión", "percentage": 95 },
-        { "name": "SEO", "percentage": 90 }
+        { "name": "SEO", "percentage": 85 }
       ]
     },
     "services": {
       "heading": "Mis Servicios",
-      "description": "Transforma tu casa vacacional en una propiedad de alta conversión con publicidad pagada basada en datos, optimización de conversiones, análisis estratégico y embudos de ventas automatizados.",
+      "description": "Cada propuesta que hago es totalmente personalizada. Así como no existen dos casas iguales, tampoco existen dos clientes iguales. Por eso te invito a agendar una llamada de consulta gratuita: evaluaremos juntos el estado actual de tu propiedad y definiremos las estrategias clave para potenciar y conseguir más reservas.",
+      "note": "Todos los servicios pueden contratarse por separado o en formato pack, según las necesidades de tu propiedad y tus objetivos.",
       "items": [
         {
+          "icon": "💼",
+          "title": "Asesoría Digital – 1 mes (2 sesiones por semana)",
+          "description": "Acompañamiento estratégico para analizar tu situación actual, definir objetivos claros y guiarte paso a paso en las mejoras necesarias para escalar tus resultados."
+        },
+        {
           "icon": "🎯",
-          "title": "Publicidad Pagada",
-          "description": "Campañas de Meta Ads y Google Ads de alto ROI con segmentación precisa, pruebas A/B y seguimiento detallado del rendimiento para maximizar tus reservas y reducir el costo por adquisición."
+          "title": "Tráfico Pagado (Meta Ads / Google Ads)",
+          "description": "Diseño y gestión de campañas de alto ROI con segmentación precisa, pruebas A/B y análisis detallado del rendimiento para aumentar tus reservas y reducir el costo por adquisición."
+        },
+        {
+          "icon": "🤖",
+          "title": "Implementación de Sistemas de Automatización y Gestión de Leads",
+          "description": "Creación de embudos automatizados, nurturing, automatización y email marketing para que ningún cliente potencial se pierda en el proceso."
         },
         {
           "icon": "⚡",
-          "title": "Optimización de Conversiones",
-          "description": "Transforma visitantes en reservas con optimización de landing pages, copywriting persuasivo, pruebas A/B y mapeo del journey del usuario que aumenta tus tasas de conversión hasta un 40%."
+          "title": "Optimización del Proceso de Ventas y Conversión",
+          "description": "Mejoro cada punto del journey del usuario: desde tus landing pages hasta tus mensajes comerciales. Copywriting persuasivo, A/B testing y optimización continua para convertir más visitas en reservas."
+        },
+        {
+          "icon": "🏠",
+          "title": "Gestión de Airbnb y Booking",
+          "description": "Gestión operativa y estratégica de tus anuncios: optimización de títulos, descripciones, precios y disponibilidad para maximizar tu ocupación."
         },
         {
           "icon": "📈",
-          "title": "Estrategia y Análisis",
-          "description": "Análisis de mercado basado en datos, investigación de competencia e informes de rendimiento que revelan oportunidades y guían cada decisión de marketing para un crecimiento medible."
-        },
-        {
-          "icon": "🔄",
-          "title": "Embudos de Ventas",
-          "description": "Embudos de ventas automatizados completos con secuencias de nurturing, automatización de WhatsApp, email marketing y campañas de retargeting que convierten prospectos en huéspedes leales."
+          "title": "Estrategia y Análisis Basado en Datos",
+          "description": "Análisis de mercado, revisión de competencia y reportes que revelan oportunidades de crecimiento y guían decisiones con métricas reales."
         }
       ]
     },
@@ -251,7 +263,7 @@
         {
           "icon": "fa-whatsapp",
           "title": "Envíame un WhatsApp",
-          "detail": "+34 678 82 33 26"
+          "detail": "+34 611 200 787"
         },
         {
           "icon": "fa-comments",

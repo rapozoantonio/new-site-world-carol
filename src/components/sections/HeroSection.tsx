@@ -10,11 +10,11 @@ export default function HeroSection() {
   const tAbout = useTranslations('about');
 
   const typedTexts = [
-    t('tagline'),
-    'Paid Advertising Expert',
-    'Conversion Optimization',
-    'Strategy & Analytics',
-    'Sales Funnels Specialist',
+    'Marketing Digital',
+    'Publicidad Pagada',
+    'Optimización de Conversión',
+    'Estrategia y Analítica',
+    'Embudos de Ventas',
   ];
 
   // Animation variants
@@ -169,8 +169,8 @@ export default function HeroSection() {
             className="mt-24 grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto"
           >
             {[
-              { value: '12+', label: tAbout('yearsExperience') },
-              { value: '50+', label: tAbout('projectsCompleted') },
+              { value: '13+', label: tAbout('yearsExperience') },
+              { value: '25+', label: tAbout('projectsCompleted') },
               { value: '36%', label: tAbout('avgGrowth') },
             ].map((stat, index) => (
               <motion.div
