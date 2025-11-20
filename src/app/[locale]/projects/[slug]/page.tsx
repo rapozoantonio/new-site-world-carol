@@ -770,6 +770,18 @@ export default function ProjectPage() {
                     </Card>
                   )}
 
+                  {/* Overall Results Summary */}
+                  {(project.results as any).overallResults && (
+                    <Card variant="default" padding="lg" className="bg-gradient-to-r from-primary-500 to-accent-500">
+                      <div className="text-center">
+                        <h3 className="text-2xl font-heading font-bold mb-3 text-white">Results Summary</h3>
+                        <p className="text-xl text-white/95 leading-relaxed">
+                          {(project.results as any).overallResults[locale as Locale] || (project.results as any).overallResults.en}
+                        </p>
+                      </div>
+                    </Card>
+                  )}
+
                   <Card variant="default" padding="lg">
                     <h2 className="text-3xl font-heading font-bold mb-6">Overall Impact & Results</h2>
                     <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">

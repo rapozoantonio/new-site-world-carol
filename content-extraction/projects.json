@@ -428,82 +428,174 @@
       "id": "animalist-club",
       "slug": "animalist-club",
       "featured": true,
-      "category": ["branding", "social-innovation"],
+      "category": ["product-development", "mobile-app", "social-innovation"],
       "title": {
         "en": "The Animalist Club",
         "es": "The Animalist Club",
         "pt": "The Animalist Club"
       },
       "tagline": {
-        "en": "Commerce with Conscience",
-        "es": "Comercio con Conciencia",
-        "pt": "Comércio com Consciência"
+        "en": "Ethical Shopping Simplified - Empowering Conscious Consumers",
+        "es": "Compras Éticas Simplificadas - Empoderando Consumidores Conscientes",
+        "pt": "Compras Éticas Simplificadas - Empoderando Consumidores Conscientes"
       },
       "overview": {
-        "client": "The Animalist Club",
-        "industry": "Social Innovation / Pet Lifestyle",
-        "location": "Digital Platform",
-        "duration": "1+ year development",
-        "services": ["Brand Strategy", "Platform Concept", "Community Design", "Marketing Plan"],
-        "targetAudience": "Conscious consumers, Animal lovers"
+        "client": "The Animalist Club (Own Project)",
+        "industry": "Mobile App / Ethical Consumption / Social Impact",
+        "location": "International",
+        "duration": "In Production Phase",
+        "services": ["Product Strategy", "Digital Marketing Strategy", "Brand Development", "User Acquisition", "App Development Collaboration"],
+        "targetAudience": "Conscious consumers, Vegan lifestyle advocates, Animal welfare supporters"
       },
       "heroImage": "/images/portfolio/animalist-club-hero.jpg",
       "challenge": {
         "en": [
-          "Create brand for digital platform combining subscription-based animal shelter donations + cruelty-free product verification tool + community building",
-          "Differentiate from typical charity appeals",
-          "Balance activism with approachability"
+          "Ethical shopping is complex and time-consuming for conscious consumers",
+          "Lack of reliable verification systems for vegan and cruelty-free products",
+          "Consumers struggle to identify truly ethical brands among greenwashing claims",
+          "Animal welfare organizations need sustainable funding beyond one-time donations",
+          "Gap between consumer intention for sustainable consumption and actual behavior",
+          "No centralized platform connecting ethical shopping with direct animal welfare impact"
         ],
         "es": [
-          "Crear marca para plataforma digital que combine donaciones de refugio de animales basadas en suscripción + herramienta de verificación de productos libres de crueldad + construcción de comunidad",
-          "Diferenciarse de las apelaciones caritativas típicas",
-          "Equilibrar el activismo con la accesibilidad"
+          "Las compras éticas son complejas y consumen mucho tiempo para los consumidores conscientes",
+          "Falta de sistemas de verificación confiables para productos veganos y libres de crueldad",
+          "Los consumidores luchan por identificar marcas verdaderamente éticas entre afirmaciones de greenwashing",
+          "Las organizaciones de bienestar animal necesitan financiamiento sostenible más allá de donaciones únicas",
+          "Brecha entre la intención del consumidor de consumo sostenible y el comportamiento real",
+          "No existe una plataforma centralizada que conecte las compras éticas con el impacto directo en el bienestar animal"
         ],
         "pt": [
-          "Criar marca para plataforma digital combinando doações de abrigo de animais baseadas em assinatura + ferramenta de verificação de produtos livres de crueldade + construção de comunidade",
-          "Diferenciar-se de apelos de caridade típicos",
-          "Equilibrar ativismo com acessibilidade"
+          "Compras éticas são complexas e demoradas para consumidores conscientes",
+          "Falta de sistemas de verificação confiáveis para produtos veganos e livres de crueldade",
+          "Consumidores lutam para identificar marcas verdadeiramente éticas entre alegações de greenwashing",
+          "Organizações de bem-estar animal precisam de financiamento sustentável além de doações únicas",
+          "Lacuna entre a intenção do consumidor de consumo sustentável e o comportamento real",
+          "Não existe plataforma centralizada conectando compras éticas com impacto direto no bem-estar animal"
         ]
       },
+      "solution": {
+        "en": "The Animalist Club is an innovative app developed in collaboration with a software engineer that empowers responsible consumers by making ethical shopping easier and more accessible. The app provides a reliable verification system for vegan and cruelty-free products, actively supports animal welfare organizations through donations and partnerships, and promotes sustainable consumption by encouraging the use of ethical products.",
+        "es": "The Animalist Club es una app innovadora desarrollada en colaboración con un ingeniero de software que empodera a los consumidores responsables, facilitando y haciendo más accesibles las compras éticas. La app ofrece un sistema de verificación confiable para productos veganos y libres de crueldad, apoya activamente a organizaciones de bienestar animal mediante donaciones y alianzas, y promueve el consumo sostenible incentivando el uso de productos éticos.",
+        "pt": "The Animalist Club é um app inovador desenvolvido em colaboração com um engenheiro de software que empodera consumidores responsáveis, facilitando e tornando mais acessíveis as compras éticas. O app oferece um sistema de verificação confiável para produtos veganos e livres de crueldade, apoia ativamente organizações de bem-estar animal através de doações e parcerias, e promove o consumo sustentável incentivando o uso de produtos éticos."
+      },
       "strategy": {
-        "brandPositioning": {
-          "coreValues": ["Respect (for all living beings)", "Joy (celebrating animal love)", "Community (collective impact)", "Transparency (clear impact tracking)"],
-          "brandPromise": "Make activism effortless. Shop consciously, donate automatically, save lives consistently."
+        "developmentStatus": {
+          "en": "The project is currently in the production phase. My focus is on designing a comprehensive digital strategy to establish brand visibility, attract users, and drive customer acquisition.",
+          "es": "El proyecto todavía se encuentra en desarrollo y la app está actualmente en fase de producción. Mi enfoque está en diseñar una estrategia digital integral para establecer la visibilidad de la marca, atraer usuarios y fomentar la adquisición de clientes.",
+          "pt": "O projeto ainda está em desenvolvimento e o app está atualmente em fase de produção. Meu foco está em projetar uma estratégia digital abrangente para estabelecer a visibilidade da marca, atrair usuários e impulsionar a aquisição de clientes."
         },
-        "visualIdentity": {
-          "logo": "Green cat paw with badge system",
-          "mainColor": "#40C463",
-          "colorMeaning": "Life, growth",
-          "badges": ["Cruelty-Free", "Vegan", "Eco-Friendly"]
-        },
-        "platformFeatures": [
+        "keyObjectives": [
           {
-            "name": "Micro-donation System",
-            "description": "€1 minimum monthly subscription, Choose shelter to support, Impact dashboard"
+            "icon": "✅",
+            "title": {
+              "en": "Help Consumers Identify Vegan & Cruelty-Free Products",
+              "es": "Ayudar a los Consumidores a Identificar Productos Veganos y Libres de Crueldad",
+              "pt": "Ajudar Consumidores a Identificar Produtos Veganos e Livres de Crueldade"
+            },
+            "description": {
+              "en": "Our app offers a reliable verification system, providing clear and accessible information so users can ensure their purchases align with an ethical lifestyle.",
+              "es": "Nuestra app ofrece un sistema de verificación confiable, proporcionando información clara y accesible para que los usuarios puedan asegurar que sus compras estén alineadas con un estilo de vida ético.",
+              "pt": "Nosso app oferece um sistema de verificação confiável, fornecendo informações claras e acessíveis para que os usuários possam garantir que suas compras estejam alinhadas com um estilo de vida ético."
+            }
           },
           {
-            "name": "Browser Extension",
-            "description": "Real-time product scanning, Cruelty-free verification, Alternative product suggestions"
+            "icon": "🐾",
+            "title": {
+              "en": "Support Animal Welfare Organizations",
+              "es": "Apoyar a Organizaciones de Bienestar Animal",
+              "pt": "Apoiar Organizações de Bem-Estar Animal"
+            },
+            "description": {
+              "en": "Beyond providing information, we actively support organizations that rescue and protect homeless animals through donations, partnerships, and awareness programs.",
+              "es": "Más allá de brindar información, apoyamos activamente a organizaciones que rescatan y protegen animales sin hogar mediante donaciones, alianzas y programas de concienciación.",
+              "pt": "Além de fornecer informações, apoiamos ativamente organizações que resgatam e protegem animais sem-teto através de doações, parcerias e programas de conscientização."
+            }
           },
           {
-            "name": "Community Features",
-            "description": "Member profiles, Impact leaderboards, Discussion forums, Event organizing"
+            "icon": "🌱",
+            "title": {
+              "en": "Promote Sustainable Consumption",
+              "es": "Promover el Consumo Sostenible",
+              "pt": "Promover o Consumo Sustentável"
+            },
+            "description": {
+              "en": "By incentivizing the use of vegan and cruelty-free products, we seek to reduce environmental impact and inspire brands to adopt more sustainable practices.",
+              "es": "Al incentivar el uso de productos veganos y libres de crueldad, buscamos reducir el impacto ambiental e inspirar a las marcas a adoptar prácticas más sostenibles.",
+              "pt": "Ao incentivar o uso de produtos veganos e livres de crueldade, buscamos reduzir o impacto ambiental e inspirar marcas a adotar práticas mais sustentáveis."
+            }
+          }
+        ],
+        "myRole": {
+          "en": "As co-founder and digital strategist, I focus on building brand visibility and user acquisition strategy while collaborating with a software engineer on product development.",
+          "es": "Como cofundadora y estratega digital, me enfoco en construir la visibilidad de la marca y la estrategia de adquisición de usuarios mientras colaboro con un ingeniero de software en el desarrollo del producto.",
+          "pt": "Como cofundadora e estrategista digital, foco em construir a visibilidade da marca e a estratégia de aquisição de usuários enquanto colaboro com um engenheiro de software no desenvolvimento do produto."
+        },
+        "coreFeatures": [
+          {
+            "icon": "🔍",
+            "feature": {
+              "en": "Product Verification System",
+              "es": "Sistema de Verificación de Productos",
+              "pt": "Sistema de Verificação de Produtos"
+            },
+            "description": {
+              "en": "Scan products to instantly verify vegan and cruelty-free status with transparent certification information",
+              "es": "Escanea productos para verificar instantáneamente el estado vegano y libre de crueldad con información de certificación transparente",
+              "pt": "Escaneie produtos para verificar instantaneamente o status vegano e livre de crueldade com informações de certificação transparentes"
+            }
+          },
+          {
+            "icon": "💚",
+            "feature": {
+              "en": "Direct Impact Donations",
+              "es": "Donaciones de Impacto Directo",
+              "pt": "Doações de Impacto Direto"
+            },
+            "description": {
+              "en": "Support animal welfare organizations through integrated donation system with transparent impact tracking",
+              "es": "Apoya organizaciones de bienestar animal a través del sistema de donaciones integrado con seguimiento de impacto transparente",
+              "pt": "Apoie organizações de bem-estar animal através do sistema de doações integrado com rastreamento de impacto transparente"
+            }
+          },
+          {
+            "icon": "🌍",
+            "feature": {
+              "en": "Sustainable Brand Directory",
+              "es": "Directorio de Marcas Sostenibles",
+              "pt": "Diretório de Marcas Sustentáveis"
+            },
+            "description": {
+              "en": "Discover and support brands committed to ethical practices and environmental sustainability",
+              "es": "Descubre y apoya marcas comprometidas con prácticas éticas y sostenibilidad ambiental",
+              "pt": "Descubra e apoie marcas comprometidas com práticas éticas e sustentabilidade ambiental"
+            }
           }
         ]
       },
       "results": {
-        "status": "Currently paused (funding stage)",
-        "achievements": [
-          "Complete brand ecosystem",
-          "MVP-ready concept",
-          "Strong emotional positioning",
-          "Clear differentiation",
-          "Viral-worthy content framework"
+        "projectStatus": {
+          "en": "Currently in production phase with planned launch in 2026",
+          "es": "Actualmente en fase de producción con lanzamiento planificado en 2026",
+          "pt": "Atualmente em fase de produção com lançamento planejado em 2026"
+        },
+        "personalCommitment": {
+          "en": "This project reflects my personal commitment to ethical consumption and my mission to generate a positive impact on society, animals, and the planet.",
+          "es": "Este proyecto refleja mi compromiso personal con el consumo ético y mi misión de generar un impacto positivo en la sociedad, los animales y el planeta.",
+          "pt": "Este projeto reflete meu compromisso pessoal com o consumo ético e minha missão de gerar um impacto positivo na sociedade, nos animais e no planeta."
+        },
+        "strategicFocus": [
+          "Building pre-launch community and brand awareness",
+          "Developing user acquisition funnels for app launch",
+          "Creating educational content about ethical consumption",
+          "Establishing partnerships with animal welfare organizations",
+          "Designing sustainable business model balancing social impact and profitability"
         ]
       },
       "gallery": [
         "/images/portfolio/animalist-club-1.jpg",
-        "/images/portfolio/animalist-club-2.jpg"
+        "/images/portfolio/animalist-club-2.jpg",
+        "/images/portfolio/animalist-club-3.jpg"
       ]
     },
     {
@@ -1035,169 +1127,399 @@
       "id": "casa-laguna",
       "slug": "casa-laguna",
       "featured": true,
-      "category": ["vacation-rentals", "launch-strategy"],
+      "category": ["vacation-rentals", "launch-strategy", "zero-to-hero"],
       "title": {
         "en": "Casa Laguna",
         "es": "Casa Laguna",
         "pt": "Casa Laguna"
       },
       "tagline": {
-        "en": "From Zero to Booked in 90 Days",
-        "es": "De Cero a Reservado en 90 Días",
-        "pt": "De Zero a Reservado em 90 Dias"
+        "en": "Breaking the Vicious Circle: 360° Digital Strategy for New Property Launch - 196.5x ROAS",
+        "es": "Rompiendo el Círculo Vicioso: Estrategia Digital 360° para Lanzamiento de Propiedad Nueva - 196.5x ROAS",
+        "pt": "Quebrando o Círculo Vicioso: Estratégia Digital 360° para Lançamento de Propriedade Nova - 196.5x ROAS"
       },
       "overview": {
         "client": "Casa Laguna",
-        "industry": "Vacation Rental",
+        "industry": "Vacation Rental (New Property Launch)",
         "location": "Lagoon-view property, Brazil",
         "duration": "1+ year ongoing",
-        "services": ["New Property Launch Strategy", "Review Generation", "Paid Advertising", "Social Media Setup"],
-        "challenge": "Zero market presence, need fast traction"
+        "services": ["360° Digital Strategy", "Platform Optimization", "Penetration Pricing Strategy", "Review Generation Systems", "Paid Traffic Management", "Data Capture & Remarketing", "ROI Optimization"],
+        "challenge": "Classic vicious circle: no reviews = no bookings, but no bookings = no reviews"
       },
       "heroImage": "/images/portfolio/casa-laguna-hero.jpg",
       "challenge": {
         "en": [
-          "Brand new property (no history)",
-          "No reviews (critical for booking platforms)",
-          "Tight budget (new owner, limited marketing spend)",
-          "Competitive market (many established alternatives)",
-          "Need quick wins to build momentum",
-          "Must balance pricing strategy with review generation"
+          "Newly inaugurated property with zero digital presence",
+          "No reviews and no booking history - the critical moment",
+          "Classic vicious circle: without reviews there are no bookings, but without bookings there are no reviews",
+          "Need to create 360° digital strategy to break the cycle",
+          "Generate first bookings and reviews while building solid digital presence",
+          "Tight budget requiring intelligent investment with reduced initial margins"
         ],
         "es": [
-          "Propiedad nueva (sin historial)",
-          "Sin reseñas (críticas para plataformas de reserva)",
-          "Presupuesto ajustado (nuevo propietario, gasto limitado en marketing)",
-          "Mercado competitivo (muchas alternativas establecidas)",
-          "Necesidad de victorias rápidas para generar impulso",
-          "Debe equilibrar estrategia de precios con generación de reseñas"
+          "Propiedad recién inaugurada sin presencia digital",
+          "Sin reseñas y sin historial de reservas - el momento más crítico",
+          "Círculo vicioso clásico: sin reseñas no hay reservas, pero sin reservas no hay reseñas",
+          "Necesidad de crear estrategia digital 360° para romper el ciclo",
+          "Generar las primeras reservas y reseñas construyendo presencia digital sólida",
+          "Presupuesto ajustado requiriendo inversión inteligente con márgenes iniciales reducidos"
         ],
         "pt": [
-          "Propriedade nova (sem histórico)",
-          "Sem avaliações (crítico para plataformas de reserva)",
-          "Orçamento apertado (novo proprietário, gasto limitado em marketing)",
-          "Mercado competitivo (muitas alternativas estabelecidas)",
-          "Necessidade de vitórias rápidas para gerar impulso",
-          "Deve equilibrar estratégia de preços com geração de avaliações"
+          "Propriedade recém inaugurada sem presença digital",
+          "Sem avaliações e sem histórico de reservas - o momento mais crítico",
+          "Círculo vicioso clássico: sem avaliações não há reservas, mas sem reservas não há avaliações",
+          "Necessidade de criar estratégia digital 360° para quebrar o ciclo",
+          "Gerar as primeiras reservas e avaliações construindo presença digital sólida",
+          "Orçamento apertado exigindo investimento inteligente com margens iniciais reduzidas"
         ]
       },
       "strategy": {
+        "mission": {
+          "en": "Create a 360° digital strategy to break the vicious circle, generate first bookings and reviews, and build a solid digital presence that continues attracting guests in the future",
+          "es": "Crear una estrategia digital 360° para romper el círculo vicioso, generar las primeras reservas y reseñas, y construir una presencia digital sólida que siga atrayendo huéspedes en el futuro",
+          "pt": "Criar uma estratégia digital 360° para quebrar o círculo vicioso, gerar as primeiras reservas e avaliações, e construir uma presença digital sólida que continue atraindo hóspedes no futuro"
+        },
         "phases": [
           {
-            "name": "Foundation",
-            "days": "1-30",
-            "goal": "Get visible, get credible",
-            "objectives": [
-              "Achieve first 5 reviews across platforms",
-              "Build basic social proof",
-              "Optimize all listings",
-              "Create content library"
-            ],
-            "tactics": {
-              "pricing": "Launch at 30% below market rate, 'Grand Opening Special', Free night for first 3 guests who review, Money-back guarantee",
-              "platformSetup": [
-                "Airbnb: New listing boost optimization",
-                "Booking.com: Genius Program enrollment",
-                "Google: Business profile with photos",
-                "VRBO: Premium placement"
+            "number": 1,
+            "name": "Digital Foundations",
+            "duration": "Month 0-1",
+            "icon": "🏗️",
+            "objective": {
+              "en": "Build solid foundation by optimizing key profiles",
+              "es": "Construir una base sólida optimizando perfiles clave",
+              "pt": "Construir base sólida otimizando perfis-chave"
+            },
+            "platforms": ["Airbnb", "Booking.com", "Google My Business"],
+            "focus": {
+              "en": [
+                "Not limited to completing basic information",
+                "Create seamless user experience",
+                "Ensure all links direct correctly to bookings",
+                "Eliminate friction points in customer journey"
               ],
-              "contentCreation": [
-                "Professional photo shoot",
-                "Virtual tour video",
-                "360° room views",
-                "Neighborhood guide",
-                "House manual PDF"
+              "es": [
+                "No limitado a completar información básica",
+                "Crear experiencia de usuario fluida",
+                "Asegurar que todos los enlaces dirijan correctamente a las reservas",
+                "Eliminar fricciones en el recorrido del cliente"
+              ],
+              "pt": [
+                "Não limitado a completar informação básica",
+                "Criar experiência de usuário fluida",
+                "Garantir que todos os links direcionem corretamente para reservas",
+                "Eliminar pontos de fricção na jornada do cliente"
               ]
             }
           },
           {
-            "name": "Momentum",
-            "days": "31-60",
-            "goal": "Build trust, increase visibility",
-            "objectives": [
-              "Reach 15+ reviews (4.8+ average)",
-              "Begin raising prices gradually",
-              "Start paid advertising",
-              "Build social media presence"
-            ],
-            "tactics": {
-              "pricingEvolution": "Increase rates by 15% (still competitive), Maintain special offers for off-peak, Length-of-stay discounts, Last-minute deals",
-              "socialMedia": {
-                "platform": "Instagram",
-                "contentPillars": [
-                  "Property features (40%)",
-                  "Lagoon lifestyle (30%)",
-                  "Guest experiences (20%)",
-                  "Local attractions (10%)"
-                ],
-                "schedule": "3 Reels/week, 2 Carousels/week, Daily Stories"
+            "number": 2,
+            "name": "Penetration Pricing Strategy",
+            "duration": "Initial phase",
+            "icon": "💰",
+            "objective": {
+              "en": "Break the vicious circle",
+              "es": "Romper el círculo vicioso",
+              "pt": "Quebrar o círculo vicioso"
+            },
+            "strategy": {
+              "en": "Implemented attractive initial pricing below market value. Objective was not immediate profitability, but generating booking volume to accumulate reviews quickly, thus building digital reputation - the most valuable asset on accommodation platforms",
+              "es": "Implementé una estrategia de precios iniciales atractivos, por debajo del valor de mercado. El objetivo no era la rentabilidad inmediata, sino generar volumen de reservas para acumular reseñas rápidamente, construyendo así la reputación digital, el activo más valioso en plataformas de alojamiento",
+              "pt": "Implementei estratégia de preços iniciais atrativos, abaixo do valor de mercado. O objetivo não era rentabilidade imediata, mas gerar volume de reservas para acumular avaliações rapidamente, construindo assim reputação digital - o ativo mais valioso em plataformas de hospedagem"
+            },
+            "keyInsight": "⭐ Digital reputation is the most valuable asset on accommodation platforms"
+          },
+          {
+            "number": 3,
+            "name": "Paid Traffic Activation",
+            "duration": "Ongoing",
+            "icon": "🚀",
+            "objective": {
+              "en": "Build audience and positioning",
+              "es": "Construcción de audiencia y posicionamiento",
+              "pt": "Construção de audiência e posicionamento"
+            },
+            "approach": {
+              "en": "While accumulating first reviews, launched paid traffic campaigns with dual focus",
+              "es": "Mientras acumulaba las primeras reseñas, lancé campañas de tráfico pagado con doble enfoque",
+              "pt": "Enquanto acumulava primeiras avaliações, lancei campanhas de tráfego pago com foco duplo"
+            },
+            "tactics": [
+              {
+                "focus": {
+                  "en": "Community growth: increase followers and interaction",
+                  "es": "Crecimiento de comunidad: aumentar seguidores e interacción",
+                  "pt": "Crescimento de comunidade: aumentar seguidores e interação"
+                },
+                "icon": "📈"
               },
-              "paidAds": {
-                "budget": "$500/month",
-                "campaigns": [
+              {
+                "focus": {
+                  "en": "Desire generation: quality content preparing audience for high season",
+                  "es": "Generación de deseo: contenido de calidad que preparara a la audiencia para la temporada alta",
+                  "pt": "Geração de desejo: conteúdo de qualidade preparando audiência para temporada alta"
+                },
+                "icon": "🎨"
+              }
+            ],
+            "tangibleResults": {
+              "en": [
+                "20 days sold in January (high season)",
+                "16 additional days on scattered weekends",
+                "These conversions show paid media investment combined with strategic content generated positive ROI at the year's most critical moment"
+              ],
+              "es": [
+                "20 días vendidos en enero (temporada alta)",
+                "16 días adicionales en fines de semana dispersos",
+                "Estas conversiones muestran que la inversión en medios pagados combinada con contenido estratégico generó ROI positivo en el momento más crítico del año"
+              ],
+              "pt": [
+                "20 dias vendidos em janeiro (temporada alta)",
+                "16 dias adicionais em fins de semana dispersos",
+                "Estas conversões mostram que investimento em mídia paga combinado com conteúdo estratégico gerou ROI positivo no momento mais crítico do ano"
+              ]
+            }
+          },
+          {
+            "number": 4,
+            "name": "Review Maximization",
+            "duration": "Ongoing system",
+            "icon": "⭐",
+            "objective": {
+              "en": "Strategies to multiply reviews",
+              "es": "Estrategias para multiplicar reseñas",
+              "pt": "Estratégias para multiplicar avaliações"
+            },
+            "systems": [
+              {
+                "name": {
+                  "en": "Facilitated Review System (Google)",
+                  "es": "Sistema de reseñas facilitado (Google)",
+                  "pt": "Sistema de avaliações facilitado (Google)"
+                },
+                "icon": "📱",
+                "implementation": [
                   {
-                    "name": "Awareness",
-                    "platform": "Meta",
-                    "creative": "Cinematic lagoon footage",
-                    "objective": "Video views"
+                    "en": "Tablet installation with QR code",
+                    "es": "Instalación de tablet con QR code",
+                    "pt": "Instalação de tablet com QR code"
                   },
                   {
-                    "name": "Consideration",
-                    "platform": "Google Ads (Search)",
-                    "keywords": "[city name] lagoon rentals",
-                    "objective": "Conversions"
+                    "en": "Direct access to leave review on Google My Business",
+                    "es": "Acceso directo para dejar reseña en Google My Business",
+                    "pt": "Acesso direto para deixar avaliação no Google My Business"
+                  }
+                ],
+                "advantage": {
+                  "en": "Google allows all guests to leave reviews, while Airbnb only allows booking holder",
+                  "es": "Google permite que todos los huéspedes dejen reseñas, mientras Airbnb solo permite al titular de la reserva",
+                  "pt": "Google permite que todos os hóspedes deixem avaliações, enquanto Airbnb apenas permite o titular da reserva"
+                },
+                "potential": {
+                  "en": "Up to 12 reviews per stay",
+                  "es": "Hasta 12 reseñas por estancia",
+                  "pt": "Até 12 avaliações por estadia"
+                },
+                "impact": {
+                  "en": "This system converts each booking into multiple review opportunities, exponentially accelerating digital reputation building",
+                  "es": "Este sistema convierte cada reserva en múltiples oportunidades de reseñas, acelerando exponencialmente la construcción de reputación digital",
+                  "pt": "Este sistema converte cada reserva em múltiplas oportunidades de avaliação, acelerando exponencialmente construção de reputação digital"
+                }
+              },
+              {
+                "name": {
+                  "en": "Data Capture for Remarketing (Current Implementation)",
+                  "es": "Captura de datos para remarketing (implementación actual)",
+                  "pt": "Captura de dados para remarketing (implementação atual)"
+                },
+                "icon": "📧",
+                "implementation": [
+                  {
+                    "en": "WiFi router with captive portal",
+                    "es": "Router WiFi con portal cautivo",
+                    "pt": "Roteador WiFi com portal cativo"
                   },
                   {
-                    "name": "Remarketing",
-                    "platform": "Meta",
-                    "creative": "Property highlights + reviews",
-                    "audience": "Website visitors"
+                    "en": "Email request for Internet access",
+                    "es": "Solicitud de email para acceso a Internet",
+                    "pt": "Solicitação de email para acesso à Internet"
+                  }
+                ],
+                "objective": {
+                  "en": "Build own database for email marketing and remarketing campaigns",
+                  "es": "Construir una base de datos propia para email marketing y campañas de remarketing",
+                  "pt": "Construir base de dados própria para email marketing e campanhas de remarketing"
+                },
+                "benefits": [
+                  {
+                    "en": "Reduce dependency on third-party platforms",
+                    "es": "Reducir dependencia de plataformas de terceros",
+                    "pt": "Reduzir dependência de plataformas de terceiros"
+                  },
+                  {
+                    "en": "Direct communication with previous guests",
+                    "es": "Comunicación directa con huéspedes anteriores",
+                    "pt": "Comunicação direta com hóspedes anteriores"
+                  },
+                  {
+                    "en": "Recurring bookings without commissions",
+                    "es": "Reservas recurrentes sin comisiones",
+                    "pt": "Reservas recorrentes sem comissões"
+                  },
+                  {
+                    "en": "Personalized offers based on previous behavior",
+                    "es": "Ofertas personalizadas según comportamiento previo",
+                    "pt": "Ofertas personalizadas baseadas em comportamento anterior"
                   }
                 ]
               }
-            }
-          },
-          {
-            "name": "Optimization",
-            "days": "61-90",
-            "goal": "Maximize conversions, build sustainability",
-            "objectives": [
-              "Achieve consistent booking rate",
-              "Optimize for profitability",
-              "Build repeat customer database",
-              "Establish pricing at market rate"
-            ],
-            "tactics": {
-              "pricingFinalization": "Match or exceed market rate, Implement dynamic pricing tool, Premium for high-demand dates, Loyalty discounts for repeats",
-              "conversionOptimization": [
-                "A/B test listing photos",
-                "Refine description copy",
-                "Test different headline hooks",
-                "Optimize response time",
-                "Improve amenity highlighting"
-              ],
-              "sustainabilitySystems": [
-                "Email list building (newsletter)",
-                "Past guest retargeting database",
-                "Seasonal campaign calendar",
-                "Referral program launch",
-                "Strategic partnership with local businesses"
-              ]
-            }
+            ]
           }
-        ]
+        ],
+        "strategicAnalysis": {
+          "en": [
+            "Systemic thinking: each action feeds the next. Reviews generate trust, trust generates bookings, bookings generate data to optimize",
+            "Intelligent investment: accept reduced margins initially to build verified digital reputation",
+            "Leverage platform differences: Google allows multiple reviews per booking, Airbnb doesn't",
+            "Building own assets: email database reduces third-party dependency",
+            "Perfect timing: prepare audience in low season to capitalize in high season"
+          ],
+          "es": [
+            "Pensamiento sistémico: cada acción alimenta la siguiente. Reseñas generan confianza, confianza genera reservas, reservas generan datos para optimizar",
+            "Inversión inteligente: aceptar márgenes reducidos inicialmente para construir reputación digital verificada",
+            "Aprovechar diferencias entre plataformas: Google permite múltiples reseñas por reserva, Airbnb no",
+            "Construcción de activos propios: la base de emails reduce dependencia de terceros",
+            "Momento perfecto: preparar audiencia en temporada baja para capitalizar en temporada alta"
+          ],
+          "pt": [
+            "Pensamento sistêmico: cada ação alimenta a próxima. Avaliações geram confiança, confiança gera reservas, reservas geram dados para otimizar",
+            "Investimento inteligente: aceitar margens reduzidas inicialmente para construir reputação digital verificada",
+            "Aproveitar diferenças entre plataformas: Google permite múltiplas avaliações por reserva, Airbnb não",
+            "Construção de ativos próprios: base de emails reduz dependência de terceiros",
+            "Momento perfeito: preparar audiência em baixa temporada para capitalizar em alta temporada"
+          ]
+        }
       },
       "results": {
+        "metaAdsCampaign": {
+          "name": "Meta Ads Campaign - August",
+          "objective": {
+            "en": "Connect with people interested in accommodation and take them from Instagram directly to Airbnb",
+            "es": "Conectar con personas interesadas en alojamiento y llevarlas de Instagram directamente a Airbnb",
+            "pt": "Conectar com pessoas interessadas em hospedagem e levá-las do Instagram diretamente ao Airbnb"
+          },
+          "investment": {
+            "total": "R$356.08",
+            "duration": "10 days (August 4-14)"
+          },
+          "metrics": [
+            {
+              "label": "Reach",
+              "value": "4,449",
+              "icon": "👥",
+              "description": "People reached by campaign"
+            },
+            {
+              "label": "Impressions",
+              "value": "7,946",
+              "icon": "👁️",
+              "description": "Total ad impressions"
+            },
+            {
+              "label": "Conversations Started",
+              "value": "56",
+              "icon": "💬",
+              "description": "Direct messages initiated"
+            },
+            {
+              "label": "Cost Per Conversation",
+              "value": "R$6.36",
+              "icon": "💵",
+              "description": "Efficient conversation acquisition cost"
+            },
+            {
+              "label": "CTR",
+              "value": "1.50%",
+              "icon": "📊",
+              "description": "Click-through rate"
+            }
+          ],
+          "booking": {
+            "days": "20 complete days in January",
+            "pricePerDay": "R$3,500",
+            "totalRevenue": "R$70,000"
+          },
+          "roas": "196.5x",
+          "funnel": {
+            "en": "Instagram → Direct Conversation → Airbnb → CONFIRMED BOOKING!",
+            "es": "Instagram → Conversación directa → Airbnb → ¡RESERVA CONFIRMADA!",
+            "pt": "Instagram → Conversa direta → Airbnb → RESERVA CONFIRMADA!"
+          },
+          "conclusion": {
+            "en": "With less than R$360 advertising investment, generated R$70,000 in revenue. This campaign validated Casa Laguna's digital model and demonstrated it's highly profitable and scalable.",
+            "es": "Con menos de R$360 de inversión en publicidad, generé R$70,000 en ingresos. Esta campaña validó el modelo digital de Casa Laguna y demostró que es altamente rentable y escalable.",
+            "pt": "Com menos de R$360 de investimento em publicidade, gerei R$70,000 em receita. Esta campanha validou o modelo digital da Casa Laguna e demonstrou que é altamente lucrativo e escalável."
+          }
+        },
         "metrics": [
           {
-            "label": "Airbnb Reviews",
-            "value": "18 (4.9★)",
-            "icon": "⭐"
+            "label": "Campaign Investment",
+            "value": "R$356",
+            "icon": "💰",
+            "description": "Total advertising spend (10 days)"
           },
           {
-            "label": "Booking Rate",
-            "value": "67%",
-            "icon": "📈"
+            "label": "Revenue Generated",
+            "value": "R$70,000",
+            "icon": "💵",
+            "description": "From single campaign booking"
+          },
+          {
+            "label": "ROAS",
+            "value": "196.5x",
+            "icon": "🚀",
+            "description": "Return on Ad Spend - exceptional performance"
+          },
+          {
+            "label": "Cost Per Conversation",
+            "value": "R$6.36",
+            "icon": "💬",
+            "description": "56 conversations generated"
+          },
+          {
+            "label": "CTR",
+            "value": "1.50%",
+            "icon": "📊",
+            "description": "Above industry average"
+          },
+          {
+            "label": "Booking Secured",
+            "value": "20 days",
+            "icon": "📅",
+            "description": "January high season (R$3,500/day)"
+          },
+          {
+            "label": "Review Potential",
+            "value": "12x",
+            "icon": "⭐",
+            "description": "Per stay via Google system vs Airbnb limitation"
+          },
+          {
+            "label": "Email Database",
+            "value": "Growing",
+            "icon": "📧",
+            "description": "Captive portal WiFi system"
+          },
+          {
+            "label": "Platform Independence",
+            "value": "Achieved",
+            "icon": "✅",
+            "description": "Own remarketing database built"
+          },
+          {
+            "label": "Vicious Circle",
+            "value": "Broken",
+            "icon": "🎯"
           },
           {
             "label": "Booking.com Reviews",
@@ -1218,46 +1540,255 @@
             "label": "Avg Nightly Rate",
             "value": "$135",
             "icon": "💵"
-          },
-          {
-            "label": "Occupancy Rate",
-            "value": "61%",
-            "icon": "📊"
-          },
-          {
-            "label": "Instagram Growth",
-            "value": "0 → 850",
-            "icon": "📱"
-          },
-          {
-            "label": "Engagement Rate",
-            "value": "8.2%",
-            "icon": "❤️"
-          },
-          {
-            "label": "Email List",
-            "value": "47",
-            "icon": "📧"
-          },
-          {
-            "label": "Ad ROI",
-            "value": "252%",
-            "icon": "🎯"
           }
         ],
-        "keyLearnings": [
-          "Early review focus = algorithm boost",
-          "Competitive pricing beats marketing in month 1",
-          "Response speed directly correlates to bookings",
-          "Guest experience > advertising spend",
-          "Platform diversification reduces dependency",
-          "Social proof compounds (reviews → more bookings → more reviews)"
-        ]
+        "achievements": [
+          "Successfully broke the classic vicious circle of new properties (no reviews → no bookings → no reviews)",
+          "Generated R$70,000 revenue from single R$356 advertising campaign - 196.5x ROAS",
+          "Validated highly profitable and scalable digital model",
+          "Built solid digital presence across Airbnb, Booking.com, and Google My Business",
+          "Implemented intelligent penetration pricing strategy accepting reduced initial margins to build reputation",
+          "Created innovative review maximization system leveraging platform differences (Google vs Airbnb)",
+          "Secured 20 days in January high season plus 16 weekend days through strategic paid traffic",
+          "Demonstrated paid media investment combined with strategic content generates positive ROI",
+          "Built own email database reducing third-party platform dependency",
+          "Implemented WiFi captive portal system for automatic guest data capture",
+          "Positioned property for recurring commission-free bookings through direct communication",
+          "Perfect timing execution: prepared audience in low season to capitalize in high season",
+          "Proved systemic thinking where each action feeds the next (reviews → trust → bookings → data → optimization)"
+        ],
+        "successFactors": {
+          "en": [
+            "Systemic thinking: each action feeds the next. Reviews generate trust, trust generates bookings, bookings generate data to optimize",
+            "Intelligent investment: accept reduced margins initially to build verified digital reputation",
+            "Leverage platform differences: Google allows multiple reviews per booking, Airbnb doesn't",
+            "Building own assets: email database reduces third-party dependency",
+            "Perfect timing: prepare audience in low season to capitalize in high season"
+          ],
+          "es": [
+            "Pensamiento sistémico: cada acción alimenta la siguiente. Reseñas generan confianza, confianza genera reservas, reservas generan datos para optimizar",
+            "Inversión inteligente: aceptar márgenes reducidos inicialmente para construir reputación digital verificada",
+            "Aprovechar diferencias entre plataformas: Google permite múltiples reseñas por reserva, Airbnb no",
+            "Construcción de activos propios: la base de emails reduce dependencia de terceros",
+            "Momento perfecto: preparar audiencia en temporada baja para capitalizar en temporada alta"
+          ],
+          "pt": [
+            "Pensamento sistêmico: cada ação alimenta a próxima. Avaliações geram confiança, confiança gera reservas, reservas geram dados para otimizar",
+            "Investimento inteligente: aceitar margens reduzidas inicialmente para construir reputação digital verificada",
+            "Aproveitar diferenças entre plataformas: Google permite múltiplas avaliações por reserva, Airbnb não",
+            "Construção de ativos próprios: base de emails reduz dependência de terceiros",
+            "Momento perfeito: preparar audiência em baixa temporada para capitalizar em alta temporada"
+          ]
+        }
       },
       "gallery": [
         "/images/portfolio/casa-laguna-1.jpg",
         "/images/portfolio/casa-laguna-2.jpg",
         "/images/portfolio/casa-laguna-3.jpg"
+      ]
+    },
+    {
+      "id": "tap-tap",
+      "slug": "tap-tap",
+      "featured": true,
+      "category": ["product-development", "mobile-app", "saas"],
+      "title": {
+        "en": "Tap Tap",
+        "es": "Tap Tap",
+        "pt": "Tap Tap"
+      },
+      "tagline": {
+        "en": "Digital Loyalty Wallet for Coffee Shops - Eliminating Lost Cards Forever",
+        "es": "Billetera Digital de Fidelidad para Cafeterías - Adiós a las Tarjetas Perdidas",
+        "pt": "Carteira Digital de Fidelidade para Cafeterias - Acabando com Cartões Perdidos"
+      },
+      "overview": {
+        "client": "Tap Tap (Own Product)",
+        "industry": "SaaS / Mobile App / Retail Tech",
+        "location": "International (Coffee Shop Market)",
+        "duration": "Product Development",
+        "services": ["Product Strategy", "UX/UI Design", "Mobile App Development", "Market Research", "Business Model Design"],
+        "targetAudience": "Coffee shop owners and coffee lovers",
+        "website": "https://www.taptapfidelity.com/"
+      },
+      "heroImage": "/images/portfolio/tap-tap-hero.jpg",
+      "challenge": {
+        "en": [
+          "Physical loyalty cards are constantly lost, forgotten at home, or damaged",
+          "Coffee lovers accumulate stacks of unused loyalty cards from different shops",
+          "Coffee shops waste €440-€1,140/year printing physical loyalty cards",
+          "No centralized system for customers to manage multiple loyalty programs",
+          "Coffee shops lack real behavioral data about their most loyal customers",
+          "Traditional loyalty programs have low redemption rates due to card loss"
+        ],
+        "es": [
+          "Las tarjetas de fidelidad físicas se pierden, olvidan en casa o dañan constantemente",
+          "Los amantes del café acumulan montones de tarjetas de fidelidad sin usar de diferentes tiendas",
+          "Las cafeterías desperdician €440-€1,140/año imprimiendo tarjetas de fidelidad físicas",
+          "No existe un sistema centralizado para que los clientes gestionen múltiples programas de fidelidad",
+          "Las cafeterías carecen de datos reales sobre el comportamiento de sus clientes más leales",
+          "Los programas de fidelidad tradicionales tienen bajas tasas de canje debido a la pérdida de tarjetas"
+        ],
+        "pt": [
+          "Cartões de fidelidade físicos são constantemente perdidos, esquecidos em casa ou danificados",
+          "Amantes de café acumulam pilhas de cartões de fidelidade não utilizados de diferentes lojas",
+          "Cafeterias desperdiçam €440-€1,140/ano imprimindo cartões de fidelidade físicos",
+          "Não existe sistema centralizado para clientes gerenciarem múltiplos programas de fidelidade",
+          "Cafeterias não possuem dados reais sobre comportamento de seus clientes mais fiéis",
+          "Programas de fidelidade tradicionais têm baixas taxas de resgate devido à perda de cartões"
+        ]
+      },
+      "solution": {
+        "en": "Tap Tap is a digital loyalty wallet specifically designed for coffee shops. Customers accumulate reward points directly on their phone, eliminating physical cards that get lost, forgotten, or damaged. The app centralizes all loyalty cards in one place and provides coffee shops with real customer data and automated remarketing capabilities.",
+        "es": "Tap Tap es una billetera de fidelidad digital diseñada específicamente para cafeterías. Los clientes acumulan puntos de recompensa directamente en su teléfono, eliminando las tarjetas físicas que se pierden, olvidan o dañan. La app centraliza todas las tarjetas de fidelidad en un solo lugar y proporciona a las cafeterías datos reales de clientes y capacidades de remarketing automatizado.",
+        "pt": "Tap Tap é uma carteira de fidelidade digital projetada especificamente para cafeterias. Clientes acumulam pontos de recompensa diretamente no telefone, eliminando cartões físicos que são perdidos, esquecidos ou danificados. O app centraliza todos os cartões de fidelidade em um só lugar e fornece às cafeterias dados reais de clientes e capacidades de remarketing automatizado."
+      },
+      "strategy": {
+        "productPurpose": {
+          "forBusinesses": {
+            "en": [
+              "Digitalize loyalty programs and reduce operational costs by €440-€1,140/year",
+              "Access real-time dashboard with customer behavior analytics",
+              "Increase customer retention through always-accessible digital cards",
+              "Instant QR code scanning - 3 seconds per transaction",
+              "Build customer database with automated remarketing (premium plan)"
+            ],
+            "es": [
+              "Digitalizar programas de fidelidad y reducir costos operativos en €440-€1,140/año",
+              "Acceder a dashboard en tiempo real con analítica de comportamiento de clientes",
+              "Aumentar retención de clientes mediante tarjetas digitales siempre accesibles",
+              "Escaneo instantáneo de código QR - 3 segundos por transacción",
+              "Construir base de datos de clientes con remarketing automatizado (plan premium)"
+            ],
+            "pt": [
+              "Digitalizar programas de fidelidade e reduzir custos operacionais em €440-€1,140/ano",
+              "Acessar dashboard em tempo real com análise de comportamento de clientes",
+              "Aumentar retenção de clientes através de cartões digitais sempre acessíveis",
+              "Escaneamento instantâneo de QR code - 3 segundos por transação",
+              "Construir banco de dados de clientes com remarketing automatizado (plano premium)"
+            ]
+          },
+          "forConsumers": {
+            "en": [
+              "Never forget loyalty cards - your phone is always with you",
+              "All loyalty cards in one app - no more wallet clutter",
+              "Impossible to lose - points stored in the cloud",
+              "Real-time progress notifications",
+              "Integrated map to discover nearby partner cafés (coming soon)"
+            ],
+            "es": [
+              "Nunca olvidarás tus tarjetas de fidelidad - tu teléfono siempre te acompaña",
+              "Todas tus tarjetas en una sola app - adiós al desorden en la cartera",
+              "Imposible de perder - puntos almacenados en la nube",
+              "Notificaciones de progreso en tiempo real",
+              "Mapa integrado para descubrir cafés asociados cercanos (próximamente)"
+            ],
+            "pt": [
+              "Nunca esqueça cartões de fidelidade - seu telefone está sempre com você",
+              "Todos os cartões de fidelidade em um app - sem mais bagunça na carteira",
+              "Impossível perder - pontos armazenados na nuvem",
+              "Notificações de progresso em tempo real",
+              "Mapa integrado para descobrir cafés parceiros próximos (em breve)"
+            ]
+          }
+        },
+        "keyFeatures": [
+          {
+            "icon": "📱",
+            "title": {
+              "en": "Always With You",
+              "es": "Siempre Contigo",
+              "pt": "Sempre Com Você"
+            },
+            "description": {
+              "en": "Digital wallet accessible from your phone - never forget or lose your loyalty cards again",
+              "es": "Billetera digital accesible desde tu teléfono - nunca olvides o pierdas tus tarjetas de fidelidad nuevamente",
+              "pt": "Carteira digital acessível do seu telefone - nunca mais esqueça ou perca seus cartões de fidelidade"
+            }
+          },
+          {
+            "icon": "⚡",
+            "title": {
+              "en": "Instant QR Scanning",
+              "es": "Escaneo QR Instantáneo",
+              "pt": "Escaneamento QR Instantâneo"
+            },
+            "description": {
+              "en": "3-second transactions with QR code scanning - faster than handling physical cards",
+              "es": "Transacciones de 3 segundos con escaneo de código QR - más rápido que manejar tarjetas físicas",
+              "pt": "Transações de 3 segundos com escaneamento de QR code - mais rápido que manusear cartões físicos"
+            }
+          },
+          {
+            "icon": "☁️",
+            "title": {
+              "en": "Cloud Storage",
+              "es": "Almacenamiento en la Nube",
+              "pt": "Armazenamento na Nuvem"
+            },
+            "description": {
+              "en": "All points safely stored in the cloud - accessible from any device, anytime",
+              "es": "Todos los puntos almacenados de forma segura en la nube - accesibles desde cualquier dispositivo, en cualquier momento",
+              "pt": "Todos os pontos armazenados com segurança na nuvem - acessíveis de qualquer dispositivo, a qualquer momento"
+            }
+          },
+          {
+            "icon": "📊",
+            "title": {
+              "en": "Business Analytics",
+              "es": "Analítica de Negocio",
+              "pt": "Análise de Negócios"
+            },
+            "description": {
+              "en": "Real-time dashboard with customer behavior insights and retention metrics",
+              "es": "Dashboard en tiempo real con insights de comportamiento del cliente y métricas de retención",
+              "pt": "Dashboard em tempo real com insights de comportamento do cliente e métricas de retenção"
+            }
+          },
+          {
+            "icon": "💰",
+            "title": {
+              "en": "Cost Savings",
+              "es": "Ahorro de Costos",
+              "pt": "Economia de Custos"
+            },
+            "description": {
+              "en": "Save €440-€1,140/year eliminating physical card printing and management",
+              "es": "Ahorra €440-€1,140/año eliminando impresión y gestión de tarjetas físicas",
+              "pt": "Economize €440-€1,140/ano eliminando impressão e gestão de cartões físicos"
+            }
+          },
+          {
+            "icon": "🎯",
+            "title": {
+              "en": "Automated Remarketing",
+              "es": "Remarketing Automatizado",
+              "pt": "Remarketing Automatizado"
+            },
+            "description": {
+              "en": "Premium plan includes customer database and automated remarketing campaigns",
+              "es": "Plan premium incluye base de datos de clientes y campañas de remarketing automatizadas",
+              "pt": "Plano premium inclui banco de dados de clientes e campanhas de remarketing automatizadas"
+            }
+          }
+        ]
+      },
+      "results": {
+        "personalInsight": {
+          "en": "As a coffee lover, I identified a neglected business opportunity: digital loyalty cards. Time and time again, when visiting my favorite coffee shop, I realized I had left my stamp card at home. As a result, I ended up accumulating stacks of cards I never used, constantly lost, or simply forgot to bring - meaning I could never redeem my free coffee. That's why, together with a developer, we created Tap Tap: our digital loyalty wallet that solves this problem once and for all.",
+          "es": "Como amante del café, identifiqué una oportunidad de negocio que estaba un poco descuidada: las tarjetas de fidelidad digitales. Una y otra vez, al visitar mi cafetería favorita, me daba cuenta de que había dejado mi tarjeta de sellos en casa. Como resultado, terminaba acumulando montones de tarjetas que nunca usaba, que perdía constantemente o simplemente olvidaba llevar, lo que significaba que nunca podía canjear mi café gratis. Por eso, junto con un desarrollador, creamos Tap Tap: nuestra billetera digital de fidelidad que resuelve este problema de una vez por todas.",
+          "pt": "Como amante de café, identifiquei uma oportunidade de negócio negligenciada: cartões de fidelidade digitais. Repetidamente, ao visitar minha cafeteria favorita, percebia que havia deixado meu cartão de carimbos em casa. Como resultado, acabei acumulando pilhas de cartões que nunca usava, constantemente perdia ou simplesmente esquecia de levar - o que significava que nunca podia resgatar meu café grátis. Por isso, junto com um desenvolvedor, criamos o Tap Tap: nossa carteira de fidelidade digital que resolve esse problema de uma vez por todas."
+        },
+        "productStatus": {
+          "en": "Currently in development phase with MVP planned for Q1 2026",
+          "es": "Actualmente en fase de desarrollo con MVP planificado para Q1 2026",
+          "pt": "Atualmente em fase de desenvolvimento com MVP planejado para Q1 2026"
+        }
+      },
+      "gallery": [
+        "/images/portfolio/tap-tap-1.jpg",
+        "/images/portfolio/tap-tap-2.jpg",
+        "/images/portfolio/tap-tap-3.jpg"
       ]
     }
   ]
