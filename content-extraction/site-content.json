@@ -26,13 +26,13 @@
   "team": [
     {
       "id": "carol",
-      "name": "Carol",
+      "name": "Carolina Arango",
       "role": {
         "en": "Digital Strategy & Paid Traffic Specialist",
         "es": "Especialista en Estrategia Digital y Tráfico Pago",
         "pt": "Especialista em Estratégia Digital e Tráfego Pago"
       },
-      "image": "/NEW_SITE/carol-profile.jpg"
+      "image": "/carolina-profile-pic.jpg"
     },
     {
       "id": "antonio",
