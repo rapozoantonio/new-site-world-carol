@@ -1,20 +1,20 @@
-'use client';
+"use client";
 
-import { useTranslations } from 'next-intl';
-import Link from 'next/link';
-import { motion } from 'framer-motion';
-import { Button, Section, AnimatedText } from '@/components/ui';
+import { useTranslations } from "next-intl";
+import Link from "next/link";
+import { motion } from "framer-motion";
+import { Button, Section, AnimatedText } from "@/components/ui";
 
 export default function HeroSection() {
-  const t = useTranslations('hero');
-  const tAbout = useTranslations('about');
+  const t = useTranslations("hero");
+  const tAbout = useTranslations("about");
 
   const typedTexts = [
-    'Marketing Digital',
-    'Publicidad Pagada',
-    'Optimización de Conversión',
-    'Estrategia y Analítica',
-    'Embudos de Ventas',
+    "Marketing Digital",
+    "Publicidad Pagada",
+    "Optimización de Conversión",
+    "Estrategia y Analítica",
+    "Embudos de Ventas",
   ];
 
   // Animation variants
@@ -36,7 +36,7 @@ export default function HeroSection() {
       y: 0,
       transition: {
         duration: 0.6,
-        ease: 'easeOut',
+        ease: "easeOut",
       },
     },
   };
@@ -48,7 +48,7 @@ export default function HeroSection() {
       scale: 1,
       transition: {
         duration: 0.5,
-        ease: 'easeOut',
+        ease: "easeOut",
       },
     },
   };
@@ -71,7 +71,7 @@ export default function HeroSection() {
           transition={{
             duration: 20,
             repeat: Infinity,
-            ease: 'linear',
+            ease: "linear",
           }}
           className="absolute -top-1/2 -left-1/2 w-full h-full bg-gradient-to-br from-primary-100/20 to-transparent rounded-full blur-3xl"
         />
@@ -83,7 +83,7 @@ export default function HeroSection() {
           transition={{
             duration: 25,
             repeat: Infinity,
-            ease: 'linear',
+            ease: "linear",
           }}
           className="absolute -bottom-1/2 -right-1/2 w-full h-full bg-gradient-to-tl from-primary-100/20 to-transparent rounded-full blur-3xl"
         />
@@ -101,9 +101,9 @@ export default function HeroSection() {
             <motion.h1
               className="text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-heading font-bold mb-2"
               whileHover={{ scale: 1.02 }}
-              transition={{ type: 'spring', stiffness: 300 }}
+              transition={{ type: "spring", stiffness: 300 }}
             >
-              <span className="gradient-text inline-block">{t('brand')}</span>
+              <span className="gradient-text inline-block">{t("brand")}</span>
             </motion.h1>
           </motion.div>
 
@@ -120,44 +120,22 @@ export default function HeroSection() {
             </h2>
           </motion.div>
 
-          {/* Subtitle */}
-          <motion.p
-            variants={itemVariants}
-            className="text-xl md:text-2xl lg:text-3xl text-gray-600 mb-6 font-medium"
-          >
-            {t('subtitle')}
-          </motion.p>
-
-          {/* Description */}
-          <motion.p
-            variants={itemVariants}
-            className="text-lg md:text-xl text-gray-600 mb-12 max-w-3xl mx-auto leading-relaxed"
-          >
-            {t('description')}
-          </motion.p>
-
           {/* CTAs */}
           <motion.div
             variants={itemVariants}
             className="flex flex-col sm:flex-row gap-4 justify-center items-center"
           >
-            <motion.div
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-            >
+            <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
               <Link href="#projects">
                 <Button variant="gradient" size="lg" className="min-w-[200px]">
-                  {t('cta')}
+                  {t("cta")}
                 </Button>
               </Link>
             </motion.div>
-            <motion.div
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-            >
+            <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
               <Link href="#contact">
                 <Button variant="outline" size="lg" className="min-w-[200px]">
-                  {t('ctaSecondary')}
+                  {t("ctaSecondary")}
                 </Button>
               </Link>
             </motion.div>
@@ -169,9 +147,9 @@ export default function HeroSection() {
             className="mt-24 grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto"
           >
             {[
-              { value: '13+', label: tAbout('yearsExperience') },
-              { value: '25+', label: tAbout('projectsCompleted') },
-              { value: '36%', label: tAbout('avgGrowth') },
+              { value: "13+", label: tAbout("yearsExperience") },
+              { value: "25+", label: tAbout("projectsCompleted") },
+              { value: "36%", label: tAbout("avgGrowth") },
             ].map((stat, index) => (
               <motion.div
                 key={index}
@@ -185,7 +163,7 @@ export default function HeroSection() {
                   animate={{ opacity: 1, scale: 1 }}
                   transition={{
                     delay: 1 + index * 0.2,
-                    type: 'spring',
+                    type: "spring",
                     stiffness: 200,
                   }}
                 >
@@ -211,7 +189,7 @@ export default function HeroSection() {
             transition={{
               duration: 1.5,
               repeat: Infinity,
-              ease: 'easeInOut',
+              ease: "easeInOut",
             }}
             className="flex flex-col items-center cursor-pointer group"
           >

@@ -32,7 +32,7 @@
         "es": "Especialista en Estrategia Digital y Tráfico Pago",
         "pt": "Especialista em Estratégia Digital e Tráfego Pago"
       },
-      "image": "/images/profile-picture2.png"
+      "image": "/NEW_SITE/carol-profile.jpg"
     },
     {
       "id": "antonio",
@@ -155,9 +155,7 @@
     },
     "hero": {
       "brand": "New Site",
-      "typedText": [
-        "¡Experta en Casas vacacionales!"
-      ],
+      "typedText": ["¡Experta en Casas vacacionales!"],
       "cta": "¡Quiero más reservas!"
     },
     "about": {
@@ -223,7 +221,7 @@
         {
           "title": "El Desafío, enfrentarte a lo desconocido💡✨Blog Año 2025✨",
           "excerpt": "Lanzar NewSite no fue un camino lineal ni sencillo. Como todo emprendimiento, estuvo lleno de dudas e incertidumbres…",
-          "url": "https://medium.com/@newsitebycaro/el-desaf%C3%ADo-enfrentarte-a-lo-desconocido-blog-a%C3%B1o-2025-ec89e98f893d",
+          "url": "https://medium.com/@newsitebycaro/el-marketing-no-vende-080500e7451a",
           "image": "https://miro.medium.com/v2/resize:fit:525/1*cmpEJ54OuLC7_dQaUBQjUA.png",
           "readTime": "5 min.",
           "author": "Carolina Arango"
@@ -299,9 +297,7 @@
     },
     "hero": {
       "brand": "New Site",
-      "typedText": [
-        "Especialista em Casas para Temporada!"
-      ],
+      "typedText": ["Especialista em Casas para Temporada!"],
       "cta": "Quero mais reservas!"
     },
     "about": {

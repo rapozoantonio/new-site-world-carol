@@ -1,13 +1,13 @@
-'use client';
+"use client";
 
-import { useTranslations, useLocale } from 'next-intl';
-import { motion } from 'framer-motion';
-import { Section, Card } from '@/components/ui';
-import siteContent from '../../../content-extraction/site-content.json';
+import { useTranslations, useLocale } from "next-intl";
+import { motion } from "framer-motion";
+import { Section, Card } from "@/components/ui";
+import siteContent from "../../../content-extraction/site-content.json";
 
 export default function ServicesSection() {
-  const t = useTranslations('services');
-  const locale = useLocale() as 'en' | 'es' | 'pt';
+  const t = useTranslations("services");
+  const locale = useLocale() as "en" | "es" | "pt";
   const services = siteContent[locale].services.items;
 
   // Icons are now stored directly as emojis in site-content.json
@@ -22,9 +22,9 @@ export default function ServicesSection() {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="mb-6">{t('heading')}</h2>
+          <h2 className="mb-6">{t("heading")}</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            {t('description')}
+            {t("description")}
           </p>
         </motion.div>
 
@@ -65,7 +65,7 @@ export default function ServicesSection() {
         </div>
 
         {/* Note */}
-        {locale === 'es' && (
+        {locale === "es" && (
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -73,8 +73,66 @@ export default function ServicesSection() {
             className="text-center mt-12 mb-8"
           >
             <p className="text-lg text-gray-600 italic max-w-3xl mx-auto">
-              Nota: Todos los servicios pueden contratarse por separado o en formato pack, según las necesidades de tu propiedad y tus objetivos.
+              Nota: Todos los servicios pueden contratarse por separado o en
+              formato pack, según las necesidades de tu propiedad y tus
+              objetivos.
             </p>
+          </motion.div>
+        )}
+
+        {/* Consultation Box */}
+        {locale === "es" && (
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="bg-gradient-to-r from-primary-50 to-primary-100 rounded-2xl p-8 my-12 border border-primary-200"
+          >
+            <p className="text-gray-700 text-lg leading-relaxed max-w-3xl mx-auto mb-6">
+              {t("consultation")}
+            </p>
+            <p className="text-gray-700 text-lg leading-relaxed max-w-3xl mx-auto mb-6">
+              Cada propuesta que hago es totalmente personalizada. Así como no
+              existen dos casas iguales, tampoco existen dos clientes iguales.
+              Por eso te invito a agendar una llamada de consulta gratuita:
+              evaluaremos juntos el estado actual de tu propiedad y definiremos
+              las estrategias clave para potenciar y conseguir más reservas.
+            </p>
+            <div className="flex justify-center">
+              <a
+                href="https://api.whatsapp.com/send?phone=34611200787"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <motion.button
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.95 }}
+                  className="btn btn-gradient text-lg px-8 py-4"
+                >
+                  💬 {t("whatsappButton")}
+                </motion.button>
+              </a>
+            </div>
+          </motion.div>
+        )}
+
+        {/* Message Box */}
+        {locale === "es" && (
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="text-center mt-12 mb-8"
+          >
+            <a href="#contact">
+              <motion.button
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+                className="inline-block px-8 py-3 bg-white border-2 border-primary-500 text-primary-600 rounded-xl font-semibold hover:bg-primary-50 transition-colors"
+              >
+                ✉️ Envíame un mensaje
+              </motion.button>
+            </a>
           </motion.div>
         )}
 
@@ -95,7 +153,9 @@ export default function ServicesSection() {
               whileTap={{ scale: 0.95 }}
               className="btn btn-gradient text-lg px-8 py-4"
             >
-              {locale === 'es' ? '🚀 Transformemos Tu Propiedad' : '🚀 Let\'s Transform Your Property'}
+              {locale === "es"
+                ? "🚀 Transformemos Tu Propiedad"
+                : "🚀 Let's Transform Your Property"}
             </motion.button>
           </a>
         </motion.div>

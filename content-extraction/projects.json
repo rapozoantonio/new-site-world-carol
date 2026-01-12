@@ -20,10 +20,17 @@
         "industry": "Premium Vacation Rental",
         "location": "Brazil (Beachfront)",
         "duration": "1+ year ongoing",
-        "services": ["Full Digital Strategy", "Meta Ads", "Social Media Management", "Platform Optimization", "Content Creation", "Brand Positioning"],
+        "services": [
+          "Full Digital Strategy",
+          "Meta Ads",
+          "Social Media Management",
+          "Platform Optimization",
+          "Content Creation",
+          "Brand Positioning"
+        ],
         "targetAudience": "São Paulo travelers seeking premium beach experiences"
       },
-      "heroImage": "/images/portfolio/casa-kala-hero.jpg",
+      "heroImage": "/CASA KALA/1_AEREA.jpg",
       "challenge": {
         "en": [
           "Strengthen online presence and build a cohesive brand identity",
@@ -179,10 +186,11 @@
         }
       },
       "gallery": [
-        "/images/portfolio/casa-kala-1.jpg",
-        "/images/portfolio/casa-kala-2.jpg",
-        "/images/portfolio/casa-kala-3.jpg",
-        "/images/portfolio/casa-kala-4.jpg"
+        "/CASA KALA/1_AEREA.jpg",
+        "/CASA KALA/2_POOL.jpg",
+        "/CASA KALA/3_HOUSE.jpg",
+        "/CASA KALA/4_BEACH VIEW.jpg",
+        "/CASA KALA/5_NIGHT.jpg"
       ]
     },
     {
@@ -205,10 +213,18 @@
         "industry": "Premium Vacation Rental",
         "location": "Rural Brazil (Countryside)",
         "duration": "1+ year ongoing",
-        "services": ["Rebranding", "Meta Ads Management", "Content Strategy", "Instagram Setup", "Brand Guidelines", "Remarketing", "Lead Nurturing"],
+        "services": [
+          "Rebranding",
+          "Meta Ads Management",
+          "Content Strategy",
+          "Instagram Setup",
+          "Brand Guidelines",
+          "Remarketing",
+          "Lead Nurturing"
+        ],
         "targetAudience": "Urban professionals seeking nature escape and restoration"
       },
-      "heroImage": "/images/portfolio/pedra-da-lua-hero.jpg",
+      "heroImage": "/CASA PEDRA DA LUA/hero.jpg",
       "challenge": {
         "en": [
           "Property had no defined brand identity to compete in market",
@@ -247,10 +263,26 @@
           },
           "brandVoice": "warm, authentic, restorative",
           "contentPillars": [
-            { "name": "The Space", "percentage": 40, "description": "Property features, Interior design details, Outdoor areas" },
-            { "name": "The Experience", "percentage": 30, "description": "Nature immersion, Local activities, Relaxation moments" },
-            { "name": "The Story", "percentage": 20, "description": "Property history, Sustainable practices, Owner's vision" },
-            { "name": "Social Proof", "percentage": 10, "description": "Guest experiences, Reviews and testimonials, Booking information" }
+            {
+              "name": "The Space",
+              "percentage": 40,
+              "description": "Property features, Interior design details, Outdoor areas"
+            },
+            {
+              "name": "The Experience",
+              "percentage": 30,
+              "description": "Nature immersion, Local activities, Relaxation moments"
+            },
+            {
+              "name": "The Story",
+              "percentage": 20,
+              "description": "Property history, Sustainable practices, Owner's vision"
+            },
+            {
+              "name": "Social Proof",
+              "percentage": 10,
+              "description": "Guest experiences, Reviews and testimonials, Booking information"
+            }
           ]
         },
         "paidAdvertising": {
@@ -263,20 +295,42 @@
             {
               "name": "Awareness",
               "objective": "Expanding reach and attracting new audiences",
-              "tactics": ["Brand awareness campaigns", "Audience expansion", "Interest targeting", "Lookalike audiences"]
+              "tactics": [
+                "Brand awareness campaigns",
+                "Audience expansion",
+                "Interest targeting",
+                "Lookalike audiences"
+              ]
             },
             {
               "name": "Lead Nurturing",
               "objective": "Engagement ads and direct communication with potential clients",
-              "tactics": ["Engagement campaigns", "Direct message optimization", "Content interaction", "Community building"]
+              "tactics": [
+                "Engagement campaigns",
+                "Direct message optimization",
+                "Content interaction",
+                "Community building"
+              ]
             },
             {
               "name": "Conversion Optimization",
               "objective": "ROAS/ROI tracking in collaboration with booking team",
-              "tactics": ["Conversion campaigns", "Remarketing strategies", "Meta Ads optimization", "Mailchimp integration", "ManyChat automation"]
+              "tactics": [
+                "Conversion campaigns",
+                "Remarketing strategies",
+                "Meta Ads optimization",
+                "Mailchimp integration",
+                "ManyChat automation"
+              ]
             }
           ],
-          "tools": ["Meta Ads", "Mailchimp", "ManyChat", "Customer data segmentation", "Remarketing pixels"]
+          "tools": [
+            "Meta Ads",
+            "Mailchimp",
+            "ManyChat",
+            "Customer data segmentation",
+            "Remarketing pixels"
+          ]
         },
         "deliverables": [
           "Brand Guidelines Document (20 pages)",
@@ -419,9 +473,9 @@
         }
       },
       "gallery": [
-        "/images/portfolio/pedra-da-lua-1.jpg",
-        "/images/portfolio/pedra-da-lua-2.jpg",
-        "/images/portfolio/pedra-da-lua-3.jpg"
+        "/CASA PEDRA DA LUA/gallery-1.jpg",
+        "/CASA PEDRA DA LUA/gallery-2.jpg",
+        "/CASA PEDRA DA LUA/gallery-3.jpg"
       ]
     },
     {
@@ -444,10 +498,16 @@
         "industry": "Mobile App / Ethical Consumption / Social Impact",
         "location": "International",
         "duration": "In Production Phase",
-        "services": ["Product Strategy", "Digital Marketing Strategy", "Brand Development", "User Acquisition", "App Development Collaboration"],
+        "services": [
+          "Product Strategy",
+          "Digital Marketing Strategy",
+          "Brand Development",
+          "User Acquisition",
+          "App Development Collaboration"
+        ],
         "targetAudience": "Conscious consumers, Vegan lifestyle advocates, Animal welfare supporters"
       },
-      "heroImage": "/images/portfolio/animalist-club-hero.jpg",
+      "heroImage": "/THE ANIMALIST CLUB/hero.jpg",
       "challenge": {
         "en": [
           "Ethical shopping is complex and time-consuming for conscious consumers",
@@ -593,16 +653,21 @@
         ]
       },
       "gallery": [
-        "/images/portfolio/animalist-club-1.jpg",
-        "/images/portfolio/animalist-club-2.jpg",
-        "/images/portfolio/animalist-club-3.jpg"
+        "/THE ANIMALIST CLUB/gallery-1.jpg",
+        "/THE ANIMALIST CLUB/gallery-2.jpg",
+        "/THE ANIMALIST CLUB/gallery-3.jpg"
       ]
     },
     {
       "id": "feliz-boipeba",
       "slug": "feliz-boipeba",
       "featured": true,
-      "category": ["vacation-rentals", "paid-ads", "multi-platform", "funnel-strategy"],
+      "category": [
+        "vacation-rentals",
+        "paid-ads",
+        "multi-platform",
+        "funnel-strategy"
+      ],
       "title": {
         "en": "Feliz Boipeba",
         "es": "Feliz Boipeba",
@@ -618,10 +683,18 @@
         "industry": "Vacation Rental (Multi-property Complex)",
         "location": "Boipeba Island, Brazil",
         "duration": "1+ year ongoing",
-        "services": ["Multi-property Digital Ecosystem", "Strategic Funnel Management", "Paid Traffic", "Platform Optimization", "Review Generation", "Dynamic Pricing", "Educational Content Strategy"],
+        "services": [
+          "Multi-property Digital Ecosystem",
+          "Strategic Funnel Management",
+          "Paid Traffic",
+          "Platform Optimization",
+          "Review Generation",
+          "Dynamic Pricing",
+          "Educational Content Strategy"
+        ],
         "complexity": "High (5 apartments + 3 luxury villas, multiple platforms, geographic access barriers)"
       },
-      "heroImage": "/images/portfolio/feliz-boipeba-hero.jpg",
+      "heroImage": "/LAGUNA/hero.jpg",
       "challenge": {
         "en": [
           "Client managed two distinct properties (5 apartments + 3 luxury villas) with unclear brand differentiation limiting conversions",
@@ -814,7 +887,10 @@
         },
         "digitalArchitecture": {
           "masterBrand": "Feliz Boipeba",
-          "subProperties": ["Prime (3 luxury villas)", "Standard (5 apartments - mid-range)"]
+          "subProperties": [
+            "Prime (3 luxury villas)",
+            "Standard (5 apartments - mid-range)"
+          ]
         },
         "platformOptimization": [
           "Google My Business - Complete business profile, Photo galleries for each property, Review management strategy",
@@ -1007,10 +1083,9 @@
         ]
       },
       "gallery": [
-        "/images/portfolio/feliz-boipeba-1.jpg",
-        "/images/portfolio/feliz-boipeba-2.jpg",
-        "/images/portfolio/feliz-boipeba-3.jpg",
-        "/images/portfolio/feliz-boipeba-4.jpg"
+        "/LAGUNA/1_HOUSE.jpg",
+        "/LAGUNA/3_POOL.jpg",
+        "/LAGUNA/5_NIGHT.jpg"
       ]
     },
     {
@@ -1033,10 +1108,15 @@
         "industry": "Coffee Shop Loyalty System",
         "location": "Digital Product",
         "duration": "1+ year development",
-        "services": ["Product Design", "Marketing Strategy", "Business Model", "UX Design"],
+        "services": [
+          "Product Design",
+          "Marketing Strategy",
+          "Business Model",
+          "UX Design"
+        ],
         "innovation": "Replacing paper punch cards with digital experience"
       },
-      "heroImage": "/images/portfolio/tap-tap-hero.jpg",
+      "heroImage": "/TAP TAP/hero.jpg",
       "challenge": {
         "en": [
           "Traditional punch cards are: Easily lost, Not environmentally friendly, Provide no customer data, Create no ongoing relationship",
@@ -1091,7 +1171,12 @@
             "Referral (10 points for both)",
             "Visit during slow hours (1.5x points)"
           ],
-          "gamification": ["Streaks (consecutive day visits)", "Badges (Coffee Connoisseur, Early Bird, etc.)", "Leaderboards (optional, per shop)", "Seasonal challenges"]
+          "gamification": [
+            "Streaks (consecutive day visits)",
+            "Badges (Coffee Connoisseur, Early Bird, etc.)",
+            "Leaderboards (optional, per shop)",
+            "Seasonal challenges"
+          ]
         },
         "businessModel": {
           "revenueStreams": [
@@ -1119,8 +1204,9 @@
         }
       },
       "gallery": [
-        "/images/portfolio/tap-tap-1.jpg",
-        "/images/portfolio/tap-tap-2.jpg"
+        "/TAP TAP/gallery-1.jpg",
+        "/TAP TAP/gallery-2.jpg",
+        "/TAP TAP/gallery-3.jpg"
       ]
     },
     {
@@ -1143,10 +1229,18 @@
         "industry": "Vacation Rental (New Property Launch)",
         "location": "Lagoon-view property, Brazil",
         "duration": "1+ year ongoing",
-        "services": ["360° Digital Strategy", "Platform Optimization", "Penetration Pricing Strategy", "Review Generation Systems", "Paid Traffic Management", "Data Capture & Remarketing", "ROI Optimization"],
+        "services": [
+          "360° Digital Strategy",
+          "Platform Optimization",
+          "Penetration Pricing Strategy",
+          "Review Generation Systems",
+          "Paid Traffic Management",
+          "Data Capture & Remarketing",
+          "ROI Optimization"
+        ],
         "challenge": "Classic vicious circle: no reviews = no bookings, but no bookings = no reviews"
       },
-      "heroImage": "/images/portfolio/casa-laguna-hero.jpg",
+      "heroImage": "/LAGUNA/hero.jpg",
       "challenge": {
         "en": [
           "Newly inaugurated property with zero digital presence",
@@ -1582,9 +1676,9 @@
         }
       },
       "gallery": [
-        "/images/portfolio/casa-laguna-1.jpg",
-        "/images/portfolio/casa-laguna-2.jpg",
-        "/images/portfolio/casa-laguna-3.jpg"
+        "/LAGUNA/1_HOUSE.jpg",
+        "/LAGUNA/3_POOL.jpg",
+        "/LAGUNA/5_NIGHT.jpg"
       ]
     },
     {
@@ -1607,11 +1701,17 @@
         "industry": "SaaS / Mobile App / Retail Tech",
         "location": "International (Coffee Shop Market)",
         "duration": "Product Development",
-        "services": ["Product Strategy", "UX/UI Design", "Mobile App Development", "Market Research", "Business Model Design"],
+        "services": [
+          "Product Strategy",
+          "UX/UI Design",
+          "Mobile App Development",
+          "Market Research",
+          "Business Model Design"
+        ],
         "targetAudience": "Coffee shop owners and coffee lovers",
         "website": "https://www.taptapfidelity.com/"
       },
-      "heroImage": "/images/portfolio/tap-tap-hero.jpg",
+      "heroImage": "/FB/3_TERRAZA.jpg",
       "challenge": {
         "en": [
           "Physical loyalty cards are constantly lost, forgotten at home, or damaged",
@@ -1785,11 +1885,7 @@
           "pt": "Atualmente em fase de desenvolvimento com MVP planejado para Q1 2026"
         }
       },
-      "gallery": [
-        "/images/portfolio/tap-tap-1.jpg",
-        "/images/portfolio/tap-tap-2.jpg",
-        "/images/portfolio/tap-tap-3.jpg"
-      ]
+      "gallery": ["/FB/3_TERRAZA.jpg", "/FB/4_PLAYA.jpg"]
     }
   ]
 }

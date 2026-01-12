@@ -1,22 +1,23 @@
-import { NextIntlClientProvider } from 'next-intl';
-import { getMessages, setRequestLocale } from 'next-intl/server';
-import { notFound } from 'next/navigation';
-import type { Metadata, Viewport } from 'next';
-import Header from '@/components/layout/Header';
-import Footer from '@/components/layout/Footer';
-import StructuredData from '@/components/StructuredData';
-import siteContent from '../../../content-extraction/site-content.json';
-import Script from 'next/script';
+import { NextIntlClientProvider } from "next-intl";
+import { getMessages, setRequestLocale } from "next-intl/server";
+import { notFound } from "next/navigation";
+import type { Metadata, Viewport } from "next";
+import Header from "@/components/layout/Header";
+import Footer from "@/components/layout/Footer";
+import WhatsAppWidget from "@/components/ui/WhatsAppWidget";
+import StructuredData from "@/components/StructuredData";
+import siteContent from "../../../content-extraction/site-content.json";
+import Script from "next/script";
 
-const locales = ['en', 'es', 'pt'];
+const locales = ["es"];
 
 // Viewport configuration for mobile optimization
 export const viewport: Viewport = {
-  width: 'device-width',
+  width: "device-width",
   initialScale: 1,
   maximumScale: 5,
   userScalable: true,
-  themeColor: '#ff7f50',
+  themeColor: "#ff7f50",
 };
 
 // Metadata generation
@@ -26,49 +27,47 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
-  const localeData = siteContent[locale as 'en' | 'es' | 'pt'] || siteContent.es;
+  const localeData = siteContent[locale as "es"] || siteContent.es;
   const meta = localeData.meta;
 
   return {
     title: {
       default: meta.title,
-      template: '%s | NewSite by Carolina Arango',
+      template: "%s | NewSite by Carolina Arango",
     },
     description: meta.description,
     keywords: meta.keywords,
-    authors: [{ name: 'Carolina Arango' }],
-    creator: 'Carolina Arango',
-    publisher: 'NewSite',
-    metadataBase: new URL('https://newsitebycaro.com'),
+    authors: [{ name: "Carolina Arango" }],
+    creator: "Carolina Arango",
+    publisher: "NewSite",
+    metadataBase: new URL("https://newsitebycaro.com"),
     alternates: {
       canonical: `/${locale}`,
       languages: {
-        en: '/en',
-        es: '/es',
-        pt: '/pt',
+        es: "/es",
       },
     },
     openGraph: {
-      type: 'website',
+      type: "website",
       locale: locale,
       url: `/${locale}`,
-      siteName: 'NewSite by Carolina Arango',
+      siteName: "NewSite by Carolina Arango",
       title: meta.title,
       description: meta.description,
       images: [
         {
-          url: '/images/og-image.jpg',
+          url: "/images/og-image.jpg",
           width: 1200,
           height: 630,
-          alt: 'NewSite by Carolina Arango - Digital Marketing for Vacation Rentals',
+          alt: "NewSite by Carolina Arango - Digital Marketing for Vacation Rentals",
         },
       ],
     },
     twitter: {
-      card: 'summary_large_image',
+      card: "summary_large_image",
       title: meta.title,
       description: meta.description,
-      images: ['/images/og-image.jpg'],
+      images: ["/images/og-image.jpg"],
     },
     robots: {
       index: true,
@@ -76,13 +75,13 @@ export async function generateMetadata({
       googleBot: {
         index: true,
         follow: true,
-        'max-video-preview': -1,
-        'max-image-preview': 'large',
-        'max-snippet': -1,
+        "max-video-preview": -1,
+        "max-image-preview": "large",
+        "max-snippet": -1,
       },
     },
     verification: {
-      google: 'your-google-verification-code',
+      google: "your-google-verification-code",
     },
   };
 }
@@ -119,7 +118,11 @@ export default async function LocaleLayout({
       <head>
         {/* Google Fonts */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link
+          rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossOrigin="anonymous"
+        />
         <link
           href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800;900&family=Poppins:wght@400;500;600;700;800;900&display=swap"
           rel="stylesheet"
@@ -159,7 +162,7 @@ fbq('track', 'PageView');`,
           <img
             height="1"
             width="1"
-            style={{ display: 'none' }}
+            style={{ display: "none" }}
             src={`https://www.facebook.com/tr?id=${analytics.fbPixelId}&ev=PageView&noscript=1`}
             alt=""
           />
@@ -186,7 +189,7 @@ fbq('track', 'PageView');`,
         />
 
         {/* Structured Data */}
-        <StructuredData locale={locale as 'en' | 'es' | 'pt'} />
+        <StructuredData locale={locale as "en" | "es" | "pt"} />
       </head>
       <body className="font-sans antialiased">
         {/* Google Tag Manager (noscript) */}
@@ -195,7 +198,7 @@ fbq('track', 'PageView');`,
             src={`https://www.googletagmanager.com/ns.html?id=${analytics.gtmId}`}
             height="0"
             width="0"
-            style={{ display: 'none', visibility: 'hidden' }}
+            style={{ display: "none", visibility: "hidden" }}
           />
         </noscript>
 
@@ -204,6 +207,7 @@ fbq('track', 'PageView');`,
             <Header />
             <main className="flex-grow">{children}</main>
             <Footer />
+            <WhatsAppWidget />
           </div>
         </NextIntlClientProvider>
       </body>

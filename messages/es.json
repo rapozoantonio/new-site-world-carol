@@ -23,7 +23,9 @@
   },
   "services": {
     "heading": "Mis Servicios",
-    "description": "Convierte tu casa vacacional en una propiedad altamente demandada. A través de redes sociales, publicidad digital y optimización de todos tus perfiles."
+    "description": "Convierte tu casa vacacional en una propiedad altamente demandada. A través de redes sociales, publicidad digital y optimización de todos tus perfiles.",
+    "consultation": "Cada propuesta que hago es totalmente personalizada. Así como no existen dos casas iguales, tampoco existen dos clientes iguales. Por eso te invito a agendar una llamada de consulta gratuita: evaluaremos juntos el estado actual de tu propiedad y definiremos las estrategias clave para potenciar y conseguir más reservas.",
+    "whatsappButton": "Agendar Llamada Gratuita"
   },
   "projects": {
     "heading": "Proyectos Destacados",
@@ -38,7 +40,7 @@
     }
   },
   "contact": {
-    "heading": "Trabajemos Juntos",
+    "heading": "Solicita tu solución personalizada",
     "description": "¿Listo para transformar tu alquiler vacacional en un destino imprescindible?",
     "form": {
       "name": "Tu Nombre",
