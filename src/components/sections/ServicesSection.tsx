@@ -91,13 +91,6 @@ export default function ServicesSection() {
             <p className="text-gray-700 text-lg leading-relaxed max-w-3xl mx-auto mb-6">
               {t("consultation")}
             </p>
-            <p className="text-gray-700 text-lg leading-relaxed max-w-3xl mx-auto mb-6">
-              Cada propuesta que hago es totalmente personalizada. Así como no
-              existen dos casas iguales, tampoco existen dos clientes iguales.
-              Por eso te invito a agendar una llamada de consulta gratuita:
-              evaluaremos juntos el estado actual de tu propiedad y definiremos
-              las estrategias clave para potenciar y conseguir más reservas.
-            </p>
             <div className="flex justify-center">
               <a
                 href="https://api.whatsapp.com/send?phone=34611200787"

@@ -93,11 +93,11 @@ export default function ContactSection() {
           )}
         </motion.div>
 
-        <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 mb-16">
-          {/* Left Column - Contact Form */}
+        <div className="max-w-2xl mx-auto mb-16">
+          {/* Contact Form */}
           <motion.div
-            initial={{ opacity: 0, x: -50 }}
-            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
@@ -169,46 +169,6 @@ export default function ContactSection() {
             </Card>
           </motion.div>
 
-          {/* Right Column - Contact Methods */}
-          <motion.div
-            variants={containerVariants}
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true }}
-            className="space-y-6"
-          >
-            {content.methods.map((method, index) => (
-              <motion.div key={index} variants={itemVariants}>
-                <Card variant="hover" padding="md">
-                  <div className="flex items-start gap-4">
-                    <div className="text-4xl flex-shrink-0">
-                      {iconMap[method.icon] || '📞'}
-                    </div>
-                    <div>
-                      <h4 className="text-lg font-heading font-semibold mb-1">
-                        {method.title}
-                      </h4>
-                      <p className="text-gray-600">{method.detail}</p>
-                    </div>
-                  </div>
-                </Card>
-              </motion.div>
-            ))}
-
-            {/* Quick WhatsApp Button */}
-            <motion.div variants={itemVariants}>
-              <a
-                href={createWhatsAppURL(contactInfo.whatsapp, 'Hola! Me gustaría saber más sobre tus servicios.')}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="block"
-              >
-                <Button variant="outline" size="lg" fullWidth>
-                  💬 WhatsApp Direct
-                </Button>
-              </a>
-            </motion.div>
-          </motion.div>
         </div>
 
         {/* Team Section */}

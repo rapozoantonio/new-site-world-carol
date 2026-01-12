@@ -81,12 +81,38 @@ export default function ProjectPage() {
     return () => window.removeEventListener('keydown', handleKeyDown);
   }, [selectedImage, imageIndex, gallery]);
 
+  const tabLabels = {
+    en: {
+      overview: 'Overview',
+      challenge: 'Challenge',
+      strategy: 'Strategy',
+      results: 'Results',
+      gallery: 'Gallery'
+    },
+    es: {
+      overview: 'Resumen',
+      challenge: 'Desafío',
+      strategy: 'Estrategia',
+      results: 'Resultados',
+      gallery: 'Galería'
+    },
+    pt: {
+      overview: 'Resumo',
+      challenge: 'Desafio',
+      strategy: 'Estratégia',
+      results: 'Resultados',
+      gallery: 'Galeria'
+    }
+  };
+
+  const currentLabels = tabLabels[locale as Locale] || tabLabels.en;
+
   const tabs = [
-    { id: 'overview' as TabType, label: 'Overview', icon: '📊' },
-    { id: 'challenge' as TabType, label: 'Challenge', icon: '🎯' },
-    { id: 'strategy' as TabType, label: 'Strategy', icon: '🚀' },
-    { id: 'results' as TabType, label: 'Results', icon: '📈' },
-    { id: 'gallery' as TabType, label: 'Gallery', icon: '🖼️' },
+    { id: 'overview' as TabType, label: currentLabels.overview, icon: '📊' },
+    { id: 'challenge' as TabType, label: currentLabels.challenge, icon: '🎯' },
+    { id: 'strategy' as TabType, label: currentLabels.strategy, icon: '🚀' },
+    { id: 'results' as TabType, label: currentLabels.results, icon: '📈' },
+    { id: 'gallery' as TabType, label: currentLabels.gallery, icon: '🖼️' },
   ];
 
   return (

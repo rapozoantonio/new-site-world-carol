@@ -4,11 +4,7 @@
       "id": "casa-kala",
       "slug": "casa-kala",
       "featured": true,
-      "category": [
-        "vacation-rentals",
-        "paid-ads",
-        "social-media"
-      ],
+      "category": ["vacation-rentals", "paid-ads", "social-media"],
       "title": {
         "en": "Casa Kala",
         "es": "Casa Kala",
@@ -201,12 +197,7 @@
       "id": "pedra-da-lua",
       "slug": "pedra-da-lua",
       "featured": true,
-      "category": [
-        "vacation-rentals",
-        "branding",
-        "paid-ads",
-        "social-media"
-      ],
+      "category": ["vacation-rentals", "branding", "paid-ads", "social-media"],
       "title": {
         "en": "Casa Pedra da Lua",
         "es": "Casa Pedra da Lua",
@@ -233,7 +224,7 @@
         ],
         "targetAudience": "Urban professionals seeking nature escape and restoration"
       },
-      "heroImage": "/CASA PEDRA DA LUA/1_AEREA.png",
+      "heroImage": "/CASA PEDRA DA LUA/hero.jpg",
       "challenge": {
         "en": [
           "Property had no defined brand identity to compete in market",
@@ -491,6 +482,186 @@
     },
     {
       "id": "feliz-boipeba",
+      "slug": "animalist-club",
+      "featured": true,
+      "category": ["product-development", "mobile-app", "social-innovation"],
+      "title": {
+        "en": "The Animalist Club",
+        "es": "The Animalist Club",
+        "pt": "The Animalist Club"
+      },
+      "tagline": {
+        "en": "Ethical Shopping Simplified - Empowering Conscious Consumers",
+        "es": "Compras Éticas Simplificadas - Empoderando Consumidores Conscientes",
+        "pt": "Compras Éticas Simplificadas - Empoderando Consumidores Conscientes"
+      },
+      "overview": {
+        "client": "The Animalist Club (Own Project)",
+        "industry": "Mobile App / Ethical Consumption / Social Impact",
+        "location": "International",
+        "duration": "In Production Phase",
+        "services": [
+          "Product Strategy",
+          "Digital Marketing Strategy",
+          "Brand Development",
+          "User Acquisition",
+          "App Development Collaboration"
+        ],
+        "targetAudience": "Conscious consumers, Vegan lifestyle advocates, Animal welfare supporters"
+      },
+      "heroImage": "/THE ANIMALIST CLUB/hero.jpg",
+      "challenge": {
+        "en": [
+          "Ethical shopping is complex and time-consuming for conscious consumers",
+          "Lack of reliable verification systems for vegan and cruelty-free products",
+          "Consumers struggle to identify truly ethical brands among greenwashing claims",
+          "Animal welfare organizations need sustainable funding beyond one-time donations",
+          "Gap between consumer intention for sustainable consumption and actual behavior",
+          "No centralized platform connecting ethical shopping with direct animal welfare impact"
+        ],
+        "es": [
+          "Las compras éticas son complejas y consumen mucho tiempo para los consumidores conscientes",
+          "Falta de sistemas de verificación confiables para productos veganos y libres de crueldad",
+          "Los consumidores luchan por identificar marcas verdaderamente éticas entre afirmaciones de greenwashing",
+          "Las organizaciones de bienestar animal necesitan financiamiento sostenible más allá de donaciones únicas",
+          "Brecha entre la intención del consumidor de consumo sostenible y el comportamiento real",
+          "No existe una plataforma centralizada que conecte las compras éticas con el impacto directo en el bienestar animal"
+        ],
+        "pt": [
+          "Compras éticas são complexas e demoradas para consumidores conscientes",
+          "Falta de sistemas de verificação confiáveis para produtos veganos e livres de crueldade",
+          "Consumidores lutam para identificar marcas verdadeiramente éticas entre alegações de greenwashing",
+          "Organizações de bem-estar animal precisam de financiamento sustentável além de doações únicas",
+          "Lacuna entre a intenção do consumidor de consumo sustentável e o comportamento real",
+          "Não existe plataforma centralizada conectando compras éticas com impacto direto no bem-estar animal"
+        ]
+      },
+      "solution": {
+        "en": "The Animalist Club is an innovative app developed in collaboration with a software engineer that empowers responsible consumers by making ethical shopping easier and more accessible. The app provides a reliable verification system for vegan and cruelty-free products, actively supports animal welfare organizations through donations and partnerships, and promotes sustainable consumption by encouraging the use of ethical products.",
+        "es": "The Animalist Club es una app innovadora desarrollada en colaboración con un ingeniero de software que empodera a los consumidores responsables, facilitando y haciendo más accesibles las compras éticas. La app ofrece un sistema de verificación confiable para productos veganos y libres de crueldad, apoya activamente a organizaciones de bienestar animal mediante donaciones y alianzas, y promueve el consumo sostenible incentivando el uso de productos éticos.",
+        "pt": "The Animalist Club é um app inovador desenvolvido em colaboração com um engenheiro de software que empodera consumidores responsáveis, facilitando e tornando mais acessíveis as compras éticas. O app oferece um sistema de verificação confiável para produtos veganos e livres de crueldade, apoia ativamente organizações de bem-estar animal através de doações e parcerias, e promove o consumo sustentável incentivando o uso de produtos éticos."
+      },
+      "strategy": {
+        "developmentStatus": {
+          "en": "The project is currently in the production phase. My focus is on designing a comprehensive digital strategy to establish brand visibility, attract users, and drive customer acquisition.",
+          "es": "El proyecto todavía se encuentra en desarrollo y la app está actualmente en fase de producción. Mi enfoque está en diseñar una estrategia digital integral para establecer la visibilidad de la marca, atraer usuarios y fomentar la adquisición de clientes.",
+          "pt": "O projeto ainda está em desenvolvimento e o app está atualmente em fase de produção. Meu foco está em projetar uma estratégia digital abrangente para estabelecer a visibilidade da marca, atrair usuários e impulsionar a aquisição de clientes."
+        },
+        "keyObjectives": [
+          {
+            "icon": "✅",
+            "title": {
+              "en": "Help Consumers Identify Vegan & Cruelty-Free Products",
+              "es": "Ayudar a los Consumidores a Identificar Productos Veganos y Libres de Crueldad",
+              "pt": "Ajudar Consumidores a Identificar Produtos Veganos e Livres de Crueldade"
+            },
+            "description": {
+              "en": "Our app offers a reliable verification system, providing clear and accessible information so users can ensure their purchases align with an ethical lifestyle.",
+              "es": "Nuestra app ofrece un sistema de verificación confiable, proporcionando información clara y accesible para que los usuarios puedan asegurar que sus compras estén alineadas con un estilo de vida ético.",
+              "pt": "Nosso app oferece um sistema de verificação confiável, fornecendo informações claras e acessíveis para que os usuários possam garantir que suas compras estejam alinhadas com um estilo de vida ético."
+            }
+          },
+          {
+            "icon": "🐾",
+            "title": {
+              "en": "Support Animal Welfare Organizations",
+              "es": "Apoyar a Organizaciones de Bienestar Animal",
+              "pt": "Apoiar Organizações de Bem-Estar Animal"
+            },
+            "description": {
+              "en": "Beyond providing information, we actively support organizations that rescue and protect homeless animals through donations, partnerships, and awareness programs.",
+              "es": "Más allá de brindar información, apoyamos activamente a organizaciones que rescatan y protegen animales sin hogar mediante donaciones, alianzas y programas de concienciación.",
+              "pt": "Além de fornecer informações, apoiamos ativamente organizações que resgatam e protegem animais sem-teto através de doações, parcerias e programas de conscientização."
+            }
+          },
+          {
+            "icon": "🌱",
+            "title": {
+              "en": "Promote Sustainable Consumption",
+              "es": "Promover el Consumo Sostenible",
+              "pt": "Promover o Consumo Sustentável"
+            },
+            "description": {
+              "en": "By incentivizing the use of vegan and cruelty-free products, we seek to reduce environmental impact and inspire brands to adopt more sustainable practices.",
+              "es": "Al incentivar el uso de productos veganos y libres de crueldad, buscamos reducir el impacto ambiental e inspirar a las marcas a adoptar prácticas más sostenibles.",
+              "pt": "Ao incentivar o uso de produtos veganos e livres de crueldade, buscamos reduzir o impacto ambiental e inspirar marcas a adotar práticas mais sustentáveis."
+            }
+          }
+        ],
+        "myRole": {
+          "en": "As co-founder and digital strategist, I focus on building brand visibility and user acquisition strategy while collaborating with a software engineer on product development.",
+          "es": "Como cofundadora y estratega digital, me enfoco en construir la visibilidad de la marca y la estrategia de adquisición de usuarios mientras colaboro con un ingeniero de software en el desarrollo del producto.",
+          "pt": "Como cofundadora e estrategista digital, foco em construir a visibilidade da marca e a estratégia de aquisição de usuários enquanto colaboro com um engenheiro de software no desenvolvimento do produto."
+        },
+        "coreFeatures": [
+          {
+            "icon": "🔍",
+            "feature": {
+              "en": "Product Verification System",
+              "es": "Sistema de Verificación de Productos",
+              "pt": "Sistema de Verificação de Produtos"
+            },
+            "description": {
+              "en": "Scan products to instantly verify vegan and cruelty-free status with transparent certification information",
+              "es": "Escanea productos para verificar instantáneamente el estado vegano y libre de crueldad con información de certificación transparente",
+              "pt": "Escaneie produtos para verificar instantaneamente o status vegano e livre de crueldade com informações de certificação transparentes"
+            }
+          },
+          {
+            "icon": "💚",
+            "feature": {
+              "en": "Direct Impact Donations",
+              "es": "Donaciones de Impacto Directo",
+              "pt": "Doações de Impacto Direto"
+            },
+            "description": {
+              "en": "Support animal welfare organizations through integrated donation system with transparent impact tracking",
+              "es": "Apoya organizaciones de bienestar animal a través del sistema de donaciones integrado con seguimiento de impacto transparente",
+              "pt": "Apoie organizações de bem-estar animal através do sistema de doações integrado com rastreamento de impacto transparente"
+            }
+          },
+          {
+            "icon": "🌍",
+            "feature": {
+              "en": "Sustainable Brand Directory",
+              "es": "Directorio de Marcas Sostenibles",
+              "pt": "Diretório de Marcas Sustentáveis"
+            },
+            "description": {
+              "en": "Discover and support brands committed to ethical practices and environmental sustainability",
+              "es": "Descubre y apoya marcas comprometidas con prácticas éticas y sostenibilidad ambiental",
+              "pt": "Descubra e apoie marcas comprometidas com práticas éticas e sustentabilidade ambiental"
+            }
+          }
+        ]
+      },
+      "results": {
+        "projectStatus": {
+          "en": "Currently in production phase with planned launch in 2026",
+          "es": "Actualmente en fase de producción con lanzamiento planificado en 2026",
+          "pt": "Atualmente em fase de produção com lançamento planejado em 2026"
+        },
+        "personalCommitment": {
+          "en": "This project reflects my personal commitment to ethical consumption and my mission to generate a positive impact on society, animals, and the planet.",
+          "es": "Este proyecto refleja mi compromiso personal con el consumo ético y mi misión de generar un impacto positivo en la sociedad, los animales y el planeta.",
+          "pt": "Este projeto reflete meu compromisso pessoal com o consumo ético e minha missão de gerar um impacto positivo na sociedade, nos animais e no planeta."
+        },
+        "strategicFocus": [
+          "Building pre-launch community and brand awareness",
+          "Developing user acquisition funnels for app launch",
+          "Creating educational content about ethical consumption",
+          "Establishing partnerships with animal welfare organizations",
+          "Designing sustainable business model balancing social impact and profitability"
+        ]
+      },
+      "gallery": [
+        "/THE ANIMALIST CLUB/gallery-1.jpg",
+        "/THE ANIMALIST CLUB/gallery-2.jpg",
+        "/THE ANIMALIST CLUB/gallery-3.jpg"
+      ]
+    },
+    {
+      "id": "feliz-boipeba",
       "slug": "feliz-boipeba",
       "featured": true,
       "category": [
@@ -525,7 +696,7 @@
         ],
         "complexity": "High (5 apartments + 3 luxury villas, multiple platforms, geographic access barriers)"
       },
-      "heroImage": "/FB/1_PRIME.png",
+      "heroImage": "/LAGUNA/hero.jpg",
       "challenge": {
         "en": [
           "Client managed two distinct properties (5 apartments + 3 luxury villas) with unclear brand differentiation limiting conversions",
@@ -914,21 +1085,137 @@
         ]
       },
       "gallery": [
-        "/FB/1_PRIME.png",
-        "/FB/2_FB1.png",
-        "/FB/3_TERRAZA.jpg",
-        "/FB/4_PLAYA.jpg"
+        "/LAGUNA/1_HOUSE.jpg",
+        "/LAGUNA/3_POOL.jpg",
+        "/LAGUNA/5_NIGHT.jpg"
+      ]
+    },
+    {
+      "id": "tap-tap",
+      "slug": "tap-tap",
+      "featured": false,
+      "category": ["product-design", "loyalty"],
+      "title": {
+        "en": "Tap Tap - Coffee Loyalty App",
+        "es": "Tap Tap - App de Fidelidad para Café",
+        "pt": "Tap Tap - App de Fidelidade para Café"
+      },
+      "tagline": {
+        "en": "Brewing Loyalty, One Tap at a Time",
+        "es": "Preparando Lealtad, Un Toque a la Vez",
+        "pt": "Preparando Lealdade, Um Toque de Cada Vez"
+      },
+      "overview": {
+        "client": "Tap Tap (Concept)",
+        "industry": "Coffee Shop Loyalty System",
+        "location": "Digital Product",
+        "duration": "1+ year development",
+        "services": [
+          "Product Design",
+          "Marketing Strategy",
+          "Business Model",
+          "UX Design"
+        ],
+        "innovation": "Replacing paper punch cards with digital experience"
+      },
+      "heroImage": "/TAP TAP/hero.jpg",
+      "challenge": {
+        "en": [
+          "Traditional punch cards are: Easily lost, Not environmentally friendly, Provide no customer data, Create no ongoing relationship",
+          "Coffee shops have no customer database",
+          "No way to incentivize return visits",
+          "Missing opportunity for personalization"
+        ],
+        "es": [
+          "Las tarjetas de fidelización tradicionales: Se pierden fácilmente, No son ecológicas, No proporcionan datos de clientes, No crean relación continua",
+          "Las cafeterías no tienen base de datos de clientes",
+          "No hay forma de incentivar visitas de retorno",
+          "Se pierde oportunidad de personalización"
+        ],
+        "pt": [
+          "Cartões de fidelidade tradicionais: Perdem-se facilmente, Não são ecológicos, Não fornecem dados de clientes, Não criam relacionamento contínuo",
+          "Cafeterias não têm banco de dados de clientes",
+          "Sem forma de incentivar visitas de retorno",
+          "Perda de oportunidade de personalização"
+        ]
+      },
+      "strategy": {
+        "vision": "Create a digital ecosystem where: Customers earn points digitally, Coffee shops collect valuable data, Everyone wins (customer convenience + shop insights), Sustainable alternative to paper, Scalable to multiple locations",
+        "coreFeatures": [
+          {
+            "for": "Customers",
+            "features": [
+              "Digital loyalty card (no physical needed)",
+              "Points tracking across multiple shops",
+              "Birthday reward automatically applied",
+              "Push notifications for special offers",
+              "Coffee preference history",
+              "Favorite drink quick-order"
+            ]
+          },
+          {
+            "for": "Coffee Shops",
+            "features": [
+              "Customer database with emails/phones",
+              "Purchase behavior analytics",
+              "Automated marketing campaigns",
+              "Retention metrics dashboard",
+              "Custom reward configuration",
+              "Competitor insights"
+            ]
+          }
+        ],
+        "loyaltyMechanics": {
+          "pointSystem": "1 point per $1 spent, 10 points = free coffee",
+          "bonusPoints": [
+            "Birthday month (2x points)",
+            "First purchase (5 bonus points)",
+            "Referral (10 points for both)",
+            "Visit during slow hours (1.5x points)"
+          ],
+          "gamification": [
+            "Streaks (consecutive day visits)",
+            "Badges (Coffee Connoisseur, Early Bird, etc.)",
+            "Leaderboards (optional, per shop)",
+            "Seasonal challenges"
+          ]
+        },
+        "businessModel": {
+          "revenueStreams": [
+            "Shop Subscription ($29/month per shop)",
+            "Transaction Fee (2% of redemptions)",
+            "Premium Features (advanced analytics)",
+            "Data Insights Reports (aggregate market data)"
+          ]
+        }
+      },
+      "results": {
+        "status": "MVP fully designed - Seeking technical co-founder/dev partner and initial funding",
+        "projectedResults": {
+          "forCustomers": [
+            "60% reduction in lost rewards",
+            "Average savings: $50/year",
+            "Discover 3+ new coffee shops"
+          ],
+          "forCoffeeShops": [
+            "40% increase in repeat visits",
+            "Build 500+ customer database in 6 months",
+            "25% boost in slow-hour traffic",
+            "$1,200+ additional revenue/month"
+          ]
+        }
+      },
+      "gallery": [
+        "/TAP TAP/gallery-1.jpg",
+        "/TAP TAP/gallery-2.jpg",
+        "/TAP TAP/gallery-3.jpg"
       ]
     },
     {
       "id": "casa-laguna",
       "slug": "casa-laguna",
       "featured": true,
-      "category": [
-        "vacation-rentals",
-        "launch-strategy",
-        "zero-to-hero"
-      ],
+      "category": ["vacation-rentals", "launch-strategy", "zero-to-hero"],
       "title": {
         "en": "Casa Laguna",
         "es": "Casa Laguna",
@@ -955,7 +1242,7 @@
         ],
         "challenge": "Classic vicious circle: no reviews = no bookings, but no bookings = no reviews"
       },
-      "heroImage": "/LAGUNA/1_HOUSE.jpg",
+      "heroImage": "/LAGUNA/hero.jpg",
       "challenge": {
         "en": [
           "Newly inaugurated property with zero digital presence",
@@ -999,11 +1286,7 @@
               "es": "Construir una base sólida optimizando perfiles clave",
               "pt": "Construir base sólida otimizando perfis-chave"
             },
-            "platforms": [
-              "Airbnb",
-              "Booking.com",
-              "Google My Business"
-            ],
+            "platforms": ["Airbnb", "Booking.com", "Google My Business"],
             "focus": {
               "en": [
                 "Not limited to completing basic information",
@@ -1399,6 +1682,212 @@
         "/LAGUNA/3_POOL.jpg",
         "/LAGUNA/5_NIGHT.jpg"
       ]
+    },
+    {
+      "id": "tap-tap",
+      "slug": "tap-tap",
+      "featured": true,
+      "category": ["product-development", "mobile-app", "saas"],
+      "title": {
+        "en": "Tap Tap",
+        "es": "Tap Tap",
+        "pt": "Tap Tap"
+      },
+      "tagline": {
+        "en": "Digital Loyalty Wallet for Coffee Shops - Eliminating Lost Cards Forever",
+        "es": "Billetera Digital de Fidelidad para Cafeterías - Adiós a las Tarjetas Perdidas",
+        "pt": "Carteira Digital de Fidelidade para Cafeterias - Acabando com Cartões Perdidos"
+      },
+      "overview": {
+        "client": "Tap Tap (Own Product)",
+        "industry": "SaaS / Mobile App / Retail Tech",
+        "location": "International (Coffee Shop Market)",
+        "duration": "Product Development",
+        "services": [
+          "Product Strategy",
+          "UX/UI Design",
+          "Mobile App Development",
+          "Market Research",
+          "Business Model Design"
+        ],
+        "targetAudience": "Coffee shop owners and coffee lovers",
+        "website": "https://www.taptapfidelity.com/"
+      },
+      "heroImage": "/FB/3_TERRAZA.jpg",
+      "challenge": {
+        "en": [
+          "Physical loyalty cards are constantly lost, forgotten at home, or damaged",
+          "Coffee lovers accumulate stacks of unused loyalty cards from different shops",
+          "Coffee shops waste €440-€1,140/year printing physical loyalty cards",
+          "No centralized system for customers to manage multiple loyalty programs",
+          "Coffee shops lack real behavioral data about their most loyal customers",
+          "Traditional loyalty programs have low redemption rates due to card loss"
+        ],
+        "es": [
+          "Las tarjetas de fidelidad físicas se pierden, olvidan en casa o dañan constantemente",
+          "Los amantes del café acumulan montones de tarjetas de fidelidad sin usar de diferentes tiendas",
+          "Las cafeterías desperdician €440-€1,140/año imprimiendo tarjetas de fidelidad físicas",
+          "No existe un sistema centralizado para que los clientes gestionen múltiples programas de fidelidad",
+          "Las cafeterías carecen de datos reales sobre el comportamiento de sus clientes más leales",
+          "Los programas de fidelidad tradicionales tienen bajas tasas de canje debido a la pérdida de tarjetas"
+        ],
+        "pt": [
+          "Cartões de fidelidade físicos são constantemente perdidos, esquecidos em casa ou danificados",
+          "Amantes de café acumulam pilhas de cartões de fidelidade não utilizados de diferentes lojas",
+          "Cafeterias desperdiçam €440-€1,140/ano imprimindo cartões de fidelidade físicos",
+          "Não existe sistema centralizado para clientes gerenciarem múltiplos programas de fidelidade",
+          "Cafeterias não possuem dados reais sobre comportamento de seus clientes mais fiéis",
+          "Programas de fidelidade tradicionais têm baixas taxas de resgate devido à perda de cartões"
+        ]
+      },
+      "solution": {
+        "en": "Tap Tap is a digital loyalty wallet specifically designed for coffee shops. Customers accumulate reward points directly on their phone, eliminating physical cards that get lost, forgotten, or damaged. The app centralizes all loyalty cards in one place and provides coffee shops with real customer data and automated remarketing capabilities.",
+        "es": "Tap Tap es una billetera de fidelidad digital diseñada específicamente para cafeterías. Los clientes acumulan puntos de recompensa directamente en su teléfono, eliminando las tarjetas físicas que se pierden, olvidan o dañan. La app centraliza todas las tarjetas de fidelidad en un solo lugar y proporciona a las cafeterías datos reales de clientes y capacidades de remarketing automatizado.",
+        "pt": "Tap Tap é uma carteira de fidelidade digital projetada especificamente para cafeterias. Clientes acumulam pontos de recompensa diretamente no telefone, eliminando cartões físicos que são perdidos, esquecidos ou danificados. O app centraliza todos os cartões de fidelidade em um só lugar e fornece às cafeterias dados reais de clientes e capacidades de remarketing automatizado."
+      },
+      "strategy": {
+        "productPurpose": {
+          "forBusinesses": {
+            "en": [
+              "Digitalize loyalty programs and reduce operational costs by €440-€1,140/year",
+              "Access real-time dashboard with customer behavior analytics",
+              "Increase customer retention through always-accessible digital cards",
+              "Instant QR code scanning - 3 seconds per transaction",
+              "Build customer database with automated remarketing (premium plan)"
+            ],
+            "es": [
+              "Digitalizar programas de fidelidad y reducir costos operativos en €440-€1,140/año",
+              "Acceder a dashboard en tiempo real con analítica de comportamiento de clientes",
+              "Aumentar retención de clientes mediante tarjetas digitales siempre accesibles",
+              "Escaneo instantáneo de código QR - 3 segundos por transacción",
+              "Construir base de datos de clientes con remarketing automatizado (plan premium)"
+            ],
+            "pt": [
+              "Digitalizar programas de fidelidade e reduzir custos operacionais em €440-€1,140/ano",
+              "Acessar dashboard em tempo real com análise de comportamento de clientes",
+              "Aumentar retenção de clientes através de cartões digitais sempre acessíveis",
+              "Escaneamento instantâneo de QR code - 3 segundos por transação",
+              "Construir banco de dados de clientes com remarketing automatizado (plano premium)"
+            ]
+          },
+          "forConsumers": {
+            "en": [
+              "Never forget loyalty cards - your phone is always with you",
+              "All loyalty cards in one app - no more wallet clutter",
+              "Impossible to lose - points stored in the cloud",
+              "Real-time progress notifications",
+              "Integrated map to discover nearby partner cafés (coming soon)"
+            ],
+            "es": [
+              "Nunca olvidarás tus tarjetas de fidelidad - tu teléfono siempre te acompaña",
+              "Todas tus tarjetas en una sola app - adiós al desorden en la cartera",
+              "Imposible de perder - puntos almacenados en la nube",
+              "Notificaciones de progreso en tiempo real",
+              "Mapa integrado para descubrir cafés asociados cercanos (próximamente)"
+            ],
+            "pt": [
+              "Nunca esqueça cartões de fidelidade - seu telefone está sempre com você",
+              "Todos os cartões de fidelidade em um app - sem mais bagunça na carteira",
+              "Impossível perder - pontos armazenados na nuvem",
+              "Notificações de progresso em tempo real",
+              "Mapa integrado para descobrir cafés parceiros próximos (em breve)"
+            ]
+          }
+        },
+        "keyFeatures": [
+          {
+            "icon": "📱",
+            "title": {
+              "en": "Always With You",
+              "es": "Siempre Contigo",
+              "pt": "Sempre Com Você"
+            },
+            "description": {
+              "en": "Digital wallet accessible from your phone - never forget or lose your loyalty cards again",
+              "es": "Billetera digital accesible desde tu teléfono - nunca olvides o pierdas tus tarjetas de fidelidad nuevamente",
+              "pt": "Carteira digital acessível do seu telefone - nunca mais esqueça ou perca seus cartões de fidelidade"
+            }
+          },
+          {
+            "icon": "⚡",
+            "title": {
+              "en": "Instant QR Scanning",
+              "es": "Escaneo QR Instantáneo",
+              "pt": "Escaneamento QR Instantâneo"
+            },
+            "description": {
+              "en": "3-second transactions with QR code scanning - faster than handling physical cards",
+              "es": "Transacciones de 3 segundos con escaneo de código QR - más rápido que manejar tarjetas físicas",
+              "pt": "Transações de 3 segundos com escaneamento de QR code - mais rápido que manusear cartões físicos"
+            }
+          },
+          {
+            "icon": "☁️",
+            "title": {
+              "en": "Cloud Storage",
+              "es": "Almacenamiento en la Nube",
+              "pt": "Armazenamento na Nuvem"
+            },
+            "description": {
+              "en": "All points safely stored in the cloud - accessible from any device, anytime",
+              "es": "Todos los puntos almacenados de forma segura en la nube - accesibles desde cualquier dispositivo, en cualquier momento",
+              "pt": "Todos os pontos armazenados com segurança na nuvem - acessíveis de qualquer dispositivo, a qualquer momento"
+            }
+          },
+          {
+            "icon": "📊",
+            "title": {
+              "en": "Business Analytics",
+              "es": "Analítica de Negocio",
+              "pt": "Análise de Negócios"
+            },
+            "description": {
+              "en": "Real-time dashboard with customer behavior insights and retention metrics",
+              "es": "Dashboard en tiempo real con insights de comportamiento del cliente y métricas de retención",
+              "pt": "Dashboard em tempo real com insights de comportamento do cliente e métricas de retenção"
+            }
+          },
+          {
+            "icon": "💰",
+            "title": {
+              "en": "Cost Savings",
+              "es": "Ahorro de Costos",
+              "pt": "Economia de Custos"
+            },
+            "description": {
+              "en": "Save €440-€1,140/year eliminating physical card printing and management",
+              "es": "Ahorra €440-€1,140/año eliminando impresión y gestión de tarjetas físicas",
+              "pt": "Economize €440-€1,140/ano eliminando impressão e gestão de cartões físicos"
+            }
+          },
+          {
+            "icon": "🎯",
+            "title": {
+              "en": "Automated Remarketing",
+              "es": "Remarketing Automatizado",
+              "pt": "Remarketing Automatizado"
+            },
+            "description": {
+              "en": "Premium plan includes customer database and automated remarketing campaigns",
+              "es": "Plan premium incluye base de datos de clientes y campañas de remarketing automatizadas",
+              "pt": "Plano premium inclui banco de dados de clientes e campanhas de remarketing automatizadas"
+            }
+          }
+        ]
+      },
+      "results": {
+        "personalInsight": {
+          "en": "As a coffee lover, I identified a neglected business opportunity: digital loyalty cards. Time and time again, when visiting my favorite coffee shop, I realized I had left my stamp card at home. As a result, I ended up accumulating stacks of cards I never used, constantly lost, or simply forgot to bring - meaning I could never redeem my free coffee. That's why, together with a developer, we created Tap Tap: our digital loyalty wallet that solves this problem once and for all.",
+          "es": "Como amante del café, identifiqué una oportunidad de negocio que estaba un poco descuidada: las tarjetas de fidelidad digitales. Una y otra vez, al visitar mi cafetería favorita, me daba cuenta de que había dejado mi tarjeta de sellos en casa. Como resultado, terminaba acumulando montones de tarjetas que nunca usaba, que perdía constantemente o simplemente olvidaba llevar, lo que significaba que nunca podía canjear mi café gratis. Por eso, junto con un desarrollador, creamos Tap Tap: nuestra billetera digital de fidelidad que resuelve este problema de una vez por todas.",
+          "pt": "Como amante de café, identifiquei uma oportunidade de negócio negligenciada: cartões de fidelidade digitais. Repetidamente, ao visitar minha cafeteria favorita, percebia que havia deixado meu cartão de carimbos em casa. Como resultado, acabei acumulando pilhas de cartões que nunca usava, constantemente perdia ou simplesmente esquecia de levar - o que significava que nunca podia resgatar meu café grátis. Por isso, junto com um desenvolvedor, criamos o Tap Tap: nossa carteira de fidelidade digital que resolve esse problema de uma vez por todas."
+        },
+        "productStatus": {
+          "en": "Currently in development phase with MVP planned for Q1 2026",
+          "es": "Actualmente en fase de desarrollo con MVP planificado para Q1 2026",
+          "pt": "Atualmente em fase de desenvolvimento com MVP planejado para Q1 2026"
+        }
+      },
+      "gallery": ["/FB/3_TERRAZA.jpg", "/FB/4_PLAYA.jpg"]
     }
   ]
 }
