@@ -1,11 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800;900&family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
   :root {
-    --font-nunito: 'Nunito', system-ui, sans-serif;
-    --font-poppins: 'Poppins', system-ui, sans-serif;
+    --font-nunito: "Nunito", system-ui, sans-serif;
+    --font-poppins: "Poppins", system-ui, sans-serif;
   }
 
   * {
@@ -20,7 +22,7 @@
 
   body {
     @apply bg-white text-gray-900 antialiased;
-    font-feature-settings: 'rlig' 1, 'calt' 1;
+    font-feature-settings: "rlig" 1, "calt" 1;
     /* Mobile optimization */
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -30,7 +32,12 @@
     -webkit-overflow-scrolling: touch;
   }
 
-  h1, h2, h3, h4, h5, h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     @apply font-heading font-bold;
   }
 
@@ -117,7 +124,7 @@
   }
 
   .image-overlay::after {
-    content: '';
+    content: "";
     @apply absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 transition-opacity duration-300;
   }
 
@@ -170,9 +177,6 @@
   }
 }
 
-/* Google Fonts Import */
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800;900&family=Poppins:wght@400;500;600;700;800;900&display=swap');
-
 /* Animations */
 @keyframes shimmer {
   0% {
@@ -217,7 +221,8 @@
 /* Mobile-specific optimizations */
 @media (max-width: 768px) {
   /* Larger tap targets for mobile */
-  button, a {
+  button,
+  a {
     min-height: 44px;
     min-width: 44px;
   }
@@ -228,7 +233,9 @@
   }
 
   /* Prevent zoom on input focus (iOS) */
-  input, select, textarea {
+  input,
+  select,
+  textarea {
     font-size: 16px;
   }
 
@@ -253,7 +260,11 @@
   }
 
   /* Larger touch targets */
-  button, a, input, select, textarea {
+  button,
+  a,
+  input,
+  select,
+  textarea {
     @apply touch-manipulation;
   }
 }
